@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a88bb1e184e3aef2",
+        "id": "2b741842f92256af",
         "type": "tabs",
         "children": [
           {
-            "id": "ef7858df6ffbc0bf",
+            "id": "bd0148b556604b01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -50,7 +50,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Home.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Home.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "zotero-annotation-view",
               "state": {
-                "file": "这是一个简略的说明文件.md",
+                "file": "Home.md",
                 "itemId": 1862,
                 "attachmentId": 1864,
                 "follow": null
@@ -217,32 +217,36 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "periodic-notes:Open today": true,
+      "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
       "command-palette:Open command palette": false,
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": false,
-      "workspaces:Manage workspace layouts": false,
-      "surfing:surfing-bookmark-manager": false,
-      "templater-obsidian:Templater": false,
-      "obsidian42-brat:BRAT": false,
-      "homepage:Open homepage": false,
-      "periodic-notes:Open today": false
+      "surfing:surfing-bookmark-manager": true,
+      "templater-obsidian:Templater": true,
+      "obsidian42-brat:BRAT": true,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ef7858df6ffbc0bf",
+  "active": "b8f4b0404a0db10b",
   "lastOpenFiles": [
-    "这是一个简略的说明文件.md",
-    "README.md",
+    "Amap/Paper List.md",
     "Amap/Inbox.md",
     "Amap/Todo List.md",
-    "Diary/Daily/2024-09-26-Thu.md",
-    "Home.md",
-    "Amap/Paper List.md",
     "Amap/Work List.md",
     "Amap/Event List.md",
+    "Home.md",
+    "Projects/Project B/Project B.md",
+    "Diary/Daily/2024-09-26-Thu.md",
+    "README.md",
     "Diary/Daily/2024-09-25-Wed.md",
+    "Diary/Daily/2024-03-30-Sat.md",
+    "Diary/Daily/2024-03-31-Sun.md",
+    "Zattachments/Files/homepage_banner.jpeg",
+    "这是一个简略的说明文件.md",
     "Blist/新的笔记.md",
     "Blist/Untitled.md",
     "Diary/Daily/2024-04-02-Tue.md",
@@ -256,9 +260,6 @@
     "Zattachments/Templates/zt-cite.eta.md",
     "Zattachments/Templates/Meeting.md",
     "Zattachments/Templates/Work.md",
-    "Zattachments/Templates/Project.md",
-    "Zattachments/Templates/Course.md",
-    "Zattachments/Templates/Draft.md",
     "Courses/General Relativity/Notes/GR4.pdf",
     "Courses/General Relativity/Notes/GR3.pdf",
     "Courses/General Relativity/Notes/GR2.pdf",
@@ -267,7 +268,6 @@
     "Courses/Course A/Notes",
     "Courses/Course A",
     "Zattachments/Files/截屏2024-03-30 16.11.25.png",
-    "Zattachments/Files/homepage_banner.jpeg",
     "Literature/Notes",
     "Literature/Fong et al - 2015 - A Decade of Short-duration Gamma-ray Burst Broad-band Afterglows.pdf",
     "Literature",

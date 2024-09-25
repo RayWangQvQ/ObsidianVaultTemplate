@@ -31,6 +31,11 @@
       "path": "README.md",
       "matchesCriteria": true,
       "supposedList": "modified"
+    },
+    {
+      "path": "Home.md",
+      "matchesCriteria": true,
+      "supposedList": "modified"
     }
   ],
   "verboseModeEnabled": false
