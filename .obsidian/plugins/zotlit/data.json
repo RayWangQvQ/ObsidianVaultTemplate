@@ -1,0 +1,27 @@
+{
+  "logLevel": "INFO",
+  "citationEditorSuggester": true,
+  "showCitekeyInSuggester": false,
+  "literatureNoteFolder": "Literature/Notes",
+  "enableServer": true,
+  "serverPort": 9091,
+  "serverHostname": "127.0.0.1",
+  "template": {
+    "folder": "Zattachments/Templates",
+    "templates": {
+      "filename": "@<%= it.citekey ?? it.DOI ?? it.title ?? it.key %>.md"
+    }
+  },
+  "updateAnnotBlock": true,
+  "updateOverwrite": false,
+  "autoPairEta": false,
+  "autoTrim": [
+    false,
+    false
+  ],
+  "autoRefresh": true,
+  "zoteroDataDir": "/Users/caocao/Zotero",
+  "citationLibrary": 1,
+  "imgExcerptImport": "symlink",
+  "imgExcerptPath": "Zattachments/Files"
+}

@@ -1,0 +1,37 @@
+{
+  "tags": "#dailynote",
+  "excludedFolders": "",
+  "ignoredNameContains": "",
+  "outputFormat": "- [[link]]",
+  "appendSpaceAfterHeadings": false,
+  "timeFormat": "YYYY-MM-DD",
+  "autoCreateLogNote": true,
+  "logNoteType": "daily",
+  "writeInterval": 0,
+  "autoCreatePrimaryHeading": false,
+  "primaryHeading": "NoteList",
+  "modifiedHeading": "Modified",
+  "separateCreated": false,
+  "createdHeading": "Created",
+  "separateDeleted": false,
+  "deletedHeading": "Deleted",
+  "lastTrackedDate": "2024-09-26",
+  "trackedFiles": [
+    {
+      "path": "Amap/Todo List.md",
+      "matchesCriteria": true,
+      "supposedList": "modified"
+    },
+    {
+      "path": "这是一个简略的说明文件.md",
+      "matchesCriteria": true,
+      "supposedList": "deleted"
+    },
+    {
+      "path": "README.md",
+      "matchesCriteria": true,
+      "supposedList": "modified"
+    }
+  ],
+  "verboseModeEnabled": false
+}

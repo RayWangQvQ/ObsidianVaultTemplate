@@ -1,0 +1,5 @@
+/* 隐藏嵌入的标题 */
+.embed-title,
+.markdown-embed-title{
+display: none !important;
+}

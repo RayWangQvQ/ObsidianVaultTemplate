@@ -1,0 +1,15 @@
+{
+  "show-checkboxes": true,
+  "show-relative-date": true,
+  "archive-with-date": true,
+  "date-picker-week-start": 1,
+  "hide-date-display": false,
+  "hide-date-in-title": true,
+  "archive-date-separator": "--",
+  "new-note-folder": "Blist",
+  "date-display-format": "YYYY-MM-DD",
+  "date-format": "YYYY-MM-DD",
+  "hide-card-count": true,
+  "date-colors": [],
+  "hide-tags-display": true
+}

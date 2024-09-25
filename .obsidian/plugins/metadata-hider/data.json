@@ -1,0 +1,6 @@
+{
+  "hideEmptyEntryInSiderbar": false,
+  "propertiesVisible": "tags, speaker,title",
+  "propertiesInvisible": "zotero-key,zt-attachments,cssclasses,recent_limit, banner,banner_y,banner_lock,",
+  "propertyHideAll": "hide"
+}

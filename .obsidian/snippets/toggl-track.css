@@ -1,0 +1,54 @@
+.block-language-toggl .container {
+    min-height: 230px;
+  }
+  .block-language-toggl
+    .container
+    > div
+    > .is-flex-grow-2 {
+    display: none;
+  }
+  
+  .block-language-toggl
+    .container
+    > div.is-flex {
+    position: absolute !important;
+    transform: translateY(0px);
+    width: 500px;
+    filter: saturate(60%)grayscale(50%)opacity(40%);
+  }
+  
+  .block-language-toggl
+    .container
+    .time-entry-list {
+    margin-left: 240px;
+  }
+
+  .block-language-toggl h3 {
+    margin-bottom: 10px;
+  }
+  .block-language-toggl {
+    font-size: 14px;
+
+  }
+
+.project-circle {
+  filter: saturate(60%)grayscale(50%)opacity(60%);
+}
+
+.timer-description.svelte-mu23ki{
+  margin-bottom: 10pt;
+}
+
+.bar-chart-element {
+  filter: saturate(60%)grayscale(50%)opacity(40%);
+}
+.timer-project-name{
+  color: var(--text-muted) !important;
+}
+.ml-3.project-row-name{
+  color: var(--text-muted) !important;
+}
+
+.timer-project-circle.mr-2 {
+  filter: saturate(60%)grayscale(50%)opacity(60%);
+}

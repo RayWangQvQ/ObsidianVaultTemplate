@@ -1,0 +1,31 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "Zattachments/Templates",
+  "templates_pairs": [
+    [
+      "auto_transfer",
+      "python3 ./Zattachments/Scripts/auto_transfer.py ./Blist"
+    ]
+  ],
+  "trigger_on_file_creation": false,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": true,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "Blist",
+      "template": "Zattachments/Templates/Draft.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    "Zattachments/Templates/Draft.md"
+  ],
+  "enable_ribbon_icon": true
+}

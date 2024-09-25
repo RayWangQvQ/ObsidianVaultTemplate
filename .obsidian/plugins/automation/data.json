@@ -1,0 +1,34 @@
+{
+  "eventCommands": [
+    {
+      "id": "default-id",
+      "type": "timeout",
+      "enabled": true,
+      "commands": [
+        {
+          "name": "QuickAdd: 📅 Diary",
+          "type": "Obsidian",
+          "id": "b871f413-b5a8-458b-b593-cd4174547777",
+          "commandId": "quickadd:choice:be04e417-277e-4b5b-aba1-bb49aa857eb8"
+        }
+      ],
+      "filters": [
+        {
+          "kind": "none",
+          "pattern": "",
+          "modeRegExp": true,
+          "modeCode": false
+        }
+      ],
+      "eventSetting": {
+        "type": "file-open"
+      },
+      "timerSetting": {
+        "interval": 0,
+        "type": "every day",
+        "when": "00:00"
+      },
+      "name": "demo"
+    }
+  ]
+}

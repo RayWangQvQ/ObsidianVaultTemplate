@@ -1,0 +1,115 @@
+/* ------------整个页面---------------*/
+/* inline title */
+.view-content .markdown-source-view .inline-title {
+	align-self: center;
+}
+.markdown-preview-view .mod-header .inline-title {
+	text-align: center;
+}
+.inline-title {
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.obsidian-banner-wrapper {
+    margin-top: calc(var(--banner-height) - 50px);
+}
+
+/* 分割线上下间距 */
+hr {
+    margin: 0.8rem 0;
+}
+
+body:not(.zoom-off) .workspace-leaf-content[data-type=markdown] .view-content div:not(.canvas-node-content) img {
+    max-width: 100%;
+    cursor: zoom-in;
+}
+
+
+/* 调整dataview查询后dataview的值显示的字体大小 */
+body .dataview .inline-field-standalone-value, body .dataview.inline-field-key, body .dataview.inline-field-value {
+    font-size: var(--tag-size);
+}
+
+/* 给图片加阴影 */
+.internal-embed.media-embed.image-embed.is-loaded{
+    filter: drop-shadow(8px 8px 5px rgba(0, 0, 0, 0.15));
+}
+
+/* 设置全宽 */
+.fullwidth {
+    --file-line-width: 1200px !important;
+}
+
+/* 调整日历第一行的间距 */
+#calendar-container .nav {
+    padding: 0;
+    margin: var(--size-4-4) var(--size-4-1);
+}
+.external-link {
+    background-image: none;
+}
+
+/* ------------Contribution ---------------*/
+
+
+/* 调整热图上边距 */
+.contribution-graph .main {
+    margin-top: 10px;
+}
+
+/* 调整chart左右边距 */
+.charts.default{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contribution-graph .main .charts {
+    width: 90%;
+}
+
+/* 调整标题上下边距 */
+.contribution-graph .main .title {
+    margin-top: 16px;
+    margin-bottom: 18px;
+    color:#40352e;
+    font-weight: 600;
+}
+
+/* 调整小组件左右边距 */
+
+.widget-container .widget-main {
+    padding: 0.8rem 0.6rem 1rem 0.6rem;
+}
+
+.multi.widget-container .contribution-widget {
+    padding: 0;
+}
+/* 调整小组件上下边距 */
+.contribution-widget {
+    padding: 10px 0 10px 0;
+}
+/* 调整小组件字间距 */
+.widget-container .widget-main .title {
+    letter-spacing: calc(var(--widget-title-font-size) / 100);
+}
+/* 调整小组件dataview 标题和正文上下间距 */
+.widget-container.dataview .widget-main .title {
+    margin-bottom: 0px;
+}
+
+.widget-container.dataview .widget-main .content {
+    font-size: .7rem;
+    line-height: inherit;
+}
+
+.widget-container.custom-card .widget-main .content {
+    flex-direction: initial;
+    align-items: stretch;
+    justify-content: center;
+    gap: 0rem;
+    border-radius: 8px;
+    padding: 0;
+}
+
+

@@ -1,0 +1,3769 @@
+/* ---------------------------------------------------------------------------
+
+Minimal Theme by @kepano
+
+User interface replacement for Obsidian.
+
+Designed to be used with the Minimal Theme Settings 
+plugin and the Hider plugin.
+
+Sponsor my work:
+https://www.buymeacoffee.com/kepano
+
+Readme:
+https://github.com/kepano/obsidian-minimal
+
+-----------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2020-2023 Stephan Ango (@kepano)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in 
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+.theme-dark.minimal-nord-dark,.theme-light.minimal-nord-light{--color-red-rgb:191,97,106;--color-orange-rgb:208,138,112;--color-yellow-rgb:235,203,139;--color-green-rgb:163,190,140;--color-cyan-rgb:136,192,208;--color-blue-rgb:129,161,193;--color-purple-rgb:180,142,173;--color-pink-rgb:180,142,173;--color-red:#BF616A;--color-orange:#D08770;--color-yellow:#EBCB8B;--color-green:#A3BE8C;--color-cyan:#88C0D0;--color-blue:#81A1C1;--color-purple:#B48EAD;--color-pink:#B48EAD}.theme-light.minimal-nord-light{--base-h:52;--base-s:27%;--base-l:94%;--accent-h:52;--accent-s:32%;--accent-l:52%;--bg1:#fffcf9;--bg2:#e3ded8;--bg3:rgba(149, 123, 97, 0.25);--ui1:#e4e1ddb1;--ui2:#c9baaab6;--ui3:#a89985ee;--tx1:#40352e;--tx2:#6a5a52f4;--tx3:#b8b6ad;--hl2:rgba(208, 135, 112, 0.35)}.theme-dark.minimal-nord-dark,.theme-light.minimal-nord-light.minimal-light-contrast .mod-left-split,.theme-light.minimal-nord-light.minimal-light-contrast .titlebar,.theme-light.minimal-nord-light.minimal-light-contrast .workspace-drawer.mod-left,.theme-light.minimal-nord-light.minimal-light-contrast .workspace-ribbon.mod-left:not(.is-collapsed),.theme-light.minimal-nord-light.minimal-light-contrast.minimal-status-off .status-bar{--base-h:52;--base-s:27%;--base-l:94%;--accent-h:52;--accent-s:32%;--accent-l:52%;--bg1:#fffcf9;--bg2:#decfbf3b;--bg3:rgba(149, 123, 97, 0.25);--ui1:#eee5d0b1;--ui2:#dcccbbb6;--ui3:#a89985ee;--tx1:#40352e;--tx2:#6a5a52f4;--tx3:#b8b6ad;--hl2:rgba(208, 135, 112, 0.35)}.theme-dark.minimal-nord-dark.minimal-dark-black{--ui1:#2e3440}
+
+body.minimal-dark-black.theme-dark,body.minimal-dark-tonal.theme-dark,body.minimal-light-tonal.theme-light,body.minimal-light-white.theme-light,body.theme-dark{--kanban-border:0px}body:not(.is-mobile) .kanban-plugin__grow-wrap>textarea:focus{box-shadow:none}body:not(.minimal-icons-off) .kanban-plugin svg.cross{height:14px;width:14px}body .kanban-plugin__icon>svg,body .kanban-plugin__lane-settings-button svg{width:18px;height:18px}body .kanban-plugin{--kanban-border:var(--border-width);--interactive-accent:var(--text-selection);--interactive-accent-hover:var(--background-modifier-hover);--text-on-accent:var(--text-normal);background-color:var(--background-primary)}body .kanban-plugin__markdown-preview-view{font-family:var(--font-text)}body .kanban-plugin__board>div{margin:0 auto}body .kanban-plugin__checkbox-label{color:var(--text-muted)}body .kanban-plugin__item-markdown ul{margin:0}body .kanban-plugin__item-content-wrapper{box-shadow:none}body .kanban-plugin__grow-wrap::after,body .kanban-plugin__grow-wrap>textarea{padding:3;border:0;border-radius:3}body .kanban-plugin__grow-wrap::after,body .kanban-plugin__grow-wrap>textarea,body .kanban-plugin__item-title p,body .kanban-plugin__markdown-preview-view{font-size:var(--font-ui-medium);line-height:1.3} body .kanban-plugin__item-title-wrapper{align-items:center}body .kanban-plugin__lane-form-wrapper{border:1px solid var(--background-modifier-border)}body .kanban-plugin__lane-header-wrapper{border-bottom:0}body .kanban-plugin__lane-header-wrapper .kanban-plugin__grow-wrap>textarea,body .kanban-plugin__lane-input-wrapper .kanban-plugin__grow-wrap>textarea,body .kanban-plugin__lane-title p{background:0 0;color:var(--text-normal);font-size:var(--font-ui-medium);font-weight:500}body .kanban-plugin__item-input-wrapper .kanban-plugin__grow-wrap>textarea{padding:0;border-radius:0;height:auto}body .kanban-plugin__item-form .kanban-plugin__grow-wrap{background-color:var(--background-primary)}body .kanban-plugin__item-input-wrapper .kanban-plugin__grow-wrap>textarea::placeholder{color:var(--text-faint)}body .kanban-plugin__item .kanban-plugin__item-edit-archive-button,body .kanban-plugin__item button.kanban-plugin__item-edit-button,body .kanban-plugin__item-settings-actions>button,body .kanban-plugin__lane button.kanban-plugin__lane-settings-button,body .kanban-plugin__lane button.kanban-plugin__lane-settings-button.is-enabled,body .kanban-plugin__lane-action-wrapper>button{background:0 0;transition:color .1s ease-in-out}body .kanban-plugin__item .kanban-plugin__item-edit-archive-button:hover,body .kanban-plugin__item button.kanban-plugin__item-edit-button.is-enabled,body .kanban-plugin__item button.kanban-plugin__item-edit-button:hover,body .kanban-plugin__lane button.kanban-plugin__lane-settings-button.is-enabled,body .kanban-plugin__lane button.kanban-plugin__lane-settings-button:hover{color:var(--text-normal);transition:color .1s ease-in-out;background:0 0}body .kanban-plugin__new-lane-button-wrapper{position:fixed;bottom:30px}body .kanban-plugin__lane-items>.kanban-plugin__placeholder:only-child{border:1px dashed var(--background-modifier-border);height:2em}body .kanban-plugin__item-postfix-button-wrapper{align-self:flex-start}body .kanban-plugin__item button.kanban-plugin__item-postfix-button.is-enabled,body .kanban-plugin__item button.kanban-plugin__item-prefix-button.is-enabled,body .kanban-plugin__lane button.kanban-plugin__lane-settings-button.is-enabled{color:var(--text-muted)}body .kanban-plugin button{box-shadow:none;cursor:var(--cursor);height:auto}body .kanban-plugin__item button.kanban-plugin__item-postfix-button:hover,body .kanban-plugin__item button.kanban-plugin__item-prefix-button:hover,body .kanban-plugin__lane button.kanban-plugin__lane-settings-button:hover{background-color:var(--background-modifier-hover)}body .kanban-plugin__item-button-wrapper>button{color:var(--text-muted);font-weight:400;background:0 0;min-height:calc(var(--input-height) + 8px)}body .kanban-plugin__item-button-wrapper>button:hover{color:var(--text-normal);background:var(--background-modifier-hover)}body .kanban-plugin__item-button-wrapper>button:focus{box-shadow:none}body .kanban-plugin__item-button-wrapper{padding:1px 6px 5px;border-top:none}body .kanban-plugin__lane-setting-wrapper>div:last-child{border:none;margin:0}body .kanban-plugin.something-is-dragging{cursor:grabbing;cursor:-webkit-grabbing}body .kanban-plugin__item.is-dragging{box-shadow:0 5px 30px rgba(0,0,0,.15),0 0 0 2px var(--text-selection)}body .kanban-plugin__lane-items{border:var(--kanban-border) solid var(--background-modifier-border);padding:0 4px;margin:0;background-color:var(--background-primary)}body .kanban-plugin__lane{background:0 0;padding:0;border:var(--border-width) solid transparent}body .kanban-plugin__lane.is-dragging{box-shadow:0 5px 30px rgba(0,0,0,.15);border:1px solid var(--background-modifier-border)}body .kanban-plugin__lane .kanban-plugin__item-button-wrapper{border-top-left-radius:8px;border-top-right-radius:8px;border-top:1px solid var(--background-modifier-border);border-bottom-width:0;padding:4px 4px 0 4px}body .kanban-plugin__lane.will-prepend .kanban-plugin__lane-items{border-radius:8px}body .kanban-plugin__lane.will-prepend .kanban-plugin__item-form{border-top:1px solid var(--background-modifier-border);border-radius:8px 8px 0 0;padding:4px 4px 0;border-bottom-width:0}body .kanban-plugin__lane.will-prepend .kanban-plugin__item-form+.kanban-plugin__lane-items{border-top-width:0;border-radius:0 0 8px 8px}body .kanban-plugin__lane.will-prepend .kanban-plugin__item-button-wrapper+.kanban-plugin__lane-items{border-top-width:0;border-radius:0 0 8px 8px}body .kanban-plugin__lane:not(.will-prepend) .kanban-plugin__item-button-wrapper,body .kanban-plugin__lane:not(.will-prepend) .kanban-plugin__item-form{border-top:none;border-radius:0 0 8px 8px}body .kanban-plugin__lane:not(.will-prepend) .kanban-plugin__item-button-wrapper{padding:0 4px 4px 4px;border-bottom-width:1px}body .kanban-plugin__lane:not(.will-prepend) .kanban-plugin__lane-items{border-bottom:none;border-top-width:1px;border-radius:8px 8px 0 0}body .kanban-plugin__item-form .kanban-plugin__item-input-wrapper{min-height:calc(var(--input-height) + 8px);display:flex;justify-content:center}body .kanban-plugin__item-button-wrapper,body .kanban-plugin__item-form{background-color:var(--background-primary);border:var(--kanban-border) solid var(--background-modifier-border)}body .kanban-plugin__item-form{padding:0 4px 5px}body .kanban-plugin__markdown-preview-view ol,body .kanban-plugin__markdown-preview-view ol.contains-task-list .contains-task-list,body .kanban-plugin__markdown-preview-view ul,body .kanban-plugin__markdown-preview-view ul.contains-task-list .contains-task-list{padding-inline-start:1.8em!important}@media (max-width:400pt){.kanban-plugin__board{flex-direction:column!important}.kanban-plugin__lane{width:100%!important;margin-bottom:1rem!important}}
+
+/* Plugin compatibility */
+
+/* @plugins
+core:
+- backlink
+- command-palette
+- daily-notes
+- file-explorer
+- file-recovery
+- global-search
+- graph
+- outgoing-link
+- outline
+- page-preview
+- publish
+- random-note
+- starred
+- switcher
+- sync
+- tag-pane
+- word-count
+community:
+- buttons
+- dataview
+- calendar
+- obsidian-charts
+- obsidian-checklist-plugin
+- obsidian-codemirror-options
+- obsidian-dictionary-plugin
+- obsidian-embedded-note-titles
+- obsidian-excalidraw-plugin
+- obsidian-git
+- obsidian-hider
+- obsidian-hover-editor
+- obsidian-kanban
+- obsidian-metatable
+- obsidian-minimal-settings
+- obsidian-outliner
+- obsidian-system-dark-mode
+- obsidian-style-settings
+- quickadd
+- sliding-panes-obsidian
+- todoist-sync-plugin
+*/
+/* @settings
+
+name: Minimal
+id: minimal-style
+settings:
+	-
+		id: instructions
+		title: Documentation
+		type: heading
+		level: 2
+		collapsed: true
+		description: Use the Minimal Theme Settings plugin to set hotkeys, adjust features, select fonts, and choose from preset color schemes. Use the settings below for more granular customization. Go to https://minimal.guide for documentation.
+	-
+		id: interface
+		title: Interface colors
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: base
+		title: Base color
+		description: Defines all background and border colors unless overridden in more granular settings
+		type: variable-themed-color
+		format: hsl-split
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: bg1
+		title: Primary background
+		description: Background color for the main window
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: bg2
+		title: Secondary background
+		description: Background color for left sidebar and menus
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: bg3
+		title: Active background
+		description: Background color for hovered buttons and currently selected file
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: ui1
+		title: Border color
+		type: variable-themed-color
+		description: For buttons, divider lines, and outlined elements
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: ui2
+		title: Highlighted border color
+		description: Used when hovering over buttons, dividers, and outlined elements
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: ui3
+		title: Active border color
+		description: Used when clicking buttons and outlined elements
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: accent-color
+		title: Accent color
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: ax1
+		title: Accent color
+		type: variable-themed-color
+		description: Used primarily for links
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: ax2
+		title: Accent color (hover)
+		type: variable-themed-color
+		description: Used primarily for hovered links
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: ax3
+		title: Accent color interactive
+		type: variable-themed-color
+		description: Used for buttons, checklists, toggles
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: sp1
+		title: Text on accent
+		type: variable-themed-color
+		description: Used primarily for text on accented buttons
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: extended-palette
+		title: Extended colors
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: color-red
+		title: Red
+		description: Extended palette colors are defaults used for progress bar status, syntax highlighting, colorful headings, and graph nodes
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: color-orange
+		title: Orange
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: color-yellow
+		title: Yellow
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: color-green
+		title: Green
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: color-cyan
+		title: Cyan
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: color-blue
+		title: Blue
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: color-purple
+		title: Purple
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: color-pink
+		title: Pink
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: blockquotes
+		title: Blockquotes
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: blockquote-color
+		title: Blockquote text color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: blockquote-background-color
+		title: Blockquote background color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: blockquote-border-color
+		title: Blockquote border color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: blockquote-border-thickness
+		title: Blockquote border thickness
+		type: variable-number-slider
+		format: px
+		default: 1
+		min: 0
+		max: 5
+		step: 1
+	-
+		id: blockquote-size
+		title: Blockquote font size
+		description: Accepts any CSS font-size value
+		type: variable-text
+		default: ''
+	-
+		id: blockquote-font-style
+		title: Blockquote font style
+		type: variable-select
+		allowEmpty: false
+		default: normal
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Italic
+				value: italic
+	-
+		id: callouts
+		title: Callouts
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: callouts-style
+		title: Callout style
+		type: class-select
+		allowEmpty: false
+		default: callouts-default
+		options:
+			-
+				label: Filled
+				value: callouts-default
+			-
+				label: Outlined
+				value: callouts-outlined
+	-
+		id: callout-blend-mode
+		title: Color blending
+		description: Blend the color of nested callouts
+		type: variable-select
+		allowEmpty: false
+		default: var(--highlight-mix-blend-mode)
+		options:
+			-
+				label: On
+				value: var(--highlight-mix-blend-mode)
+			-
+				label: Off
+				value: normal
+	-
+		id: canvas
+		title: Canvas
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: canvas-dot-pattern
+		title: Canvas dot pattern
+		description: Color for background dot pattern
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-blocks
+		title: Code blocks
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: code-size
+		title: Code font size
+		description: Accepts any CSS font-size value
+		type: variable-text
+		default: 13px
+	-
+		id: minimal-code-scroll
+		title: Scroll long lines
+		description: Turns off line wrap for code
+		type: class-toggle
+		default: false
+	-
+		id: code-background
+		title: Code background color
+		description: Background for code blocks
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-normal
+		title: Code text color
+		description: Color of code when syntax highlighting is not present
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: syntax-highlighting
+		title: Syntax highlighting
+		type: heading
+		level: 3
+		collapsed: false
+	-
+		id: code-comment
+		title: "Syntax: comments"
+		description: Syntax highlighting for comments
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-function
+		title: "Syntax: functions"
+		description: Syntax highlighting for functions
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-keyword
+		title: "Syntax: keywords"
+		description: Syntax highlighting for keywords
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-important
+		title: "Syntax: important"
+		description: Syntax highlighting for important text
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-operator
+		title: "Syntax: operators"
+		description: Syntax highlighting for operators
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-property
+		title: "Syntax: properties"
+		description: Syntax highlighting for properties
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-punctuation
+		title: "Syntax: punctuation"
+		description: Syntax highlighting for punctuation
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-string
+		title: "Syntax: strings"
+		description: Syntax highlighting for strings
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-tag
+		title: "Syntax: tags"
+		description: Syntax highlighting for tags
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: code-value
+		title: "Syntax: values"
+		description: Syntax highlighting for values
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: dataview
+		title: Dataview
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: trim-cols
+		title: Trim Dataview columns
+		description: Disables word wrapping in table cells, and trims long text
+		type: class-toggle
+		default: true
+	-
+		id: dataview-inline-lists
+		title: Force tables lists inline
+		description: Makes lists inside of table cells inline and comma separated
+		type: class-toggle
+		default: false
+	-
+		id: max-col-width
+		title: Dataview maximum column width
+		description: Maximum width for Dataview columns, accepts any CSS width value
+		type: variable-text
+		default: 18em
+	-
+		id: embed-blocks
+		title: Embeds and transclusions
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: embed-strict
+		title: Use strict embed style globally
+		description: Transclusions appear seamlessly in the flow of text. Can be enabled per file using the embed-strict helper class
+		type: class-toggle
+		default: false
+	-
+		id: embed-hide-title
+		title: Hide embed titles
+		description: Hide title of the transcluded file (if strict embed is off)
+		type: class-toggle
+		default: false
+	-
+		id: embed-underline
+		title: Underline embedded text
+		description: Transcluded text is underlined. Can be enabled per file using the embed-underline helper class
+		type: class-toggle
+		default: false
+	-
+		id: embed-max-height
+		title: Maximum height of embeds
+		type: variable-text
+		description: For transcluded text, accepts valid CSS units
+		default: ''
+	-
+		id: embed-decoration-style
+		title: Embedded text underline style
+		type: variable-select
+		description: Requires underlines to be enabled
+		allowEmpty: true
+		default: solid
+		options:
+			-
+				label: Solid
+				value: solid
+			-
+				label: Dashed
+				value: dashed
+			-
+				label: Dotted
+				value: dotted
+			-
+				label: Double
+				value: double
+			-
+				label: Wavy
+				value: wavy
+	-
+		id: embed-decoration-color
+		title: Embedded text underline color
+		type: variable-themed-color
+		description: Requires underlines to be enabled
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: embed-background
+		title: Embed background
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: graphs
+		title: Graphs
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: graph-line
+		title: Line color
+		description: Changing graph colors requires closing and reopening graph panes or restarting Obsidian
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: graph-node
+		title: Node color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: graph-node-focused
+		title: Active node color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-  
+		id: graph-node-tag
+		title: Tag node color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-  
+		id: graph-node-attachment
+		title: Attachment node color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-  
+		id: graph-node-unresolved
+		title: Unresolved node color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: headings
+		title: Headings
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: level-1-headings
+		title: Level 1 Headings
+		type: heading
+		level: 3
+		collapsed: true
+	-
+		id: h1-font
+		title: H1 font
+		description: Name of the font as it appears on your system
+		type: variable-text
+		default: ''
+	-
+		id: h1-size
+		title: H1 font size
+		description: Accepts any CSS font-size value
+		type: variable-text
+		default: 1.125em
+	-
+		id: h1-weight
+		title: H1 font weight
+		type: variable-number-slider
+		default: 600
+		min: 100
+		max: 900
+		step: 100
+	-
+		id: h1-color
+		title: H1 text color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: h1-variant
+		title: H1 font variant
+		type: variable-select
+		allowEmpty: false
+		default: normal
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Small caps
+				value: small-caps
+			-
+				label: All small caps
+				value: all-small-caps 
+	-
+		id: h1-style
+		title: H1 font style
+		type: variable-select
+		allowEmpty: false
+		default: normal
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Italic
+				value: italic
+	-
+		id: h1-l
+		title: H1 divider line
+		description: Adds a border below the heading
+		type: class-toggle
+		default: false
+	-
+		id: level-2-headings
+		title: Level 2 Headings
+		type: heading
+		level: 3
+		collapsed: true
+	-
+		id: h2-font
+		title: H2 font
+		description: Name of the font as it appears on your system
+		type: variable-text
+		default: ''
+	-
+		id: h2-size
+		title: H2 font size
+		description: Accepts any CSS font-size value
+		type: variable-text
+		default: 1em
+	-
+		id: h2-weight
+		title: H2 font weight
+		type: variable-number-slider
+		default: 600
+		min: 100
+		max: 900
+		step: 100
+	-
+		id: h2-color
+		title: H2 text color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: h2-variant
+		title: H2 font variant
+		type: variable-select
+		allowEmpty: false
+		default: normal
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Small caps
+				value: small-caps
+			-
+				label: All small caps
+				value: all-small-caps
+	-
+		id: h2-style
+		title: H2 font style
+		type: variable-select
+		allowEmpty: false
+		default: normal
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Italic
+				value: italic
+	-
+		id: h2-l
+		title: H2 divider line
+		description: Adds a border below the heading
+		type: class-toggle
+		default: false
+	-
+		id: level-3-headings
+		title: Level 3 Headings
+		type: heading
+		level: 3
+		collapsed: true
+	-
+		id: h3-font
+		title: H3 font
+		description: Name of the font as it appears on your system
+		type: variable-text
+		default: ''
+	-
+		id: h3-size
+		title: H3 font size
+		description: Accepts any CSS font-size value
+		type: variable-text
+		default: 1em
+	-
+		id: h3-weight
+		title: H3 font weight
+		type: variable-number-slider
+		default: 600
+		min: 100
+		max: 900
+		step: 100
+	-
+		id: h3-color
+		title: H3 text color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: h3-variant
+		title: H3 font variant
+		type: variable-select
+		allowEmpty: false
+		default: normal
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Small caps
+				value: small-caps
+			-
+				label: All small caps
+				value: all-small-caps
+	-
+		id: h3-style
+		title: H3 font style
+		type: variable-select
+		allowEmpty: false
+		default: normal
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Italic
+				value: italic
+	-
+		id: h3-l
+		title: H3 divider line
+		description: Adds a border below the heading
+		type: class-toggle
+		default: false
+	-
+		id: level-4-headings
+		title: Level 4 Headings
+		type: heading
+		level: 3
+		collapsed: true
+	-
+		id: h4-font
+		title: H4 font
+		description: Name of the font as it appears on your system
+		type: variable-text
+		default: ''
+	-
+		id: h4-size
+		title: H4 font size
+		description: Accepts any CSS font-size value
+		type: variable-text
+		default: 0.9em
+	-
+		id: h4-weight
+		title: H4 font weight
+		type: variable-number-slider
+		default: 500
+		min: 100
+		max: 900
+		step: 100
+	-
+		id: h4-color
+		title: H4 text color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: h4-variant
+		title: H4 font variant
+		type: variable-select
+		allowEmpty: false
+		default: small-caps
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Small caps
+				value: small-caps
+			-
+				label: All small caps
+				value: all-small-caps 
+	-
+		id: h4-style
+		title: H4 font style
+		type: variable-select
+		allowEmpty: false
+		default: normal
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Italic
+				value: italic
+	-
+		id: h4-l
+		title: H4 divider line
+		description: Adds a border below the heading
+		type: class-toggle
+		default: false   
+	-
+		id: level-5-headings
+		title: Level 5 Headings
+		type: heading
+		level: 3
+		collapsed: true
+	-
+		id: h5-font
+		title: H5 font
+		description: Name of the font as it appears on your system
+		type: variable-text
+		default: ''
+	- 
+		id: h5-size
+		title: H5 font size
+		description: Accepts any CSS font-size value
+		type: variable-text
+		default: 0.85em
+	-
+		id: h5-weight
+		title: H5 font weight
+		type: variable-number-slider
+		default: 500
+		min: 100
+		max: 900
+		step: 100
+	-
+		id: h5-color
+		title: H5 text color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: h5-variant
+		title: H5 font variant
+		type: variable-select
+		allowEmpty: false
+		default: small-caps
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Small caps
+				value: small-caps
+			-
+				label: All small caps
+				value: all-small-caps 
+	-
+		id: h5-style
+		title: H5 font style
+		type: variable-select
+		allowEmpty: false
+		default: normal
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Italic
+				value: italic
+	-
+		id: h5-l
+		title: H5 divider line
+		description: Adds a border below the heading
+		type: class-toggle
+		default: false
+	-
+		id: level-6-headings
+		title: Level 6 Headings
+		type: heading
+		level: 3
+		collapsed: true
+	-
+		id: h6-font
+		title: H6 font
+		description: Name of the font as it appears on your system
+		type: variable-text
+		default: ''
+	-
+		id: h6-size
+		title: H6 font size
+		description: Accepts any CSS font-size value
+		type: variable-text
+		default: 0.85em
+	-
+		id: h6-weight
+		title: H6 font weight
+		type: variable-number-slider
+		default: 400
+		min: 100
+		max: 900
+		step: 100
+	-
+		id: h6-color
+		title: H6 text color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: h6-variant
+		title: H6 font variant
+		type: variable-select
+		allowEmpty: false
+		default: small-caps
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Small caps
+				value: small-caps
+			-
+				label: All small caps
+				value: all-small-caps
+	-
+		id: h6-style
+		title: H6 font style
+		type: variable-select
+		allowEmpty: false
+		default: normal
+		options:
+			-
+				label: Normal
+				value: normal
+			-
+				label: Italic
+				value: italic
+	-
+		id: h6-l
+		title: H6 divider line
+		type: class-toggle
+		description: Adds a border below the heading
+		default: false
+	-
+		id: icons
+		title: Icons
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: icon-muted
+		title: Icon opacity (inactive)
+		type: variable-number-slider
+		default: 0.5
+		min: 0.25
+		max: 1
+		step: 0.05
+	-
+		id: icon-color
+		title: Icon color
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: icon-color-hover
+		title: Icon color (hover)
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: icon-color-active
+		title: Icon color (active)
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: icon-color-focused
+		title: Icon color (focused)
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: images
+		title: Images
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: image-muted
+		title: Image opacity in dark mode
+		description: Level of fading for images in dark mode. Hover over images to display at full brightness.
+		type: variable-number-slider
+		default: 0.7
+		min: 0.25
+		max: 1
+		step: 0.05
+	-
+		id: image-radius
+		title: Image radius
+		description: Rounded corners for images
+		type: variable-number-slider
+		default: 4
+		min: 0
+		max: 16
+		step: 1
+		format: px
+	-
+		id: image-blend-light
+		title: Blend images in light mode
+		description: Allow images to blend into the color scheme background color
+		type: class-toggle
+		default: false
+	-
+		id: zoom-off
+		title: Disable image zoom
+		description: Turns off click + hold to zoom images
+		type: class-toggle
+	-
+		id: image-grid-fit
+		title: Image grid crop
+		description: Sets how images get cropped in a grid
+		type: variable-select
+		default: cover
+		options:
+			-
+				label: Crop to fit
+				value: cover
+			-
+				label: Show full image
+				value: contain
+	-
+		id: image-grid-background
+		title: Image grid background
+		description: Background of images in cells, useful when images are not cropped to fit
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: indentation-guides
+		title: Indentation guides
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: ig-adjust-reading
+		title: Horizontal adjustment in reading mode
+		type: variable-number-slider
+		default: -0.65
+		min: -1.2
+		max: 0
+		step: 0.05
+		format: em
+	-
+		id: ig-adjust-edit
+		title: Horizontal adjustment in edit mode
+		type: variable-number-slider
+		default: -1
+		min: -10
+		max: 10
+		step: 1
+		format: px
+	-
+		id: indentation-guide-color
+		title: Indentation guide color
+		type: variable-themed-color
+		format: hex
+		opacity:  true
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: indentation-guide-color-active
+		title: Indentation guide color (active)
+		type: variable-themed-color
+		format: hex
+		opacity:  true
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: links
+		title: Links
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: links-internal
+		title: Internal links
+		type: heading
+		level: 3
+		collapsed: true
+	-
+		id: link-color
+		title: Internal link color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: link-color-hover
+		title: Internal link color (hover)
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: link-unresolved-opacity
+		title: Unresolved link opacity
+		type: variable-number-slider
+		default: 0.7
+		min: 0.25
+		max: 1
+		step: 0.05
+	-
+		id: link-unresolved-color
+		title: Unresolved link color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: link-unresolved-decoration-color
+		title: Unresolved link underline color
+		type: variable-themed-color
+		format: hex
+		opacity:  true
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: links-external
+		title: External links
+		type: heading
+		level: 3
+		collapsed: true
+	-
+		id: link-external-color
+		title: External link color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: link-external-color-hover
+		title: External link color (hover)
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: active-line
+		title: Line  numbers
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: active-line-on
+		title: Highlight active line
+		description: Adds a background to current line in editor
+		type: class-toggle
+		default: false
+	-
+		id: folding-offset
+		title: Gutter offset
+		description: Width of the file margin used for gutter
+		type: variable-number-slider
+		default: 32
+		min: 0
+		max: 60
+		step: 1
+		format: px
+	-  
+		id: gutter-background
+		title: Gutter background
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-  
+		id: line-number-color
+		title: Line number color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-  
+		id: line-number-color-active
+		title: Active line number color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: active-line-bg
+		title: Active line background
+		description: Using a low opacity color is recommended to avoid conflicting with highlights
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: lists
+		title: Lists and tasks
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: checkbox-color
+		title: Checkbox color
+		description: Background color for completed tasks
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: checkbox-shape
+		title: Checkbox shape
+		type: class-select
+		allowEmpty: false
+		default: checkbox-circle
+		options:
+			-
+				label: Circle
+				value: checkbox-circle
+			-
+				label: Square
+				value: checkbox-square
+	-
+		id: minimal-strike-lists
+		title: Strike completed tasks
+		description: Adds strikethrough line and greyed text for completed tasks
+		type: class-toggle
+		default: false
+	-
+		id: list-spacing
+		title: List item spacing
+		description: Vertical space between list items in em units
+		type: variable-number-slider
+		default: 0.075
+		min: 0
+		max: 0.3
+		step: 0.005
+		format: em
+	-
+		id: list-indent
+		title: Nested list indentation
+		description: Horizontal space from left in em units
+		type: variable-number-slider
+		default: 2
+		min: 1
+		max: 3.5
+		step: 0.1
+		format: em
+	-
+		id: pdf
+		title: PDFs
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: pdf-page-style
+		title: PDF page style
+		description: Borders and shadows around pages
+		type: class-select
+		allowEmpty: false
+		default: pdf-seamless-on
+		options:
+			-
+				label: Seamless
+				value: pdf-seamless-on
+			-
+				label: Shadows
+				value: pdf-shadows-on
+	-
+		id: pdf-invert-dark
+		title: Invert PDFs in dark mode
+		description: Best for working with black text on white pages
+		type: class-toggle
+		default: true
+	-
+		id: pdf-blend-light
+		title: Blend PDFs in light mode
+		description: Allow PDFs to blend into the color scheme background color
+		type: class-toggle
+		default: true
+	-
+		id: pdf-dark-opacity
+		title: PDF opacity in dark mode
+		description: Fade PDF pages in dark mode
+		type: variable-number-slider
+		default: 1
+		min: 0.25
+		max: 1
+		step: 0.05
+	-
+		id: progress
+		title: Progress bars
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: progress-complete
+		title: Completed progress bar color
+		description: Defaults to your accent color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: properties
+		title: Properties
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: metadata-heading-off
+		title: Hide properties heading
+		description: Hide "Properties" heading above properties
+		type: class-toggle
+		default: false
+	-
+		id: metadata-add-property-off
+		title: Hide "Add property" button
+		description: Hide "Add property" button below properties
+		type: class-toggle
+		default: false
+	-
+		id: metadata-icons-off
+		title: Hide property icons
+		description: Hide icons next to property names
+		type: class-toggle
+		default: false
+	-
+		id: metadata-dividers
+		title: Property row lines
+		description: Display borders between properties
+		type: class-toggle
+		default: false
+	-
+		id: metadata-label-width
+		title: Property name width
+		description: Width for the name of the property
+		type: variable-number-slider
+		format: rem
+		default: 8
+		min: 4
+		max: 12
+		step: 0.25
+	-
+		id: sidebars
+		title: Sidebars
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: sidebar-lines-off
+		title: Hide sidebar relationship lines
+		description: Turns off lines in file navigation
+		type: class-toggle
+	-
+		id: sidebar-tabs-style
+		title: Sidebar tab style
+		type: class-select
+		allowEmpty: false
+		default: sidebar-tabs-default
+		options:
+			-
+				label: Index round
+				value: sidebar-tabs-index
+			-
+				label: Index square
+				value: sidebar-tabs-square
+			-
+				label: Modern compact
+				value: sidebar-tabs-default
+			-
+				label: Modern wide
+				value: sidebar-tabs-wide
+			-
+				label: Underline
+				value: sidebar-tabs-underline
+
+	-
+		id: mobile-left-sidebar-width
+		title: Mobile left sidebar width
+		description: Maximum width for pinned left sidebar on mobile
+		type: variable-number
+		default: 280
+		format: pt
+	-
+		id: mobile-right-sidebar-width
+		title: Mobile right sidebar width
+		description: Maximum width for pinned right sidebar on mobile
+		type: variable-number
+		default: 240
+		format: pt
+	-
+		id: ribbon
+		title: Ribbon
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: ribbon-style
+		title: Ribbon style
+		description: Ribbon menu can be hidden using the Hider plugin
+		type: class-select
+		allowEmpty: false
+		default: ribbon-hidden
+		options:
+			-
+				label: Default
+				value: ribbon-hidden
+			-
+				label: Bottom left hover
+				value: ribbon-bottom-left-hover
+	-
+		id: tables
+		title: Tables
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: table-text-size
+		title: Table font size
+		description: All of the following settings apply to all tables globally. To turn on these features on a per-note basis use helper classes. See documentation.
+		type: variable-text
+		default: 1em
+	-
+		id: table-column-min-width
+		title: Minimum column width
+		type: variable-text
+		default: 6ch
+	-
+		id: table-column-max-width
+		title: Maximum column width
+		type: variable-text
+		default: none
+	-
+		id: maximize-tables-off
+		title: Maximize table width 
+		description: Determines how wide tables should behave when they become wider than the line width
+		type: class-select
+		allowEmpty: false
+		default: maximize-tables-off
+		options:
+			-
+				label: Fit to line width
+				value: maximize-tables-off
+			-
+				label: Overflow line width
+				value: maximize-tables-auto
+			-
+				label: Always fill
+				value: maximize-tables
+	-
+		id: row-lines
+		title: Row lines
+		description: Display borders between table rows globally
+		type: class-toggle
+		default: false
+	-
+		id: col-lines
+		title: Column lines
+		description: Display borders between table columns globally
+		type: class-toggle
+		default: false
+	-
+		id: table-lines
+		title: Cell lines
+		description: Display borders around all table cells globally
+		type: class-toggle
+		default: false 
+	-
+		id: row-alt
+		title: Striped rows
+		description: Display striped background in alternating table rows globally
+		type: class-toggle
+		default: false
+	-
+		id: col-alt
+		title: Striped columns
+		description: Display striped background in alternating table columns globally
+		type: class-toggle
+		default: false
+	-
+		id: table-tabular
+		title: Tabular figures
+		description: Use fixed width numbers in tables globally
+		type: class-toggle
+		default: false
+	-
+		id: table-numbers
+		title: Row numbers
+		description: Display row numbers in tables globally
+		type: class-toggle
+		default: false
+	-
+		id: table-nowrap
+		title: Disable line wrap
+		description: Turn off line wrapping in table cells globally
+		type: class-toggle
+		default: false
+	-
+		id: row-hover
+		title: Highlight active row
+		description: Highlight rows on hover
+		type: class-toggle
+		default: false
+	-
+		id: table-row-background-hover
+		title: Active row background
+		description: Background color for hovered tables rows
+		type: variable-themed-color
+		format: hex
+		opacity: true
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: tabs
+		title: Tabs
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: header-height
+		title: Tab bar height
+		type: variable-text
+		default: 40px
+	-
+		id: tabs-style
+		title: Tab style
+		type: class-select
+		allowEmpty: false
+		default: tabs-default
+		options:
+			-
+				label: Index round
+				value: tabs-default
+			-
+				label: Index square
+				value: tabs-square
+			-
+				label: Modern
+				value: tabs-modern
+			-
+				label: Square
+				value: tabs-plain-square
+			-
+				label: Underline
+				value: tabs-underline
+	-
+		id: minimal-tab-text-color
+		title: Tab text color
+		type: variable-themed-color
+		format: hex
+		opacity: true
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: minimal-tab-text-color-active
+		title: Tab text color (active)
+		type: variable-themed-color
+		format: hex
+		opacity: true
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: tab-stacks
+		title: Tab stacks
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: tab-stacked-pane-width
+		title: Stacked width
+		type: variable-number
+		description: Width of a stacked tab in pixels
+		default: 700
+		format: px
+	-
+		id: tab-stacked-header-width
+		title: Spine width
+		type: variable-number
+		description: Width of the spine in pixels
+		default: 40
+		format: px
+	-
+		id: tab-stacked-spine-orientation
+		title: Spine text orientation
+		type: class-select
+		default: tab-stack-top
+		options:
+			-
+				label: Top
+				value: tab-stack-top
+			-
+				label: Top flipped
+				value: tab-stack-top-flipped
+			-
+				label: Bottom
+				value: tab-stack-bottom
+			-
+				label: Bottom flipped
+				value: tab-stack-bottom-flipped
+			-
+				label: Center
+				value: tab-stack-center
+			-
+				label: Center flipped
+				value: tab-stack-center-flipped
+	-
+		id: tags
+		title: Tags
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: minimal-unstyled-tags
+		title: Plain tags
+		description: Tags will render as normal text, overrides settings below
+		type: class-toggle
+		default: false
+	-
+		id: tag-radius
+		title: Tag shape
+		type: variable-select
+		default: 14px
+		options:
+			-
+				label: Pill
+				value: 14px
+			-
+				label: Rounded
+				value: 4px
+			-
+				label: Square
+				value: 0px
+	-
+		id: tag-border-width
+		title: Tag border width
+		type: variable-select
+		default: 1px
+		options:
+			-
+				label: None
+				value: 0
+			-
+				label: Thin
+				value: 1px
+			-
+				label: Thick
+				value: 2px
+	-
+		id: tag-color
+		title: Tag text color
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: tag-background
+		title: Tag background color
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: tag-background-hover
+		title: Tag background color (hover)
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: text
+		title: Text
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: tx1
+		title: Normal text color
+		type: variable-themed-color
+		description: Primary text color used by default across all elements
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: hl1
+		title: Selected text background
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: hl2
+		title: Highlighted text background
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: tx2
+		title: Muted text color
+		description: Secondary text such as sidebar note titles and table headings
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: tx3
+		title: Faint text color
+		description: tertiary text such as input placeholders, empty checkboxes, and disabled statuses
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: text-formatting
+		title: Markdown syntax color
+		description: Markdown formatting syntax text color
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: italic-color
+		title: Italic text color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: bold-color
+		title: Bold text color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: bold-weight
+		title: Bold text weight
+		type: variable-number-slider
+		default: 600
+		min: 100
+		max: 900
+		step: 100
+	-
+		id: p-spacing
+		title: Paragraph spacing
+		description: Space between paragraphs in reading mode (Obsidian 1.3.7+)
+		type: variable-text
+		default: 1.75rem
+	-
+		id: heading-spacing
+		title: Heading spacing
+		description: Space between paragraphs and headings in reading mode (Obsidian 1.3.7+)
+		type: variable-text
+		default: 2em
+	-
+		id: titles
+		title: Titles
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: tab-title-bar
+		title: Tab title bar
+		description: Tab title bar must be turned on in Appearance settings
+		type: heading
+		level: 3
+		collapsed: true
+	-
+		id: file-header-visibility
+		title: Tab title visibility
+		description: Visibility of the tab title text
+		type: class-select
+		default: minimal-tab-title-hover
+		options:
+			-
+				label: Hover only
+				value: minimal-tab-title-hover
+			-
+				label: Hidden
+				value: minimal-tab-title-hidden
+			-
+				label: Visible
+				value: minimal-tab-title-visible
+	-
+		id: file-header-font-size
+		title: Tab title font size
+		description: Accepts any CSS font-size value
+		type: variable-text
+		default: 0.9em
+	-
+		id: file-header-font-weight
+		title: Tab title font weight
+		type: variable-number-slider
+		default: 400
+		min: 100
+		max: 900
+		step: 100
+	-
+		id: file-header-justify
+		title: Tab title alignment
+		type: variable-select
+		default: center
+		options:
+			-
+				label: Center
+				value: center
+			-
+				label: Left
+				value: left
+	-
+		id: title-color
+		title: Tab title text color (active)
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: title-color-inactive
+		title: Tab title text color (inactive)
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: inline-title
+		title: Inline title
+		description: Inline titles must be turned on in Appearance settings
+		type: heading
+		level: 3
+		collapsed: true
+	-
+		id: inline-title-font
+		title: Inline title font
+		description: Name of the font as it appears on your system
+		type: variable-text
+		default: ''
+	-
+		id: inline-title-size
+		title: Inline title font size
+		description: Accepts any CSS font-size value
+		type: variable-text
+		default: 1.125em
+	-
+		id: inline-title-weight
+		title: Inline title font weight
+		type: variable-number-slider
+		default: 600
+		min: 100
+		max: 900
+		step: 100
+	-
+		id: inline-title-color
+		title: Inline title text color (active)
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: translucency
+		title: Translucency
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: workspace-background-translucent
+		title: Translucent background color
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: window-frame
+		title: Window frame
+		type: heading
+		level: 2
+		collapsed: true
+	-
+		id: window-title-off
+		title: Hide window frame title
+		description: Hide title in the custom title bar
+		type: class-toggle
+	-
+		id: frame-background
+		title: Frame background
+		description: Requires colorful window frame
+		type: variable-themed-color
+		opacity: true
+		format: hsl-split
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: frame-icon-color
+		title: Frame icon color
+		description: Requires colorful frame
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: titlebar-text-color-focused
+		title: Frame title color (focused)
+		description: Requires custom title bar
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: titlebar-text-color
+		title: Frame title color (inactive)
+		description: Requires custom title bar
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: titlebar-text-weight
+		title: Frame title font weight
+		description: Requires custom title bar
+		type: variable-number-slider
+		default: 600
+		min: 100
+		max: 900
+		step: 100
+*/
+
+/* @settings
+name: Minimal Cards
+id: minimal-cards-style
+settings:
+	-
+		id: cards-min-width
+		title: Card minimum width
+		type: variable-text
+		default: 180px
+	-
+		id: cards-max-width
+		title: Card maximum width
+		description: Default fills the available width, accepts valid CSS units
+		type: variable-text
+		default: 1fr
+	-
+		id: cards-mobile-width
+		title: Card minimum width on mobile
+		type: variable-text
+		default: 120px
+	-
+		id: cards-padding
+		title: Card padding
+		type: variable-text
+		default: 1.2em
+	-
+		id: cards-image-height
+		title: Card maximum image height
+		type: variable-text
+		default: 400px
+	-
+		id: cards-border-width
+		title: Card border width
+		type: variable-text
+		default: 1px
+	- 
+		id: cards-background
+		title: Card background color
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+
+*/
+
+/* @settings
+name: Minimal Mobile
+id: minimal-mobile
+settings:
+	-
+		id: mobile-toolbar-off
+		title: Disable toolbar
+		description: Turns off mobile toolbar
+		type: class-toggle
+*/
+
+/* @settings
+name: Minimal Advanced Settings
+id: minimal-advanced
+settings:
+	-
+		id: hide-markdown
+		title: Hide Markdown syntax
+		description: (EXPERIMENTAL) Warning, this can be confusing because the characters still exist they are just hidden.
+		type: class-toggle
+	-
+		id: styled-scrollbars
+		title: Styled scrollbars
+		description: Use styled scrollbars (replaces native scrollbars)
+		type: class-toggle
+	-
+		id: cursor
+		title: Cursor style
+		description: The cursor style for UI elements
+		type: variable-select
+		default: default
+		options:
+			-
+				label: Default
+				value: default
+			-
+				label: Pointer
+				value: pointer
+			-
+				label: Crosshair
+				value: crosshair
+	-
+		id: font-ui-small
+		title: Small font size
+		description: Font size in px of smaller text
+		type: variable-number
+		default: 13
+		format: px
+	-
+		id: font-ui-smaller
+		title: Smaller font size
+		description: Font size in px of smallest text
+		type: variable-number
+		default: 11
+		format: px
+
+*/
+
+
+/* @settings
+
+name: Border-theme
+id: Appearance-light
+settings:
+    - 
+        id: Presets-info-light
+        description: "[Presets (light)](https://github.com/Akifyss/obsidian-border/blob/main/presets.md#light-mode) | Before importing, it is recommended to reset this entry to default / Remove preset↗️"
+        description.zh: "[预设（亮色）](https://github.com/Akifyss/obsidian-border/blob/main/presets.md#light-mode) | 导入前，推荐先将此条目重设为默认 / 移除预设↗️ "
+        type: info-text
+        markdown: true
+    - 
+        id: card-layout-open-light
+        title: Enable card layout(light mode)
+        title.zh: 启用 卡片式布局（亮色模式）
+        type: class-toggle
+    - 
+        id: theme-light-style-select
+        title: Light mode style
+        title.zh: 亮色模式风格
+        type: class-select
+        allowEmpty: false
+        default: theme-light-background-default
+        options:
+            -   label: default
+                value: theme-light-background-default
+            -   label: colored
+                value: theme-light-background-adapt
+    - 
+        id: Color-light
+        title: Color
+        title.zh: 色彩
+        type: heading
+        collapsed: true
+        level: 3
+    - 
+        id: Accent-color-light
+        title: Accent color
+        title.zh: 主题色
+        type: heading
+        collapsed: true
+        level: 4
+    - 
+        id: accent-light
+        title: Accent color(light mode)
+        title.zh: 主题色（亮色模式）
+        description: Set accent color for the light and dark modes separately
+        description.zh: 分开来设置亮色模式与暗色模式的强调色
+        type: variable-color
+        format: hsl-split
+        opacity: false
+        default: '#5a6ded'
+    - 
+        id: accent-color-override-light
+        title: Override accent color setting in "Settings-Appearance" menu(light mode)
+        title.zh: 覆写 "设置-外观 "菜单中的强调色设置（亮色模式）
+        type: class-toggle
+    - 
+        id: accent-advanced-light
+        title: Advanced
+        title.zh: 高级
+        type: heading
+        collapsed: true
+        level: 5
+    - 
+		id: color-accent-hsl-light
+		title: color-accent-hsl
+        title.zh: color-accent-hsl
+        type: variable-color
+		format: hsl-values
+        opacity: false
+        default: '#'
+    - 
+		id: color-accent-light
+		title: color-accent
+        title.zh: color-accent
+        type: variable-color
+		format: hsl
+        opacity: false
+        default: '#'
+    - 
+		id: color-accent-1-light
+		title: color-accent-1
+        title.zh: color-accent-1
+        type: variable-color
+		format: hsl
+        opacity: false
+        default: '#'
+    - 
+		id: color-accent-2-light
+		title: color-accent-2
+        title.zh: color-accent-2
+        type: variable-color
+		format: hsl
+        opacity: false
+        default: '#'
+    - 
+		id: color-accent-3-light
+		title: color-accent-3
+        title.zh: color-accent-3
+        type: variable-color
+		format: hsl
+        opacity: false
+        default: '#'
+    - 
+        id: Extended-colors-light
+        title: Extended colors
+        title.zh: 拓展色
+        type: heading
+        collapsed: true
+        level: 4
+	- 
+		id: color-red-rgb
+		title: Red
+		type: variable-themed-color
+        format: 'rgb-values'
+		default-light: '#dd2c38'
+		default-dark: '#ff7881'
+	- 
+		id: color-orange-rgb
+		title: Orange
+		type: variable-themed-color
+        format: 'rgb-values'
+		default-light: '#de7417'
+		default-dark: '#fbbb83'
+	- 
+		id: color-yellow-rgb
+		title: Yellow
+		type: variable-themed-color
+        format: 'rgb-values'
+		default-light: '#c09c0c'
+		default-dark: '#ffe88b'
+	- 
+		id: color-green-rgb
+		title: Green
+		type: variable-themed-color
+        format: 'rgb-values'
+		default-light: '#1da51d'
+		default-dark: '#7cd37c'
+	- 
+		id: color-cyan-rgb
+		title: Cyan
+		type: variable-themed-color
+        format: 'rgb-values'
+		default-light: '#16a6ab'
+		default-dark: '#86dfe2'
+	- 
+		id: color-blue-rgb
+		title: Blue
+		type: variable-themed-color
+        format: 'rgb-values'
+		default-light: '#1775d9'
+		default-dark: '#89bdf4'
+	- 
+		id: color-purple-rgb
+		title: Purple
+		type: variable-themed-color
+        format: 'rgb-values'
+		default-light: '#8f47e1'
+		default-dark: '#cb9eff'
+	- 
+		id: color-pink-rgb
+		title: Pink
+		type: variable-themed-color
+        format: 'rgb-values'
+		default-light: '#dd1399'
+		default-dark: '#f2b6de'
+    - 
+        id: Background-light
+        title: Background
+        title.zh: 背景
+        type: heading
+        collapsed: true
+        level: 3
+    - 
+        id: mod-left-split-background-header-light
+        title: Left sidepane background
+        title.zh: 左侧面板背景
+        type: heading
+        collapsed: ture
+        level: 4
+    - 
+        id: mod-left-split-background-select-light
+        title: Left sidepane background(light mode)
+        title.zh: 左侧面板背景（亮色模式）
+        type: class-select
+        allowEmpty: false
+        default: mod-left-split-background-primary-light
+        options:
+            -   label: background-primary (default)
+                value: mod-left-split-background-primary-light
+            -   label: background-secondary
+                value: mod-left-split-background-secondary-light
+            -   label: transparent (card layout only)
+                value: mod-left-split-background-transparent-light
+            -   label: customize color
+                value: mod-left-split-background-customize-light
+            -   label: customize CSS
+                value: mod-left-split-background-CSS-light
+    - 
+		id: background-mod-left-split-light
+		title: Customize left sidepane background color (light mode)
+        title.zh: 自定义 左侧面板 背景色（亮色模式）
+		type: variable-color
+        opacity: ture
+        format: hex
+        alt-format:
+            -
+                id: accent-rgb
+                format: rgb
+        default: '#'
+    - 
+        id: background-mod-left-CSS-light
+        title: Left sidepane background (light mode)
+        title.zh: 左侧面板background（亮色模式）
+        description: Input any CSS background value
+        description.zh: 输入任意 CSS background 值
+        type: variable-text
+        default: ''
+    - 
+        id: background-mod-left-CSS-blend-mode-light
+        title: Left sidepane background-blend-mode (light mode)
+        title.zh: 左侧面板background-blend-mode（亮色模式）
+        description: Input any CSS background-blend-mode value
+        description.zh: 输入任意 CSS background-blend-mode 值
+        type: variable-text
+        default: normal
+    - 
+        id: background-mod-left-CSS-backdrop-filter-light
+        title: Left sidepane backdrop-filter (light mode)
+        title.zh: 左侧面板backdrop-filter（亮色模式）
+        description: Input any CSS backdrop-filter value
+        description.zh: 输入任意 CSS backdrop-filter 值
+        type: variable-text
+        default: blur(32px)
+    - 
+        id: mod-right-split-background-header-light
+        title: Right sidepane background
+        title.zh: 右侧面板背景
+        type: heading
+        collapsed: ture
+        level: 4
+    - 
+        id: mod-right-split-background-select-light
+        title: Right sidepane background (light mode)
+        title.zh: 右侧面板背景（亮色模式）
+        type: class-select
+        allowEmpty: false
+        default: mod-right-split-background-primary-light
+        options:
+            -   label: background-primary (default)
+                value: mod-right-split-background-primary-light
+            -   label: background-secondary
+                value: mod-right-split-background-secondary-light
+            -   label: transparent (card layout only)
+                value: mod-right-split-background-transparent-light
+            -   label: customize color
+                value: mod-right-split-background-customize-light
+            -   label: customize CSS
+                value: mod-right-split-background-CSS-light
+    - 
+		id: background-mod-right-split-light
+		title: Customize right sidepane background color(light mode)
+        title.zh: 自定义 右侧面板 背景色（亮色模式）
+		type: variable-color
+        opacity: ture
+        format: hex
+        alt-format:
+            -
+                id: accent-rgb
+                format: rgb
+        default: '#'
+    - 
+        id: background-mod-right-CSS-light
+        title: Right sidepane background (light mode)
+        title.zh: 右侧面板background（亮色模式）
+        description: Input any CSS background value
+        description.zh: 输入任意 CSS background 值
+        type: variable-text
+        default: ''
+    - 
+        id: background-mod-right-CSS-blend-mode-light
+        title: Right sidepane background-blend-mode (light mode)
+        title.zh: 右侧面板background-blend-mode（亮色模式）
+        description: Input any CSS background-blend-mode value
+        description.zh: 输入任意 CSS background-blend-mode 值
+        type: variable-text
+        default: normal
+    - 
+        id: background-mod-right-CSS-backdrop-filter-light
+        title: Right sidepane backdrop-filter (light mode)
+        title.zh: 右侧面板backdrop-filter（亮色模式）
+        description: Input any CSS backdrop-filter value
+        description.zh: 输入任意 CSS backdrop-filter 值
+        type: variable-text
+        default: blur(32px)
+    - 
+        id: mod-root-split-background-header-light
+        title: Middle pane background
+        title.zh: 中间面板背景
+        type: heading
+        collapsed: ture
+        level: 4
+    - 
+        id: mod-root-split-background-select-light
+        title: Middle pane background (light mode)
+        title.zh: 中间面板背景（亮色模式）
+        type: class-select
+        allowEmpty: false
+        default: mod-root-split-background-primary-light
+        options:
+            -   label: background-primary (default)
+                value: mod-root-split-background-primary-light
+            -   label: background-secondary
+                value: mod-root-split-background-secondary-light
+            -   label: transparent (card layout only)
+                value: mod-root-split-background-transparent-light
+            -   label: customize color
+                value: mod-root-split-background-customize-light
+            -   label: customize CSS
+                value: mod-root-split-background-CSS-light
+    - 
+		id: background-mod-root-split-light
+		title: Customize Middle pane background color(light mode)
+        title.zh: 自定义 中间面板 背景色（亮色模式）
+		type: variable-color
+        opacity: ture
+        format: hex
+        alt-format:
+            -
+                id: accent-rgb
+                format: rgb
+        default: '#'
+    - 
+        id: background-mod-root-CSS-light
+        title: Middle pane background (light mode)
+        title.zh: 中间面板background（亮色模式）
+        description: Input any CSS background value
+        description.zh: 输入任意 CSS background 值
+        type: variable-text
+        default: ''
+    - 
+        id: background-mod-root-CSS-blend-mode-light
+        title: Middle pane background-blend-mode (light mode)
+        title.zh: 中间面板background-blend-mode（亮色模式）
+        description: Input any CSS background-blend-mode value
+        description.zh: 输入任意 CSS background-blend-mode 值
+        type: variable-text
+        default: normal
+    - 
+        id: background-mod-root-CSS-backdrop-filter-light
+        title: Middle pane backdrop-filter (light mode)
+        title.zh: 中间面板backdrop-filter（亮色模式）
+        description: Input any CSS backdrop-filter value
+        description.zh: 输入任意 CSS backdrop-filter 值
+        type: variable-text
+        default: blur(32px)
+    - 
+        id: underlying-background-header-light
+        title: Underlying background
+        title.zh: 底层背景
+        type: heading
+        collapsed: ture
+        level: 4
+    - 
+        id: background-underlying-select-light
+        title: underlying background(light mode)
+        title.zh: 底层背景（亮色模式）
+        type: class-select
+        allowEmpty: false
+        default: background-underlying-defalut-light
+        options:
+            -   label: background-primary
+                value: background-underlying-primary-light
+            -   label: background-secondary
+                value: background-underlying-secondary-light
+            -   label: adapt to accent color(defalut)
+                value: background-underlying-defalut-light
+            -   label: customize color
+                value: background-underlying-Color-light
+            -   label: customize CSS
+                value: background-underlying-CSS-light
+    - 
+		id: background-underlying-light
+		title: Customize underlying background color(light mode)
+        title.zh: 自定义 底层背景色（亮色模式）
+		type: variable-color
+        opacity: ture
+        format: hex
+        alt-format:
+            -
+                id: accent-rgb
+                format: rgb
+        default: '#'
+    - 
+        id: background-underlying-CSS-light
+        title: underlying background (light mode)
+        title.zh: 底层background（亮色模式）
+        description: Input any CSS background value
+        description.zh: 输入任意 CSS background 值
+        type: variable-text
+        default: ''
+    - 
+        id: background-underlying-CSS-blend-mode-light
+        title: underlying background-blend-mode (light mode)
+        title.zh: 底层background-blend-mode（亮色模式）
+        description: Input any CSS background-blend-mode value
+        description.zh: 输入任意 CSS background-blend-mode 值
+        type: variable-text
+        default: overlay, color-burn
+    - 
+        id: underlying-foreground-header-light
+        title: Underlying foreground
+        title.zh: 底层前景
+        description: Adjust foreground to fit the background
+        description.zh: 调整前景以适应背景
+        type: heading
+        collapsed: ture
+        level: 5
+    - 
+		id: on-border-light
+        title: underlying foreground color(light mode)
+        title.zh: 底层前景色（亮色模式）
+        description: Color of elements (text&icon) displayed on underlying background, including top tab bar, ribbon menu, and status bar
+        description.zh: 显示在底层背景上的元素(text&icon)颜色，包括顶部标签栏、功能区菜单和状态栏
+		type: variable-color
+        opacity: ture
+        format: hex
+        alt-format:
+            -
+                id: accent-rgb
+                format: rgb
+        default: '#'
+    - 
+        id: mix-blend-mode-on-border-light
+        title: mix blend mode of underlying foreground(light mode)
+        title.zh: 底层前景的混合模式（亮色模式）
+        description: Input any CSS mix-blend-mode value
+        description.zh: 输入任意 CSS mix-blend-mode 值
+        type: variable-text
+        default: normal
+    - 
+        id: Global-background-header-light
+        title: Global background
+        title.zh: 全局背景
+        type: heading
+        collapsed: ture
+        level: 4
+    - 
+		id: background-primary
+		title: background-primary(light mode)
+        title.zh: background-primary（亮色模式）
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+		id: background-primary-alt
+		title: background-primary-alt(light mode)
+        title.zh: background-primary-alt（亮色模式）
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+		id: background-secondary
+		title: background-secondary(light mode)
+        title.zh: background-secondary（亮色模式）
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+		id: background-secondary-alt
+		title: background-secondary-alt(light mode)
+        title.zh: background-secondary-alt（亮色模式）
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+		id: background-tertiary
+		title: background-tertiary(light mode)
+        title.zh: background-tertiary（亮色模式）
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+		id: workspace-background-translucent
+		title: workspace-background-translucent(light mode)
+        title.zh: workspace-background-translucent（亮色模式）
+		type: variable-themed-color
+		opacity: true
+		format: hsl
+		default-light: '#'
+		default-dark: '#'
+    - 
+		id: background-modifier-hover
+		title: background-modifier-hover(light mode)
+        title.zh: background-modifier-hover（亮色模式）
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+		id: background-modifier-active-hover
+		title: background-modifier-active-hover(light mode)
+        title.zh: background-modifier-active-hover（亮色模式）
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+		id: background-modifier-border
+		title: background-modifier-border(light mode)
+        title.zh: background-modifier-border（亮色模式）
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+		id: background-modifier-border-hover
+		title: background-modifier-border-hover(light mode)
+        title.zh: background-modifier-border-hover（亮色模式）
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+		id: background-modifier-border-focus
+		title: background-modifier-border-focus(light mode)
+        title.zh: background-modifier-border-focus（亮色模式）
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+        id: Foreground-header-light
+        title: Foreground
+        title.zh: 前景
+        type: heading
+        collapsed: ture
+        level: 3
+    - 
+        id: text-color-light
+        title: Text & icon color
+        title.zh: 文本 & 图标色
+        type: heading
+        collapsed: ture
+        level: 4
+    - 
+        id: text-normal
+		title: text-normal(light mode)
+        title.zh: text-normal（亮色模式）
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+        id: text-muted
+		title: text-muted(light mode)
+        title.zh: text-muted（亮色模式）
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+        id: text-faint
+		title: text-faint(light mode)
+        title.zh: text-faint（亮色模式）
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+        id: text-accent
+		title: text-accent(light mode)
+        title.zh: text-accent（亮色模式）
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+        id: text-accent-hover
+		title: text-accent-hover(light mode)
+        title.zh: text-accent-hover（亮色模式）
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+        id: text-on-accent
+		title: text-on-accent(light mode)
+        title.zh: text-on-accent（亮色模式）
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+        id: text-on-accent-inverted
+		title: text-on-accent-inverted(light mode)
+        title.zh: text-on-accent-inverted（亮色模式）
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+        id: interactive-color-light
+        title: Interactive color
+        title.zh: 交互色
+        type: heading
+        collapsed: ture
+        level: 4
+    - 
+        id: interactive-normal
+        title: interactive-normal(light mode)
+        title.zh: interactive-normal（亮色模式）
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+        id: interactive-hover
+        title: interactive-hover(light mode)
+        title.zh: interactive-hover（亮色模式）
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+        id: interactive-accent
+		title: interactive-accent(light mode)
+		title.zh: interactive-accent（亮色模式）
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+        id: interactive-accent-hsl
+		title: interactive-accent-hsl(light mode)
+		title.zh: interactive-accent-hsl（亮色模式）
+		type: variable-themed-color
+		format: hsl-values
+		default-light: '#'
+		default-dark: '#'
+    - 
+        id: interactive-accent-hover
+		title: interactive-accent-hover(light mode)
+		title.zh: interactive-accent-hover（亮色模式）
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+    - 
+        id: Card-light
+        title: Card
+        title.zh: 卡片
+        type: heading
+        collapsed: true
+        level: 3
+    - 
+        id: card-border-radius-light
+        title: Custom card border radius (light mode)
+        title.zh: 自定义 卡片的圆角大小（亮色模式）
+        description: Input your border-radius value here
+        description.zh: 在这里输入你的 border-radius 值
+        type: variable-text
+        default: 8px
+    - 
+        id: card-shadow-light
+        title: Custom card shadow (light mode)
+        title.zh: 自定义 卡片阴影（亮色模式）
+        description: Input your box-shadow value here
+        description.zh: 在这里输入你的 box-shadow 值
+        type: variable-text
+        default: ''
+    - 
+        id: Active-states-light
+        title: Active states
+        title.zh: 激活态
+        type: heading
+        collapsed: true
+        level: 3
+    - 
+        id: Active-states-Tabs-light
+        title: Active states(Tabs)
+        title.zh: 激活态（Tabs）
+        type: heading
+        collapsed: true
+        level: 4
+    - 
+		id: color-activated-tab-header-light
+		title: activated Tab header color(light mode)
+        title.zh: 已激活Tab的标头颜色（亮色模式）
+		type: variable-color
+        opacity: ture
+        format: hex
+        alt-format:
+            -
+                id: accent-rgb
+                format: rgb
+        default: '#'
+    - 
+        id: color-to-tab-icon-light
+        title: Apply custom color to the "close" icon(light mode)
+        title.zh: 将自定义颜色应用于“关闭”图标（亮色模式）
+        type: class-toggle
+    - 
+        id: border-radius-activated-tab-header-light
+        title: activated Tab header border radius(light mode)
+        title.zh: 已激活Tab的标头圆角大小（亮色模式）
+        description: Input any CSS border-radius value
+        description.zh: 输入任意 CSS border-radius 值
+        type: variable-text
+        default: 6px
+    - 
+        id: background-activated-tab-header-light
+        title: activated Tab header background(light mode)
+        title.zh: 已激活Tab的标头背景（亮色模式）
+        description: Input any CSS background value
+        description.zh: 输入任意 CSS background 值
+        type: variable-text
+        default: ''
+    - 
+        id: shadow-activated-tab-header-light
+        title: activated Tab header shadow(light mode)
+        title.zh: 已激活Tab的标头阴影（亮色模式）
+        description: Input any CSS box-shadow value
+        description.zh: 输入任意 CSS box-shadow 值
+        type: variable-text
+        default: ''
+    - 
+        id: Active-states-file-explorer-light
+        title: Active states(file explorer)
+        title.zh: 激活态（文件列表）
+        type: heading
+        collapsed: true
+        level: 4
+    - 
+        id: Active-states-file-explorer-select-light
+        title: Activated file style(light mode)
+        title.zh: 已激活文件 风格（亮色模式）
+        type: class-select
+        allowEmpty: false
+        default: activated-file-default-light
+        options:
+            -   label: default
+                value: activated-file-default-light
+            -   label: Accent color
+                value: activated-file-accent-light
+            -   label: Consistent with tab style
+                value: activated-file-tab-style-light
+            -   label: customize
+                value: activated-file-customize-light
+    - 
+		id: color-activated-file-light
+		title: Activated file color(light mode)
+        title.zh: 已激活文件的颜色（亮色模式）
+		type: variable-color
+        opacity: ture
+        format: hex
+        alt-format:
+            -
+                id: accent-rgb
+                format: rgb
+        default: '#'
+    - 
+        id: border-radius-activated-file-light
+        title: Activated file border radius(light mode)
+        title.zh: 已激活文件的圆角大小（亮色模式）
+        description: Input any CSS border-radius value
+        description.zh: 输入任意 CSS border-radius 值
+        type: variable-text
+        default: 4px
+    - 
+        id: background-activated-file-light
+        title: Activated file background(light mode)
+        title.zh: 已激活文件的背景（亮色模式）
+        description: Input any CSS background value
+        description.zh: 输入任意 CSS background 值
+        type: variable-text
+        default: ''
+    - 
+        id: shadow-activated-file-light
+        title: Activated file shadow(light mode)
+        title.zh: 已激活文件的阴影（亮色模式）
+        description: Input any CSS box-shadow value
+        description.zh: 输入任意 CSS box-shadow 值
+        type: variable-text
+        default: ''
+    - 
+        id: UI-Controls-light
+        title: UI Controls
+        title.zh: UI 控件
+        type: heading
+        collapsed: ture
+        level: 3
+    - 
+        id: input-radius-light
+        title: input-radius(light mode)
+        title.zh: input-radius（亮色模式）
+        description: border radius of buttons, input, etc.
+        description.zh: 按钮，输入框等的圆角大小
+        type: variable-number
+        default: 5
+        format: px
+    - 
+        id: input-shadow-light
+        title: input-shadow(light mode)
+        title.zh: input-shadow（亮色模式）
+        description: shadow of button,dropdown, etc. Accepts any CSS box-shadow value
+        description.zh: 按钮，下拉菜单等的阴影 接受任意 CSS box-shadow 值
+        type: variable-text
+        default: ''
+    - 
+        id: input-shadow-hover-light
+        title: input-shadow-hover(light mode)
+        title.zh: input-shadow-hover（亮色模式）
+        description: shadow of button,dropdown, etc.(hovered) Accepts any CSS box-shadow value
+        description.zh: 按钮，下拉菜单等的阴影（鼠标悬停时） 接受任意 CSS box-shadow 值
+        type: variable-text
+        default: ''
+    - 
+        id: toggle-light
+        title: toggle switch
+        title.zh: 滑动开关
+        type: heading
+        collapsed: ture
+        level: 4
+    - 
+        id: toggle-thumb-color-light
+        title: toggle-thumb-color(light mode)
+        title.zh: toggle-thumb-color（亮色模式）
+        description: background color of toggle thumb Accepts any CSS background-color value
+        description.zh: 开关滑块的背景色 接受任意 CSS background-color 值
+        type: variable-text
+        default: ''
+    - 
+        id: toggle-thumb-enabled-color-light
+        title: toggle-thumb-enabled-color(light mode)
+        title.zh: toggle-thumb-enabled-color（亮色模式）
+        description: background color of toggle thumb(enabled) Accepts any CSS background-color value
+        description.zh: 开关滑块的背景色（开启时） 接受任意 CSS background-color 值
+        type: variable-text
+        default: ''
+    - 
+        id: toggle-thumb-shadow-light
+        title: toggle-thumb-shadow(light mode)
+        title.zh: toggle-thumb-shadow（亮色模式）
+        description: shadow of toggle thumb Accepts any CSS box-shadow value
+        description.zh: 开关滑块的阴影 接受任意 CSS box-shadow 值
+        type: variable-text
+        default: ''
+    - 
+        id: toggle-thumb-enabled-shadow-light
+        title: toggle-thumb-enabled-shadow(light mode)
+        title.zh: toggle-thumb-enabled-shadow（亮色模式）
+        description: shadow of toggle thumb(enabled) Accepts any CSS box-shadow value
+        description.zh: 开关滑块的阴影（开启时） 接受任意 CSS box-shadow 值
+        type: variable-text
+        default: ''
+    - 
+        id: toggle-track-color-light
+        title: toggle-track-color(light mode)
+        title.zh: toggle-track-color（亮色模式）
+        description: background color of toggle track Accepts any CSS background-color value
+        description.zh: 开关滑轨的背景色 接受任意 CSS background-color 值
+        type: variable-text
+        default: ''
+    - 
+        id: toggle-track-enabled-color-light
+        title: toggle-track-enabled-color(light mode)
+        title.zh: toggle-track-enabled-color（亮色模式）
+        description: background color of toggle track(enabled) Accepts any CSS background-color value
+        description.zh: 开关滑轨的背景色（开启时） 接受任意 CSS background-color 值
+        type: variable-text
+        default: ''
+    - 
+        id: toggle-track-shadow-light
+        title: toggle-track-shadow(light mode)
+        title.zh: toggle-track-shadow（亮色模式）
+        description: shadow of toggle track Accepts any CSS box-shadow value
+        description.zh: 开关滑轨的阴影 接受任意 CSS box-shadow 值
+        type: variable-text
+        default: ''
+    - 
+        id: toggle-track-hovered-shadow-light
+        title: toggle-track-hovered-shadow(light mode)
+        title.zh: toggle-track-hovered-shadow（亮色模式）
+        description: shadow of toggle track(hovered) Accepts any CSS box-shadow value
+        description.zh: 开关滑轨的阴影（鼠标悬停时） 接受任意 CSS box-shadow 值
+        type: variable-text
+        default: ''
+    - 
+        id: Miscellaneous-light
+        title: Miscellaneous
+        title.zh: 杂项
+        type: heading
+        collapsed: true
+        level: 3
+    - 
+        id: card-highlight-light
+        title: Highlight active card
+        title.zh: 高亮当前活动卡片
+        description: Only applicable for card layout
+        description.zh: 仅限卡片式布局
+        type: class-toggle
+    - 
+        id: workspace-divider-transparent-light
+        title: Visually remove divider effect in workspace
+        title.zh: 在视觉上移除工作区的分隔线效果
+        description: For default layout
+        description.zh: 针对默认布局
+        type: class-toggle
+	- 
+		id: link-external-color
+		title: External link color
+        title.zh: 外部链接颜色
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	- 
+		id: link-external-color-hover
+		title: External link color (hover)
+        title.zh: 外部链接颜色（鼠标悬停时）
+		type: variable-themed-color
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+
+*/
+
+/* ====== Layout ===== */
+/* default Layout*/
+body {
+    --card-shadow-light: 0px 0px 6px hsla(var(--accent-h), 18%, 80%, 0.4), 0px 0px 2px hsla(var(--accent-h), 18%, 80%, 0.2), 0 0 0 1px var(--background-modifier-border);
+    --card-shadow-dark: 0px 0px 0px 1px var(--background-modifier-border);
+    --card-border-radius-light: 8px;
+    --card-border-radius-dark: 8px;
+    --card-shadow-border-radius-light: calc(var(--card-border-radius-light) - 1px);
+    --card-shadow-border-radius-dark: calc(var(--card-border-radius-dark) - 1px);
+}
+
+body.is-frameless:not(.is-hidden-frameless).is-fullscreen {
+    padding-top: 0;
+}
+
+body:not(.is-mobile) .horizontal-main-container {
+    padding-bottom: 24px;
+}
+
+body:not(.is-mobile).is-popout-window .horizontal-main-container {
+    padding-bottom: 16px;
+}
+
+body:not(.is-mobile) .workspace {
+    margin-right: 16px;
+    position: relative;
+    overflow: visible;
+}
+
+body:not(.is-mobile).is-popout-window .workspace {
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+body:not(.is-mobile) .mod-top-left-space .workspace-tab-container,
+body.is-popout-window .workspace-tabs.mod-top-left-space>.workspace-tab-container {
+    border-top-left-radius: var(--card-border-radius-light, 8px) !important;
+}
+
+body:not(.is-mobile).theme-dark .mod-top-left-space .workspace-tab-container,
+body.is-popout-window.theme-dark .workspace-tabs.mod-top-left-space>.workspace-tab-container {
+    border-top-left-radius: var(--card-border-radius-dark, 8px) !important;
+}
+
+body:not(.is-mobile) .mod-top-right-space .workspace-tab-container {
+    border-top-right-radius: var(--card-border-radius-light, 8px);
+    overflow: hidden;
+}
+
+body:not(.is-mobile).theme-dark .mod-top-right-space .workspace-tab-container {
+    border-top-right-radius: var(--card-border-radius-dark, 8px);
+}
+
+body:not(.is-mobile) .workspace-split.mod-left-split,
+body:not(.is-mobile) .workspace:not(.is-left-sidedock-open) .workspace-split.mod-root {
+    border-bottom-left-radius: var(--card-border-radius-light, 8px);
+    overflow: hidden;
+}
+
+body:not(.is-mobile).theme-dark .workspace-split.mod-left-split,
+body:not(.is-mobile).theme-dark .workspace:not(.is-left-sidedock-open) .workspace-split.mod-root {
+    border-bottom-left-radius: var(--card-border-radius-dark, 8px);
+}
+
+body:not(.is-mobile) .workspace:not(.is-right-sidedock-open) .workspace-split.mod-root,
+body:not(.is-mobile) .workspace-split.mod-right-split {
+    border-bottom-right-radius: var(--card-border-radius-light, 8px);
+    overflow: hidden;
+}
+
+body:not(.is-mobile).theme-dark .workspace:not(.is-right-sidedock-open) .workspace-split.mod-root,
+body:not(.is-mobile).theme-dark .workspace-split.mod-right-split {
+    border-bottom-right-radius: var(--card-border-radius-dark, 8px);
+}
+
+.workspace-window .mod-top-left-space .workspace-tab-container,
+.workspace-window .mod-top-left-space .workspace-tab-container .workspace-leaf-content {
+    border-top-left-radius: 0px !important;
+}
+
+
+body:not(.is-mobile) .workspace::before {
+    content: " ";
+    width: calc(100% - 44px);
+    height: calc(100% - 44px);
+    border-radius: var(--card-shadow-border-radius-light, 7px);
+    background-color: transparent;
+    box-shadow: var(--card-shadow-light);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+body:not(.is-mobile).theme-dark .workspace::before {
+    border-radius: var(--card-shadow-border-radius-dark, 7px);
+    box-shadow: var(--card-shadow-dark, 0px 0px 0px 1px var(--background-modifier-border));
+}
+
+body:not(.is-mobile).is-popout-window .workspace::before {
+    width: calc(100%) !important;
+    height: calc(100% - 44px);
+}
+
+
+.workspace-tab-header-container,
+.workspace-tabs.mod-top .workspace-tab-header-container,
+.workspace-ribbon.mod-left:before {
+    border-bottom: 1px solid transparent;
+}
+
+body:not(.is-mobile) .workspace-ribbon {
+    padding: 10px 4px 0px;
+}
+
+.workspace-tabs {
+    gap: 4px;
+}
+
+.workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf {
+    box-shadow: inset 0px 1px 0px var(--workspace-divider-color);
+}
+
+body.theme-light.card-layout-open-light .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf,
+body.theme-dark.card-layout-open-dark .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf {
+    box-shadow: inset 0px 1px 0px transparent;
+}
+
+body.theme-light.mod-left-split-background-transparent-light.card-layout-open-light.tab-autohide .mod-left-split .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf,
+body.theme-dark.mod-left-split-background-transparent-dark.card-layout-open-dark.tab-autohide .mod-left-split .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf,
+body.theme-light.mod-right-split-background-transparent-light.card-layout-open-light.tab-autohide .mod-right-split .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf,
+body.theme-dark.mod-right-split-background-transparent-dark.card-layout-open-dark.tab-autohide .mod-right-split .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf,
+body.theme-light.mod-root-split-background-transparent-light.card-layout-open-light.tab-autohide .mod-root .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf,
+body.theme-dark.mod-root-split-background-transparent-dark.card-layout-open-dark.tab-autohide .mod-root .workspace-tabs:not(.mod-top) .workspace-tab-container>.workspace-leaf {
+    box-shadow: inset 0px 1px 0px var(--divider-color);
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
+/* card layout light*/
+body:not(.is-mobile).card-layout-open-light.theme-light .workspace::before {
+    display: none;
+}
+
+body:not(.is-mobile).card-layout-open-light.theme-light .workspace.is-left-sidedock-open .workspace-split.mod-horizontal.mod-left-split {
+    margin-right: 16px;
+}
+
+body:not(.is-mobile).card-layout-open-light.theme-light .workspace.is-right-sidedock-open .workspace-split.mod-horizontal.mod-right-split {
+    margin-left: 16px;
+}
+
+body:not(.is-mobile).card-layout-open-light.theme-light .workspace-split.mod-vertical {
+    gap: 16px
+}
+
+body:not(.is-mobile).card-layout-open-light.theme-light .workspace-tab-container {
+    border-radius: var(--card-border-radius-light, 8px) !important;
+    overflow: hidden !important;
+    box-shadow: var(--card-shadow-light);
+}
+
+body:not(.is-mobile).card-layout-open-light.theme-light .workspace-tabs,
+body:not(.is-mobile).card-layout-open-light.theme-light .workspace-split {
+    overflow: visible !important;
+}
+
+body:not(.is-mobile).card-layout-open-light.theme-light .workspace-tabs,
+body:not(.is-mobile).card-layout-open-light.theme-light .workspace-tab-header-container {
+    background-color: transparent !important;
+}
+
+
+body:not(.is-mobile).card-layout-open-light.theme-light .workspace-tabs:not(.mod-top) .workspace-tab-container {
+    border-top: unset;
+}
+
+/* card layout dark*/
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace::before {
+    display: none;
+}
+
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace.is-left-sidedock-open .workspace-split.mod-horizontal.mod-left-split {
+    margin-right: 16px;
+}
+
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace.is-right-sidedock-open .workspace-split.mod-horizontal.mod-right-split {
+    margin-left: 16px;
+}
+
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-split.mod-vertical {
+    gap: 16px
+}
+
+body:not(.is-mobile).theme-dark.card-layout-open-dark .workspace-tab-container {
+    border-radius: var(--card-border-radius-dark, 8px) !important;
+    overflow: hidden !important;
+    box-shadow: var(--card-shadow-dark, 0px 0px 0px 1px var(--background-modifier-border));
+}
+
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-tabs,
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-split {
+    overflow: visible !important;
+}
+
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-tabs,
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-tab-header-container {
+    background-color: transparent !important;
+}
+
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-tabs:not(.mod-top) .workspace-tab-container {
+    border-top: unset;
+}
+
+
+/* divider */
+body {
+    --workspace-divider-color: var(--background-secondary);
+}
+
+body:not(.is-mobile).card-layout-open-light.theme-light,
+body:not(.is-mobile).card-layout-open-dark.theme-dark,
+body.workspace-divider-transparent-light.theme-light,
+body.workspace-divider-transparent-dark.theme-dark {
+    --workspace-divider-color:var(--background-secondary) !important;
+}
+
+.workspace-leaf-resize-handle {
+    border-color: var(--workspace-divider-color);
+}
+/* ====== divider vertical height ===== */
+.is-hidden-frameless .workspace-split.mod-vertical>*>.workspace-leaf-resize-handle,
+.is-hidden-frameless .workspace-split.mod-left-split>.workspace-leaf-resize-handle,
+.is-hidden-frameless .workspace-split.mod-right-split>.workspace-leaf-resize-handle {
+    height: calc(var(--divider-vertical-height) - var(--header-height) - 8px);
+	width: 0.001cm;
+}
+
+.workspace-split.mod-vertical>*>.workspace-leaf-resize-handle,
+.workspace-split.mod-left-split>.workspace-leaf-resize-handle,
+.workspace-split.mod-right-split>.workspace-leaf-resize-handle {
+    height: calc(var(--divider-vertical-height) - 8px);
+}
+
+.workspace-split.mod-vertical:not(:has(.mod-top))>*>.workspace-leaf-resize-handle {
+    height: 0% !important;
+}
+/*----------workspace----------*/
+/* ====== background ===== */
+body {
+    --background-underlying-light: var(--background-primary);
+    --background-underlying-dark: var(--background-tertiary);
+    --background-underlying: var(--background-primary);
+    --background-mod-left-split-light: var(--background-primary);
+    --background-mod-left-split-dark: var(--background-primary);
+    --background-mod-left-split: var(--background-primary);
+    --background-mod-right-split-light: var(--background-primary);
+    --background-mod-right-split-dark: var(--background-primary);
+    --background-mod-right-split: var(--background-primary);
+    --background-mod-root-split-light: var(--background-primary);
+    --background-mod-root-split-dark: var(--background-primary);
+    --background-mod-root-split: var(--background-primary);
+
+    --background-mod-root-CSS-light: rgb(255, 255, 255);
+    --background-mod-root-CSS-dark: rgba(0, 0, 0, 0.5);
+    --background-mod-root-CSS-blend-mode-light: normal;
+    --background-mod-root-CSS-blend-mode-dark: normal;
+    --background-mod-root-CSS-backdrop-filter-light: blur(32px);
+    --background-mod-root-CSS-backdrop-filter-dark: blur(32px);
+    --background-mod-left-CSS-light: rgb(255, 255, 255);
+    --background-mod-left-CSS-dark: rgba(0, 0, 0, 0.5);
+    --background-mod-left-CSS-blend-mode-light: normal;
+    --background-mod-left-CSS-blend-mode-dark: normal;
+    --background-mod-left-CSS-backdrop-filter-light: blur(32px);
+    --background-mod-left-CSS-backdrop-filter-dark: blur(32px);
+    --background-mod-right-CSS-light: rgb(255, 255, 255);
+    --background-mod-right-CSS-dark: rgba(0, 0, 0, 0.5);
+    --background-mod-right-CSS-blend-mode-light: normal;
+    --background-mod-right-CSS-blend-mode-dark: normal;
+    --background-mod-right-CSS-backdrop-filter-light: blur(32px);
+    --background-mod-right-CSS-backdrop-filter-dark: blur(32px);
+    --background-underlying-CSS-light: radial-gradient(100% 100% at 13% 50%, rgb(237, 149, 90) 0%, rgb(224, 218, 247) 100%), linear-gradient(6deg, rgb(247, 230, 218) 0%, rgb(90, 109, 237) 5%, rgb(166, 126, 241) 7%, rgb(247, 230, 218) 11%, rgb(90, 109, 237) 16%), radial-gradient(100% 100% at 60% 71%, rgb(224, 218, 247) 0%, rgb(219, 244, 255) 100%), linear-gradient(97deg, rgb(90, 109, 237) 0%, rgb(90, 109, 237) 23%, rgb(90, 109, 237) 53%), linear-gradient(351deg, rgb(247, 230, 218) 0%, rgb(219, 244, 255) 1%, rgb(247, 230, 218) 6%, rgb(224, 218, 247) 10%, rgb(166, 126, 241) 13%, rgb(247, 230, 218) 29%), radial-gradient(100% 100% at 10% 32%, rgb(90, 109, 237) 0%, rgb(219, 244, 255) 100%), radial-gradient(100% 100% at 35% 63%, rgb(224, 218, 247) 0%, rgb(224, 218, 247) 100%);
+    --background-underlying-CSS-dark: linear-gradient(317deg, rgb(112, 55, 205) 0%, rgb(29, 12, 32) 19%, rgb(101, 31, 113) 19%, rgb(101, 31, 113) 33%), radial-gradient(100% 100% at 90% 9%, rgb(29, 12, 32) 0%, rgb(29, 12, 32) 100%), linear-gradient(109deg, rgb(104, 178, 248) 0%, rgb(80, 110, 229) 15%, rgb(112, 55, 205) 34%, rgb(104, 178, 248) 54%, rgb(104, 178, 248) 65%), radial-gradient(100% 100% at 20% 45%, rgb(80, 110, 229) 0%, rgb(101, 31, 113) 100%), radial-gradient(100% 100% at 90% 27%, rgb(80, 110, 229) 0%, rgb(101, 31, 113) 100%), linear-gradient(339deg, rgb(101, 31, 113) 0%, rgb(104, 178, 248) 12%, rgb(101, 31, 113) 14%, rgb(80, 110, 229) 19%, rgb(101, 31, 113) 20%, rgb(29, 12, 32) 30%);
+    --background-underlying-CSS-blend-mode-light: overlay, color-burn;
+    --background-underlying-CSS-blend-mode-dark: soft-light, luminosity, hue, luminosity, hard-light;
+}
+
+/* background - transparent */
+body {
+    --tab-background-active: transparent;
+    --tab-container-background: transparent;
+    --titlebar-background: transparent;
+    --titlebar-background-focused: transparent;
+}
+
+.sidebar-toggle-button,
+.workspace-tabs.mod-top,
+body.is-focused .sidebar-toggle-button,
+body.is-focused .workspace-tabs.mod-top {
+    --tab-container-background: #fff;
+}
+
+body:not(.is-mobile) .workspace-tabs:not(.mod-stacked) .workspace-leaf,
+body:not(.is-mobile) .workspace-tabs:not(.mod-stacked) .workspace-leaf-content,
+body:not(.is-mobile) .workspace-tabs:not(.mod-stacked) .view-header:not(.animate),
+body:not(.is-mobile) .workspace-tabs:not(.mod-stacked) .view-content:not(.vignette-radial, .vignette-linear, .animate),
+.mod-left-split .workspace-tab-header.has-active-menu,
+.mod-right-split .workspace-tab-header.has-active-menu,
+body:not(.is-mobile) .workspace-tab-header-container,
+.workspace>.workspace-split {
+    background-color: transparent !important;
+}
+
+body:not(.is-mobile) .app-container,
+body:not(.is-mobile) .workspace,
+.workspace-ribbon.mod-left:before {
+    background-color: var(--background-secondary);
+}
+
+.workspace-ribbon,
+.workspace-ribbon.mod-left.is-collapsed {
+    border-right: none;
+    background-color: var(--background-secondary);
+}
+
+.workspace-tabs:not(.mod-stacked) .workspace-tab-header.is-active {
+    background-color: var(--background-secondary) !important;
+    box-shadow: none;
+    overflow: visible;
+}
+
+body:not(.is-mobile) .view-header-title-container:not(.mod-at-start):before,
+body:not(.is-mobile) .view-header-title-container:not(.mod-at-end):after {
+    background: transparent;
+}
+
+/* background - underlying */
+body:not(.is-mobile):has(>.app-container) {
+    background: var(--background-underlying);
+}
+
+body.theme-light:not(.is-mobile):has(>.app-container).background-underlying-CSS-light {
+    background: var(--background-underlying-CSS-light, --background-underlying) !important;
+    background-blend-mode: var(--background-underlying-CSS-blend-mode-light) !important;
+}
+
+body.theme-dark:not(.is-mobile):has(>.app-container).background-underlying-CSS-dark {
+    background: var(--background-underlying-CSS-dark, --background-underlying) !important;
+    background-blend-mode: var(--background-underlying-CSS-blend-mode-dark) !important;
+}
+
+body.background-underlying-primary-light.theme-light,
+body.background-underlying-primary-dark.theme-dark {
+    --background-underlying: var(--background-primary) !important;
+}
+
+body.background-underlying-secondary-light.theme-light,
+body.background-underlying-secondary-dark.theme-dark {
+    --background-underlying: var(--background-secondary) !important;
+}
+
+body.background-underlying-defalut-light.theme-light,
+body.background-underlying-defalut-dark.theme-dark {
+    --background-underlying: var(--background-primary) !important;
+}
+
+body.background-underlying-Color-light.theme-light {
+    --background-underlying: var(--background-underlying-light) !important;
+}
+
+body.background-underlying-Color-dark.theme-dark {
+    --background-underlying: var(--background-underlying-dark) !important;
+}
+
+
+/* background - mod-left 不知道干嘛的*/
+body.theme-light.mod-left-split-background-primary-light,
+body.theme-dark.mod-left-split-background-primary-dark,
+body.theme-light.mod-left-split-background-transparent-light:not(.card-layout-open-light),
+body.theme-dark.mod-left-split-background-transparent-dark:not(.card-layout-open-dark) {
+    --background-mod-left-split: var(--background-primary) !important;
+}
+
+body.theme-light.mod-left-split-background-secondary-light,
+body.theme-dark.mod-left-split-background-secondary-dark {
+    --background-mod-left-split: var(--background-secondary) !important;
+}
+
+body.theme-light.mod-left-split-background-transparent-light.card-layout-open-light,
+body.theme-dark.mod-left-split-background-transparent-dark.card-layout-open-dark {
+    --background-mod-left-split: transparent !important;
+}
+
+body.theme-light:not(.is-mobile).card-layout-open-light.mod-left-split-background-transparent-light .mod-left-split .workspace-tab-container {
+    --card-shadow-light: transparent;
+}
+
+body.theme-dark:not(.is-mobile).card-layout-open-dark.mod-left-split-background-transparent-dark .mod-left-split .workspace-tab-container {
+    --card-shadow-dark: transparent;
+}
+
+body.theme-light.mod-left-split-background-customize-light {
+    --background-mod-left-split: var(--background-mod-left-split-light) !important;
+}
+
+body.theme-dark.mod-left-split-background-customize-dark {
+    --background-mod-left-split: var(--background-mod-left-split-dark) !important;
+}
+
+
+body:not(.is-mobile).card-layout-open-light.theme-light .workspace-split.mod-left-split .workspace-tab-container,
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-split.mod-left-split .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-light).theme-light .workspace-split.mod-left-split .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-dark).theme-dark .workspace-split.mod-left-split .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-light).theme-light .workspace-split.mod-left-split .workspace-tabs:not(.mod-top),
+body:not(.is-mobile):not(.card-layout-open-dark).theme-dark .workspace-split.mod-left-split .workspace-tabs:not(.mod-top) {
+    background: var(--background-mod-left-split) !important;
+}
+
+body:not(.is-mobile).theme-light.card-layout-open-light.mod-left-split-background-CSS-light .workspace-split.mod-left-split .workspace-tab-container,
+body:not(.is-mobile).theme-light:not(.card-layout-open-light).mod-left-split-background-CSS-light .workspace-split.mod-left-split .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile).theme-light:not(.card-layout-open-light).mod-left-split-background-CSS-light .workspace-split.mod-left-split .workspace-tabs:not(.mod-top) {
+    background: var(--background-mod-left-CSS-light) !important;
+    background-blend-mode: var(--background-mod-left-CSS-blend-mode-light);
+    backdrop-filter: var(--background-mod-left-CSS-backdrop-filter-light);
+    -webkit-backdrop-filter: var(--background-mod-left-CSS-backdrop-filter-light);
+}
+
+body:not(.is-mobile).theme-dark.card-layout-open-dark.mod-left-split-background-CSS-dark .workspace-split.mod-left-split .workspace-tab-container,
+body:not(.is-mobile).theme-dark:not(.card-layout-open-dark).mod-left-split-background-CSS-dark .workspace-split.mod-left-split .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile).theme-dark:not(.card-layout-open-dark).mod-left-split-background-CSS-dark .workspace-split.mod-left-split .workspace-tabs:not(.mod-top) {
+    background: var(--background-mod-left-CSS-dark) !important;
+    background-blend-mode: var(--background-mod-left-CSS-blend-mode-dark);
+    backdrop-filter: var(--background-mod-left-CSS-backdrop-filter-dark);
+    -webkit-backdrop-filter: var(--background-mod-left-CSS-backdrop-filter-dark);
+}
+
+/* background - mod-right */
+body:not(.sidebar-color) .mod-right-split{--background-secondary:var(--background-secondary)}
+
+body.theme-light.mod-right-split-background-primary-light,
+body.theme-dark.mod-right-split-background-primary-dark,
+body.theme-light.mod-right-split-background-transparent-light:not(.card-layout-open-light),
+body.theme-dark.mod-right-split-background-transparent-dark:not(.card-layout-open-dark) {
+    --background-mod-right-split: var(--background-primary) !important;
+}
+
+body.theme-light.mod-right-split-background-secondary-light,
+body.theme-dark.mod-right-split-background-secondary-dark {
+    --background-mod-right-split: var(--background-secondary) !important;
+}
+
+body.theme-light.mod-right-split-background-transparent-light.card-layout-open-light,
+body.theme-dark.mod-right-split-background-transparent-dark.card-layout-open-dark {
+    --background-mod-right-split: transparent !important;
+}
+
+body.theme-light:not(.is-mobile).card-layout-open-light.mod-right-split-background-transparent-light .mod-right-split .workspace-tab-container {
+    --card-shadow-light: transparent;
+}
+
+body.theme-dark:not(.is-mobile).card-layout-open-dark.mod-right-split-background-transparent-dark .mod-right-split .workspace-tab-container {
+    --card-shadow-dark: transparent;
+}
+
+body.theme-light.mod-right-split-background-customize-light {
+    --background-mod-right-split: var(--background-mod-right-split-light) !important;
+}
+
+body.theme-dark.mod-right-split-background-customize-dark {
+    --background-mod-right-split: var(--background-mod-right-split-dark) !important;
+}
+
+/* --- */
+body:not(.is-mobile).card-layout-open-light.theme-light .workspace-split.mod-right-split .workspace-tab-container,
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-split.mod-right-split .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-light).theme-light .workspace-split.mod-right-split .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-dark).theme-dark .workspace-split.mod-right-split .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-light).theme-light .workspace-split.mod-right-split .workspace-tabs:not(.mod-top),
+body:not(.is-mobile):not(.card-layout-open-dark).theme-dark .workspace-split.mod-right-split .workspace-tabs:not(.mod-top) {
+    background: var(--background-mod-right-split) !important;
+}
+
+body:not(.is-mobile).theme-light.card-layout-open-light.mod-right-split-background-CSS-light .workspace-split.mod-right-split .workspace-tab-container,
+body:not(.is-mobile).theme-light:not(.card-layout-open-light).mod-right-split-background-CSS-light .workspace-split.mod-right-split .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile).theme-light:not(.card-layout-open-light).mod-right-split-background-CSS-light .workspace-split.mod-right-split .workspace-tabs:not(.mod-top) {
+    background: var(--background-mod-right-CSS-light) !important;
+    background-blend-mode: var(--background-mod-right-CSS-blend-mode-light);
+    backdrop-filter: var(--background-mod-right-CSS-backdrop-filter-light);
+    -webkit-backdrop-filter: var(--background-mod-right-CSS-backdrop-filter-light);
+}
+
+body:not(.is-mobile).theme-dark.card-layout-open-dark.mod-right-split-background-CSS-dark .workspace-split.mod-right-split .workspace-tab-container,
+body:not(.is-mobile).theme-dark:not(.card-layout-open-dark).mod-right-split-background-CSS-dark .workspace-split.mod-right-split .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile).theme-dark:not(.card-layout-open-dark).mod-right-split-background-CSS-dark .workspace-split.mod-right-split .workspace-tabs:not(.mod-top) {
+    background: var(--background-mod-right-CSS-dark) !important;
+    background-blend-mode: var(--background-mod-right-CSS-blend-mode-dark);
+    backdrop-filter: var(--background-mod-right-CSS-backdrop-filter-dark);
+    -webkit-backdrop-filter: var(--background-mod-right-CSS-backdrop-filter-dark);
+}
+
+/* background - mod-root */
+
+body.theme-light.mod-root-split-background-primary-light,
+body.theme-dark.mod-root-split-background-primary-dark,
+body.theme-light.mod-root-split-background-transparent-light:not(.card-layout-open-light),
+body.theme-dark.mod-root-split-background-transparent-dark:not(.card-layout-open-dark),
+body.theme-light:is(.mod-root-split-background-transparent-light, .mod-root-split-background-CSS-light) .mod-stacked,
+body.theme-dark:is(.mod-root-split-background-transparent-dark, .mod-root-split-background-CSS-dark) .mod-stacked {
+    --background-mod-root-split: var(--background-primary) !important;
+}
+
+body.theme-light.mod-root-split-background-secondary-light,
+body.theme-dark.mod-root-split-background-secondary-dark {
+    --background-mod-root-split: var(--background-secondary) !important;
+}
+
+body.theme-light.mod-root-split-background-transparent-light.card-layout-open-light,
+body.theme-dark.mod-root-split-background-transparent-dark.card-layout-open-dark {
+    --background-mod-root-split: transparent !important;
+}
+
+body.theme-light:not(.is-mobile).card-layout-open-light.mod-root-split-background-transparent-light .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-container {
+    --card-shadow-light: transparent;
+}
+
+body.theme-dark:not(.is-mobile).card-layout-open-dark.mod-root-split-background-transparent-dark .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-container {
+    --card-shadow-dark: transparent;
+}
+
+body.theme-light.mod-root-split-background-customize-light {
+    --background-mod-root-split: var(--background-mod-root-split-light) !important;
+}
+
+body.theme-dark.mod-root-split-background-customize-dark {
+    --background-mod-root-split: var(--background-mod-root-split-dark) !important;
+}
+
+/* --- */
+
+body:not(.is-mobile).card-layout-open-light.theme-light .workspace-split.mod-root .workspace-tab-container,
+body:not(.is-mobile).card-layout-open-dark.theme-dark .workspace-split.mod-root .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-light).theme-light .workspace-split.mod-root .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-dark).theme-dark .workspace-split.mod-root .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile):not(.card-layout-open-light).theme-light .workspace-split.mod-root .workspace-tabs:not(.mod-top),
+body:not(.is-mobile):not(.card-layout-open-dark).theme-dark .workspace-split.mod-root .workspace-tabs:not(.mod-top) {
+    background: var(--background-mod-root-split) !important;
+}
+
+body:not(.is-mobile).theme-light.card-layout-open-light.mod-root-split-background-CSS-light .workspace-split.mod-root .workspace-tab-container,
+body:not(.is-mobile).theme-light:not(.card-layout-open-light).mod-root-split-background-CSS-light .workspace-split.mod-root .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile).theme-light:not(.card-layout-open-light).mod-root-split-background-CSS-light .workspace-split.mod-root .workspace-tabs:not(.mod-top) {
+    background: var(--background-mod-root-CSS-light) !important;
+    background-blend-mode: var(--background-mod-root-CSS-blend-mode-light);
+    backdrop-filter: var(--background-mod-root-CSS-backdrop-filter-light);
+    -webkit-backdrop-filter: var(--background-mod-root-CSS-backdrop-filter-light);
+}
+
+body:not(.is-mobile).theme-dark.card-layout-open-dark.mod-root-split-background-CSS-dark .workspace-split.mod-root .workspace-tab-container,
+body:not(.is-mobile).theme-dark:not(.card-layout-open-dark).mod-root-split-background-CSS-dark .workspace-split.mod-root .workspace-tabs.mod-top .workspace-tab-container,
+body:not(.is-mobile).theme-dark:not(.card-layout-open-dark).mod-root-split-background-CSS-dark .workspace-split.mod-root .workspace-tabs:not(.mod-top) {
+    background: var(--background-mod-root-CSS-dark) !important;
+    background-blend-mode: var(--background-mod-root-CSS-blend-mode-dark);
+    backdrop-filter: var(--background-mod-root-CSS-backdrop-filter-dark);
+    -webkit-backdrop-filter: var(--background-mod-root-CSS-backdrop-filter-dark);
+}
+
+
+/* ====== translucent window ===== */
+.is-translucent:not(.is-fullscreen) {
+    --divider-color: var(--background-modifier-border);
+}
+
+.is-translucent:not(.is-fullscreen) .titlebar,
+.is-translucent:not(.is-fullscreen) .app-container,
+.is-translucent .workspace-ribbon::after,
+.is-translucent:not(.is-fullscreen) .workspace-tabs.mod-top,
+.is-translucent .workspace-split.mod-horizontal.mod-left-split,
+.is-translucent.is-hidden-frameless .titlebar,
+.is-translucent .titlebar-button {
+    background-color: transparent !important;
+}
+
+.is-translucent:not(.is-fullscreen) {
+    background-color: var(--workspace-background-translucent) !important;
+}
+
+.is-translucent .titlebar-button:hover {
+    background-color: var(--background-modifier-hover) !important;
+}
+
+.is-translucent .workspace .mod-root .workspace-tab-header-inner::after {
+    background-color: var(--divider-color);
+}
+
+
+/* scrollbar */
+body {
+    --scrollbar-bg: rgba(var(--mono-rgb-100), 0);
+    --scrollbar-thumb-bg: rgba(var(--mono-rgb-100), 0.1);
+    --scrollbar-active-thumb-bg: rgba(var(--mono-rgb-100), 0.15);
+}
+
+body:not(.restored-scrollbars) ::-webkit-scrollbar,
+body:not(.restored-scrollbars) .kanban-plugin__scroll-container::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+body:not(.restored-scrollbars) ::-webkit-scrollbar-thumb,
+body:not(.restored-scrollbars) .kanban-plugin__scroll-container::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    border-width: 3px 3px 3px 3px;
+    min-height: 45px
+}
+
+body:not(.restored-scrollbars) .mobile-toolbar-options-container::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+}
+
+body:not(.restored-scrollbars) ::-webkit-scrollbar-track,
+body:not(.restored-scrollbars) ::-webkit-scrollbar-track-piece,
+body:not(.restored-scrollbars):not(.is-mobile) ::-webkit-scrollbar-thumb {
+    background-color: transparent !important;
+}
+
+body:not(.restored-scrollbars):not(.is-mobile) :hover::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb-bg) !important;
+}
+
+body:not(.restored-scrollbars):not(.is-mobile) ::-webkit-scrollbar-thumb:hover,
+body:not(.restored-scrollbars):not(.is-mobile) ::-webkit-scrollbar-thumb:active {
+    background-color: var(--scrollbar-active-thumb-bg) !important;
+}
+
+.workspace-leaf-content:is([data-type="surfing-view"], [data-type="graph"], [data-type="localgraph"]) ::-webkit-scrollbar,
+.scrollbar-hide ::-webkit-scrollbar {
+    display: none;
+}
+
+/* heading spacing */
+body{
+	--h1-line-height: 1.5;
+	--h2-line-height: 1.5;
+	--h3-line-height: 1.3;
+	--h4-line-height: 1;
+}
+
+@font-face {
+    font-family: 'TasksMonoEmojis';
+    src: url('data:@file/octet-stream;base64,d09GMgABAAAAAAigAAsAAAAAFDwAAAhQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHII0BmAAhjIKlESRPgs+AAE2AiQDeAQgBYRqB4FSG7ERURRTn+xnQku4P6KzXOMyqnXpGLBdz7XMv/0vGIOvZdDav87c7u0hfSBSAQSHwA5VNIOuSupYyFa/qZzaBgAdtwoAGKHsSeQAmySzTFBCeRIVAAP4LB2DpCMAHngu929aa+qBp1uk+F50z8N4WiQBRYHFPS/bVvzft/Zqb5JMiFV0NnTREQZcnMPJflq4CxBtCD6oYFkCybpqVmWHKFQ9sdB9vsJXqKoKL7u/d/ZSU5g413AsNZt8lxP9LUGArc8o2mzSRhikF8s9dlBMAgCAEK5lsR7VgER3hCQBzI/td4ZUlwkG7cQD/KBRQg6pUiJAgi9AksYSiPhCoVgiRZLLEApUKxfwCKZcHYtSqUqgTDlB0k1OETLezFROMqAvVVDA9IpctbyCzRI5xuPL9jc36MpVC5Xjt6G4UTjmq8CX9YQimUKZCjKs5TWggxzq+wDYhZ8vzlaEsYBGj8CeYM5SpgePWP43XgE8M09NYgC+AlgAHSAAXQAJvCAA+EQgoItgAy+kWwByIUFZzsAE4+XPvi3/pVVvvV0CLKeDsnDxZ9/ItoQuyu3CFWq06IruiQSqRTzBJE7FcplrEpXCCf6P7atistgcLjAF452RJUd2nMlWcQ4DeM3dIu+vwBJc2SwQX81d7kM1roQIV4GHqyHAtZDiOihwPcS4EXLcBBluhgrcAgluhUrcASHuhDLcBeW4G3zca1UlN97jYSY3PuJhJTc+42EntybxcJJbjza4+HqyGEB82wEN3wV2QOCbbQckvrl2QMc3zw4o/HyTARiRQA0AGHGMhMgB5AqAJa9iBNK2UyRpHOThCaxoUz95wbDWPFF5UsIZ2pJXlIfdIukvLgknRx1/cOEd4AavZm9IEqg1RaVEF3+9EWUcp+lACjj2/uJH0tvfq3PxPhAHxx/uD/EP1BN57N7Bn3Q/T4DJFjimnGBtfQLZ0eHteDDzLj7MTtr24l9vBOkUpSaCh+v+POIs3vnkHjDuT6dcLLjVeg25Jozn38xV93Dt7fei+amvZd8VTwtO3S0GXn8jVzhNquDb+IfjnTQCznnNIbcrXiAdON1r1KEO6i84c/nVj+LHMkHkxuPHU/gV0iYW9EbfwGzk/bG2ywiYDOM38wOIviKBIpWsNdzZWXP8+mCpoVLDyyYiN/IMaPl1eGcdMuMe5qlbU334bQv2KQ5ro1u883YccARpxpJL987VmVN5/GGK6T2d5nGaTu6Lcoq7buzBdtaqT+SdSInUn7p0MX8ch0kSJnfeah15HPSuu6A5gD8+atetVBFL7oR/gnw4F5nh/hn8XisWn7gRuVWAzsYt4fRXvPRDiOlLVHCQoSYaksniHh6YMM8IXBGmThAKCBH6IMXcPl6EBBNcTU+3hvsl12vSdLsEPoEwIxYShJLQqJzbJ/iEr4GA/BDtpyFUuNf/JYRAe/x7IB/QrhZlEPt/dg7bhg5W76maSrYmGxsn6wYVo+qkotd+LHZNbHQiAVwajzybede/3SyXcS4q4SRH8lv81UOdSIc29xPem7JhBWrgjHV5Mt2pNsi0dj7SqenWp7rXf8o4PsZI3cfzcVyPzQWaws17GY+0VBAZP+8fdgyZqg9U7QH8Xd/lXc4k+5LWNcjrWkW/TS2++et3vLdxqsH2+vUX1lG0ovxotjxXiZmIch7kCQRh1gwL3gWpVFaGmWFiWJQu6lOtwUostuW4PEU/vzl2a03rt6pz/L/QbCbG/JMFAzAsc6VgKWidpUE28uv04pu/vi9nShinsr67fneYopTlR3PkOUrMSFQQFZ5gQMq6w5YGAz9shjasBa1lpzPNM21t7W0y1gxLZtBLWbBeL2NJZ0Lpv9inBn750jatpesyTbanCQLChBripeyhIJB/noccpw1I0gKzVEuls0Gglk3NLAjd+RlWxMxvvA+gpwTn44fabnHmNCduB84PxvP/6+f++m54I/JnM00tBaklddSqTtlMMMe2pMNYMH74u9mfWV2KiJBSJg2h0P2qLe3Vlgf6ELgPv/i7gBH5+K5d6qe70PKYWX1mZZlf1fkeQr51vgYdrRqqPHSuaahq9KUV7ehEl/RSvOTDYEwzVMKSy8fvXKrrbd7S1KRq7n1iRTs60aV40txLlYKqFyy43gTLV7Y5v0AAwp09kREl+Jbmr78ZHb2/w6en778pnjtTxTQNGFYlRlyhr45IuX9VXOTUKp/wN2o2fXLlytVAETvw86oIOq/Uo8jlwI4fQOmvKngEAKiB/q/YaVVV2xUgFmqXmyN4QJP2hSr3pzpV9YicAgD9sIi0VMFNqykgdhPWP67jtvrHRAb3f9MxfuNZJaKnb1K7VsCkgeOlNKmTwiqdAFGYUwOBNBdiXtogbqLe8yyeTI0bkACatDkDSsyGfiBtNgDQkYbgdZgQyEFiM9M5hpgSGM1snWaR8laJ/WIwtkA1LgHT+J4yocYrkPiT6XL/MaUmsJltUVBjHC3BkW9e3WATZsdkNsxscv/c72aSzVKf3v9ErU0t0g2f51jq9qFtHg+yiM+/usR1af4/efAtnbqIw3UPQQCm4WZZF7IJxv7rkLHBmJm49TJAeVlpuGg7UUz1M3A50aazA+nXo48OCm0vUljDw0A/tUIQBFM+qDZJhgci16iXY2wgk6rgRGnlBgPZJpdmU+rMnibrClyaA1uvXmviniYrK2mNxiqQehNqAo2CkjoVDZq0aNOhS48+A4aMGDNhyow5C5axnBWsZBWrWcNaiHy3Iem///jilIrV+bgJOjEnfpHFxFi3+uO0LyoWlfGXlqEhaQlJxeqI3ASNjIjiz++lgS7qaKKdKK200Eg3PbQRo58aAAAA') format('woff2');
+    unicode-range: U+1F4C5, U+1F501, U+1F517, U+1F53A, U+1F53C, U+1F53D, U+1F6EB, U+23EB, U+23EC, U+23F3, U+2705, U+2795;
+    /* 📅, 🔁, 🔗, 🔺, 🔼, 🔽, 🛫, ⏫, ⏬, ⏳, ✅, ➕ */
+    /*! Generator: obsidian-tasks-custom-icons v1.0.3 https://github.com/replete/obsidian-tasks-custom-icons */
+}
+
+span.tasks-list-text,
+.cm-line:has(.task-list-label) [class^=cm-list-] {
+    font-family: 'TasksMonoEmojis', var(--font-text);
+}

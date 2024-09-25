@@ -1,0 +1,25 @@
+{
+  "accentColor": "#a27e7e",
+  "cssTheme": "Minimal",
+  "theme": "moonstone",
+  "baseFontSize": 16,
+  "translucency": false,
+  "interfaceFontFamily": "",
+  "textFontFamily": "Times New Roman,Songti TC",
+  "showViewHeader": true,
+  "monospaceFontFamily": "Menlo",
+  "enabledCssSnippets": [
+    "toggl-track",
+    "kanban-block-editor",
+    "Kanban Redesign",
+    "card_layout",
+    "kanban-redesign",
+    "sidepane",
+    "hide_cited_title",
+    "theme",
+    "contribution",
+    "rightlane"
+  ],
+  "baseFontSizeAction": true,
+  "nativeMenus": false
+}

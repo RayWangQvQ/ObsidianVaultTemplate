@@ -1,0 +1,25 @@
+/* Kanban */
+
+.kanban-plugin:has(.block-editor) .kanban-plugin__board {
+	justify-content: center !important;
+}
+
+.kanban-plugin:has(.block-editor) .kanban-plugin__item {
+	border: none !important;
+}
+
+.kanban-plugin:has(.block-editor) .kanban-plugin__item-title-wrapper {
+	background: none !important;
+}
+
+.kanban-plugin:has(.block-editor) .kanban-plugin__item-content-wrapper {
+	background: none !important;
+}
+/* 
+.kanban-plugin:has(.block-editor) .kanban-plugin__lane-header-wrapper {
+	display: none !important;
+} */
+
+.kanban-plugin .kanban-plugin__item:has(.block-editor)  {
+	display: none !important;
+}

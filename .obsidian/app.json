@@ -1,0 +1,9 @@
+{
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Zattachments/Files",
+  "newFileFolderPath": "Blist",
+  "defaultViewMode": "preview",
+  "showInlineTitle": true
+}

@@ -1,0 +1,532 @@
+{
+  "choices": [
+    {
+      "id": "cb593dd2-aeb4-4167-bfa5-f38b451891c4",
+      "name": "🕰 Capture",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Diary/Daily/{{DATE:YYYY-MM-DD-ddd}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "Zattachments/Templates/Diary.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "\\n- <% tp.date.now(\"HH:mm\") %> {{VALUE:🕰 Capture}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Capture",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "0b77c307-551d-4483-ac6e-aa978c90cbd2",
+      "name": "⏳ Track",
+      "type": "Macro",
+      "command": false,
+      "macroId": "5aaa5fbf-d2e6-424a-ba11-dc4c2456602e"
+    },
+    {
+      "id": "41d78ffb-2489-489a-ae8d-cb6f2ccc601c",
+      "name": "📝 Today",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "Amap/Todo List.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": true,
+        "template": "Zattachments/Templates/Diary.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "\n!{{value}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "Today",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "562cec2c-1a81-4d70-8a0c-32bfbe69cc3c",
+      "name": "📬 Inbox",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "Amap/Todo List.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": true,
+        "template": "Zattachments/Templates/Diary.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "\n- [ ] {{value}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "Inbox",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "d86953f0-78d1-4685-96a4-5a09984f2933",
+      "name": "📅 Events",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "Amap/Event List.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": true,
+        "template": "Zattachments/Templates/Diary.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "\n- [<] {{value}} "
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "Inbox",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "dc5524db-5ae2-4fee-9e2f-bb3f405a1b99",
+      "name": "🌫 Logging",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "Diary/Daily/{{DATE:YYYY-MM-DD}}.md",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "Zattachments/Templates/Diary.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "#### [[<% tp.date.now(\"YYYY-MM-DD-ddd\") %>|<% tp.date.now(\"YYYY-MM-DD\") %> ]]\n"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "### Logging",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "74787f2b-8fec-4215-a00d-32d6bcbd5f41",
+      "name": "📁 Actions",
+      "type": "Multi",
+      "command": false,
+      "choices": [],
+      "collapsed": true
+    },
+    {
+      "id": "888d2207-b5da-4ff9-9eb5-9a75f9fd5e4f",
+      "name": "📁 Templates",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "be04e417-277e-4b5b-aba1-bb49aa857eb8",
+          "name": "📅 Diary",
+          "type": "Template",
+          "command": true,
+          "templatePath": "Zattachments/Templates/Diary.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "Diary/Daily/{{DATE:YYYY-MM-DD-ddd}}.md"
+          },
+          "folder": {
+            "enabled": false,
+            "folders": [
+              "Blist"
+            ],
+            "chooseWhenCreatingNote": true,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Nothing",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "fed1d509-92b1-4f60-a44d-86de984c6111",
+          "name": "🧸 Work",
+          "type": "Template",
+          "command": false,
+          "templatePath": "Zattachments/Templates/Work.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Blist"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "d4858cae-66bb-40b1-b99b-3f46f328d7cc",
+          "name": "📚 Course",
+          "type": "Template",
+          "command": false,
+          "templatePath": "Zattachments/Templates/Course.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Blist"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "f3570f31-f54e-4ec7-b529-3c67387339bc",
+          "name": "🏠 Project",
+          "type": "Template",
+          "command": false,
+          "templatePath": "Zattachments/Templates/Project.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Blist"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "d6211eb7-a108-4c0e-8464-c5dbec383e0a",
+          "name": "📢 Talk",
+          "type": "Template",
+          "command": false,
+          "templatePath": "Zattachments/Templates/Talk.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "@{{name}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Blist"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "fdcfe68f-519b-4fcd-9720-05712ef16069",
+      "name": "📁 Archive",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "b432e0d3-0f4c-4d8b-b898-bfbeffcd8e02",
+          "name": "📋 Archive Events",
+          "type": "Macro",
+          "command": false,
+          "macroId": "f722ca53-e85d-4c37-a5d2-d44d90daad68"
+        },
+        {
+          "id": "c99661c2-2022-4aa1-aa8d-d559490a382d",
+          "name": "🧾 Archive Tasks",
+          "type": "Macro",
+          "command": false,
+          "macroId": "44b8bc10-ba63-4b87-a5c6-41a0ff0c62f0"
+        },
+        {
+          "id": "a8989055-53f0-491e-9978-1ee25be381eb",
+          "name": "📃 Archive Files",
+          "type": "Capture",
+          "command": false,
+          "appendLink": false,
+          "captureTo": "Zattachments/Templates/Untitled.md",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "<% tp.user.auto_transfer() %>"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": false
+    }
+  ],
+  "macros": [
+    {
+      "name": "Toggl Track",
+      "id": "5aaa5fbf-d2e6-424a-ba11-dc4c2456602e",
+      "commands": [
+        {
+          "name": "kanban",
+          "type": "UserScript",
+          "id": "93f168fa-534a-4e0f-9f6c-07e1715e6321",
+          "path": "Zattachments/Scripts/kanban.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Archive Tasks",
+      "id": "44b8bc10-ba63-4b87-a5c6-41a0ff0c62f0",
+      "commands": [
+        {
+          "name": "archive-tasks",
+          "type": "UserScript",
+          "id": "24c939a8-96b8-4be9-8757-6cb7b6412398",
+          "path": "Zattachments/Scripts/archive-tasks.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Archive Events",
+      "id": "f722ca53-e85d-4c37-a5d2-d44d90daad68",
+      "commands": [
+        {
+          "name": "archive-events",
+          "type": "UserScript",
+          "id": "346bb35c-464e-4f86-a123-54635ca7c156",
+          "path": "Zattachments/Scripts/archive-events.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Auto Diary",
+      "id": "96c97da9-21bb-4c41-a184-8d1b6c291042",
+      "commands": [
+        {
+          "name": "weekly",
+          "type": "UserScript",
+          "id": "dd2e04da-884f-462f-ab74-8d892569ff00",
+          "path": "Zattachments/Scripts/weekly.js",
+          "settings": {}
+        },
+        {
+          "name": "🕰 Capture",
+          "type": "Choice",
+          "id": "e4d3a266-4c27-448b-9d2e-9bba2e70a3a6",
+          "choiceId": "cb593dd2-aeb4-4167-bfa5-f38b451891c4"
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "1.6.1",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          }
+        ]
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true
+  }
+}

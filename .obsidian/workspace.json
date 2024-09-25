@@ -1,0 +1,291 @@
+{
+  "main": {
+    "id": "57585faa1cca73ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "a88bb1e184e3aef2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef7858df6ffbc0bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "16fa6cd534109fc2",
+    "type": "split",
+    "children": [
+      {
+        "id": "20349fc04ab7312b",
+        "type": "tabs",
+        "dimension": 47.12918660287082,
+        "children": [
+          {
+            "id": "b8f4b0404a0db10b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "858870506327d820",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          },
+          {
+            "id": "1db5934ef29c6ed5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "805f5aec1ff8d51b",
+        "type": "tabs",
+        "dimension": 52.87081339712918,
+        "children": [
+          {
+            "id": "49162ada5e75d4d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amap/Todo List.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3e5f469f4333362",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Amap/Event List.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3bac22d0e4b83a50",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "efa937f968b6b558",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 231.00312423706055
+  },
+  "right": {
+    "id": "08fc4290aa11ac90",
+    "type": "split",
+    "children": [
+      {
+        "id": "b22d655e9ecfa8fe",
+        "type": "tabs",
+        "dimension": 41.74641148325359,
+        "children": [
+          {
+            "id": "5391285d74e39418",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "c8bd8ffed6ab1c74",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fed1c356ce571df1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "8e0448af981fa07d",
+        "type": "tabs",
+        "dimension": 58.25358851674641,
+        "children": [
+          {
+            "id": "02b6a0de97f0dbfc",
+            "type": "leaf",
+            "state": {
+              "type": "toggl-report",
+              "state": {}
+            }
+          },
+          {
+            "id": "bd596b102867a8d8",
+            "type": "leaf",
+            "state": {
+              "type": "zotero-annotation-view",
+              "state": {
+                "file": "这是一个简略的说明文件.md",
+                "itemId": 1862,
+                "attachmentId": 1864,
+                "follow": null
+              }
+            }
+          },
+          {
+            "id": "478e354737a66bdc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 311
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": true,
+      "canvas:Create new canvas": true,
+      "command-palette:Open command palette": false,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": false,
+      "workspaces:Manage workspace layouts": false,
+      "surfing:surfing-bookmark-manager": false,
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false,
+      "homepage:Open homepage": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "ef7858df6ffbc0bf",
+  "lastOpenFiles": [
+    "这是一个简略的说明文件.md",
+    "README.md",
+    "Amap/Inbox.md",
+    "Amap/Todo List.md",
+    "Diary/Daily/2024-09-26-Thu.md",
+    "Home.md",
+    "Amap/Paper List.md",
+    "Amap/Work List.md",
+    "Amap/Event List.md",
+    "Diary/Daily/2024-09-25-Wed.md",
+    "Blist/新的笔记.md",
+    "Blist/Untitled.md",
+    "Diary/Daily/2024-04-02-Tue.md",
+    "Zattachments/Templates/Diary.md",
+    "Zattachments/Templates/zt-note.eta.md",
+    "Zattachments/Templates/zt-field.eta.md",
+    "Zattachments/Templates/zt-colored.eta.md",
+    "Zattachments/Templates/zt-cite2.eta.md",
+    "Zattachments/Templates/zt-annots.eta.md",
+    "Zattachments/Templates/zt-annot.eta.md",
+    "Zattachments/Templates/zt-cite.eta.md",
+    "Zattachments/Templates/Meeting.md",
+    "Zattachments/Templates/Work.md",
+    "Zattachments/Templates/Project.md",
+    "Zattachments/Templates/Course.md",
+    "Zattachments/Templates/Draft.md",
+    "Courses/General Relativity/Notes/GR4.pdf",
+    "Courses/General Relativity/Notes/GR3.pdf",
+    "Courses/General Relativity/Notes/GR2.pdf",
+    "Courses/General Relativity/Notes/GR1.pdf",
+    "Courses/General Relativity/Notes/GR Guest Lecture.pdf",
+    "Courses/Course A/Notes",
+    "Courses/Course A",
+    "Zattachments/Files/截屏2024-03-30 16.11.25.png",
+    "Zattachments/Files/homepage_banner.jpeg",
+    "Literature/Notes",
+    "Literature/Fong et al - 2015 - A Decade of Short-duration Gamma-ray Burst Broad-band Afterglows.pdf",
+    "Literature",
+    "Events/Workshops/GW data workshop/odw-2022/share/video-icon.png",
+    "Events/Workshops/GW data workshop/odw-2022/share/video-icon.jpg",
+    "Events/Workshops/GW data workshop/odw-2022/share/odw-2022-logo.png",
+    "Events/Workshops/GW data workshop/odw-2022/share/odw-2021-td.png",
+    "Events/Workshops/GW data workshop/odw-2022/share/ligo_virgo_transparent_crop_small.png",
+    "Events/Workshops/GW data workshop/odw-2022/Tutorials/logo.png",
+    "Events/Workshops/Codeastro/DataChef/docs/_build/html/_static/minus.png",
+    "Events/Workshops/Codeastro/DataChef/docs/_build/html/_static/file.png",
+    "Untitled.canvas",
+    "OBS Template/obsidian_vault_template_for_graduate_student/00-MOC/未命名 1.canvas",
+    "OBS Template/obsidian_vault_template_for_graduate_student/00-MOC/未命名.canvas",
+    "未命名.canvas",
+    "OBS Template/obsidian_vault_template_for_graduate_student/00-MOC/未命名 3.canvas",
+    "OBS Template/obsidian_vault_template_for_graduate_student/00-MOC/未命名 2.canvas",
+    "OBS Template/obsidian_vault_template_for_graduate_student/03-Projects/99-使用obsidian搞科研/使用obsidian搞科研.canvas",
+    "OBS Template/obsidian_vault_template_for_graduate_student/00-MOC/文献阅读白板.canvas"
+  ]
+}

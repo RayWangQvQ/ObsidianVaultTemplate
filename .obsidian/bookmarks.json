@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1707170568763,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1707170548654,
+          "path": "Literature/Notes/@Dors2015.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1707170548654,
+          "path": "Literature/Notes/@Dors2024.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1707170548654,
+          "path": "Literature/Notes/@Dors2023.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1707170548654,
+          "path": "Literature/Notes/@Ehlert2015.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1707170548654,
+          "path": "Literature/Notes/@Ferland2017.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1707170548654,
+          "path": "Literature/Notes/@Hashiguchi2023.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1707170548654,
+          "path": "Literature/Notes/@Kolwa2019.md"
+        }
+      ],
+      "title": "IMBH Search"
+    }
+  ]
+}

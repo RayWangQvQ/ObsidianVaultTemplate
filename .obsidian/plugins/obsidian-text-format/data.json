@@ -1,0 +1,36 @@
+{
+  "MergeParagraph_Newlines": true,
+  "MergeParagraph_Spaces": true,
+  "LowercaseFirst": true,
+  "RemoveBlanksWhenChinese": false,
+  "ZoteroNoteRegExp": "“(?<text>.*)” \\((?<item>.*?)\\) \\(\\[pdf\\]\\((?<pdf_url>.*?)\\)\\)",
+  "ZoteroNoteTemplate": "{text} [🔖]({pdf_url})",
+  "BulletPoints": "•–§",
+  "WrapperList": [
+    {
+      "name": "underline",
+      "prefix": "<u>",
+      "suffix": "</u>"
+    },
+    {
+      "name": "surfing file",
+      "prefix": "[](obsidian://web-open?url=file:/",
+      "suffix": ")"
+    },
+    {
+      "name": "add blank",
+      "prefix": "<br>%% %",
+      "suffix": "%"
+    }
+  ],
+  "RequestList": [],
+  "ToggleSequence": "titleCase\nlowerCase\nupperCase",
+  "RemoveWikiURL2": false,
+  "WikiLinkFormat": {
+    "headingOnly": "{title} (> {heading})",
+    "aliasOnly": "{alias} ({title})",
+    "both": "{alias} ({title} > {heading})"
+  },
+  "UrlLinkFormat": "{text}",
+  "ProperNoun": ""
+}

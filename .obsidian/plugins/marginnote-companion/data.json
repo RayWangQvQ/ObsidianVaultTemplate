@@ -1,0 +1,100 @@
+{
+  "defaultDateFormat": "YY-MM-DD HH:mm",
+  "autopasteOnlyNote": false,
+  "aliasBelowH1": false,
+  "textPostProcess": [
+    [
+      " {2,}",
+      "g",
+      " "
+    ],
+    [
+      "(\\d+?\\.(?![\\d]).+?) +?",
+      "g",
+      "$1："
+    ],
+    [
+      "^[;,. ]+|[;,. ]+$|\\B | \\B",
+      "g",
+      ""
+    ],
+    [
+      ";",
+      "g",
+      "；"
+    ],
+    [
+      ",",
+      "g",
+      "，"
+    ],
+    [
+      "([A-Za-z0-9])\\s{0,}，\\s{0,}(?=[A-Za-z0-9])",
+      "g",
+      "$1,"
+    ],
+    [
+      ":",
+      "g",
+      "："
+    ],
+    [
+      "〜",
+      "g",
+      "~"
+    ],
+    [
+      "[“”„‟〝〞〟＂]",
+      "g",
+      "\""
+    ]
+  ],
+  "templates": {
+    "sel": {
+      "cfgs": {
+        "default": {
+          "templates": {
+            "sel": "{{Selection}}"
+          },
+          "pin": true,
+          "cmd": true
+        }
+      }
+    },
+    "note": {
+      "cfgs": {
+        "default": {
+          "templates": {
+            "body": "\n{{#Title}}\n## {{.}}\n\n{{/Title}}{{Excerpt}}{{Link}}{{> CmtBreak}}{{> Comments}}\n",
+            "comment": "> - {{.}}",
+            "cmt_linked": "> - {{Excerpt}}{{Link}}"
+          },
+          "pin": false,
+          "cmd": true
+        },
+        "test": {
+          "templates": {
+            "body": "\n{{#Title}}{{Link}}\n- {{.}}\n\n- {{/Title}}{{Excerpt}}{{> CmtBreak}}{{> Comments}}\n",
+            "comment": "> - {{.}}\n",
+            "cmt_linked": "> - {{Excerpt}}"
+          },
+          "pin": true,
+          "cmd": true
+        }
+      }
+    },
+    "toc": {
+      "cfgs": {
+        "default": {
+          "templates": {
+            "item": "- {{Summary}} {{Link}}"
+          },
+          "pin": true,
+          "indentChar": true,
+          "cmd": true
+        }
+      }
+    }
+  },
+  "videoMap": {}
+}
