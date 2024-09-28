@@ -3,7 +3,9 @@
   "newFileLocation": "folder",
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "Zattachments/Files",
-  "newFileFolderPath": "Blist",
-  "defaultViewMode": "preview",
-  "showInlineTitle": true
+  "newFileFolderPath": "02.Notes",
+  "defaultViewMode": "source",
+  "showInlineTitle": true,
+  "readableLineLength": false,
+  "strictLineBreaks": true
 }

@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2b741842f92256af",
+        "id": "616580e9afa4da5c",
         "type": "tabs",
         "children": [
           {
-            "id": "bd0148b556604b01",
+            "id": "0bceb7fda197fffb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,9 +44,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Home.md"
-              }
+              "state": {}
             }
           },
           {
@@ -80,26 +73,16 @@
             "id": "49162ada5e75d4d3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Amap/Todo List.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "b3e5f469f4333362",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Amap/Event List.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -131,14 +114,48 @@
       {
         "id": "b22d655e9ecfa8fe",
         "type": "tabs",
-        "dimension": 41.74641148325359,
+        "dimension": 63.436123348017624,
         "children": [
           {
-            "id": "5391285d74e39418",
+            "id": "da5b42d46ba2f3c9",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "outline",
               "state": {}
+            }
+          },
+          {
+            "id": "43410b3bf6cf68ee",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              }
             }
           },
           {
@@ -147,7 +164,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,9 +180,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "478e354737a66bdc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
               }
             }
           }
@@ -175,8 +201,16 @@
       {
         "id": "8e0448af981fa07d",
         "type": "tabs",
-        "dimension": 58.25358851674641,
+        "dimension": 36.56387665198238,
         "children": [
+          {
+            "id": "5391285d74e39418",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
           {
             "id": "02b6a0de97f0dbfc",
             "type": "leaf",
@@ -197,69 +231,58 @@
                 "follow": null
               }
             }
-          },
-          {
-            "id": "478e354737a66bdc",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true
-              }
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 311
+    "width": 469.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
       "periodic-notes:Open today": true,
       "homepage:Open homepage": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": true,
-      "canvas:Create new canvas": true,
-      "command-palette:Open command palette": false,
-      "daily-notes:Open today's daily note": true,
-      "templates:Insert template": false,
       "surfing:surfing-bookmark-manager": true,
       "templater-obsidian:Templater": true,
-      "obsidian42-brat:BRAT": true,
-      "workspaces:Manage workspace layouts": false
+      "obsidian42-brat:BRAT": true
     }
   },
-  "active": "b8f4b0404a0db10b",
+  "active": "0bceb7fda197fffb",
   "lastOpenFiles": [
-    "Amap/Paper List.md",
-    "Amap/Inbox.md",
-    "Amap/Todo List.md",
-    "Amap/Work List.md",
-    "Amap/Event List.md",
     "Home.md",
-    "Projects/Project B/Project B.md",
-    "Diary/Daily/2024-09-26-Thu.md",
     "README.md",
-    "Diary/Daily/2024-09-25-Wed.md",
-    "Diary/Daily/2024-03-30-Sat.md",
-    "Diary/Daily/2024-03-31-Sun.md",
-    "Zattachments/Files/homepage_banner.jpeg",
-    "这是一个简略的说明文件.md",
-    "Blist/新的笔记.md",
-    "Blist/Untitled.md",
-    "Diary/Daily/2024-04-02-Tue.md",
+    "02.Notes/新的笔记.md",
+    "02.Notes/This is work.md",
+    "02.Notes/This is course.md",
+    "02.Notes/This is project.md",
+    "02.Notes/@This is talk.md",
+    "02.Notes/TestMermaid.md",
+    "01.MOC/Work List.md",
+    "03.Diary/Daily/2024-09-28-Sat.md",
+    "Courses/Courses.md",
+    "01.MOC/Paper List.md",
+    "Projects/Project B/Project B.md",
+    "Projects/Project A/Project A.md",
     "Zattachments/Templates/Diary.md",
-    "Zattachments/Templates/zt-note.eta.md",
-    "Zattachments/Templates/zt-field.eta.md",
-    "Zattachments/Templates/zt-colored.eta.md",
-    "Zattachments/Templates/zt-cite2.eta.md",
-    "Zattachments/Templates/zt-annots.eta.md",
-    "Zattachments/Templates/zt-annot.eta.md",
-    "Zattachments/Templates/zt-cite.eta.md",
+    "Zattachments/Templates/Course.md",
+    "Zattachments/Templates/Draft.md",
     "Zattachments/Templates/Meeting.md",
+    "Zattachments/Templates/Project.md",
+    "Zattachments/Templates/Weekly.md",
+    "Zattachments/Templates/Talk.md",
     "Zattachments/Templates/Work.md",
+    "Zattachments/Templates/zt-note.eta.md",
+    "01.MOC/Event List.md",
+    "01.MOC/Todo List.md",
+    "01.MOC/Inbox.md",
+    "Zattachments/Files/homepage_banner.jpeg",
     "Courses/General Relativity/Notes/GR4.pdf",
     "Courses/General Relativity/Notes/GR3.pdf",
     "Courses/General Relativity/Notes/GR2.pdf",

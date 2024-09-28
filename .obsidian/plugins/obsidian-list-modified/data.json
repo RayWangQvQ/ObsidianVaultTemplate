@@ -15,25 +15,10 @@
   "createdHeading": "Created",
   "separateDeleted": false,
   "deletedHeading": "Deleted",
-  "lastTrackedDate": "2024-09-26",
+  "lastTrackedDate": "2024-09-28",
   "trackedFiles": [
     {
-      "path": "Amap/Todo List.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "这是一个简略的说明文件.md",
-      "matchesCriteria": true,
-      "supposedList": "deleted"
-    },
-    {
-      "path": "README.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "Home.md",
+      "path": "02.Notes/TestMermaid.md",
       "matchesCriteria": true,
       "supposedList": "modified"
     }

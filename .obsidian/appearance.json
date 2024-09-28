@@ -1,6 +1,6 @@
 {
-  "accentColor": "#a27e7e",
-  "cssTheme": "Minimal",
+  "accentColor": "#2424b5",
+  "cssTheme": "",
   "theme": "moonstone",
   "baseFontSize": 16,
   "translucency": false,
@@ -9,16 +9,9 @@
   "showViewHeader": true,
   "monospaceFontFamily": "Menlo",
   "enabledCssSnippets": [
-    "toggl-track",
-    "kanban-block-editor",
     "Kanban Redesign",
     "card_layout",
-    "kanban-redesign",
-    "sidepane",
-    "hide_cited_title",
-    "theme",
-    "contribution",
-    "rightlane"
+    "contribution"
   ],
   "baseFontSizeAction": true,
   "nativeMenus": false

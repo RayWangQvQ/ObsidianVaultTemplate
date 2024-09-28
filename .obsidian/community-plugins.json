@@ -14,7 +14,6 @@
   "obsidian-toggl-integration",
   "obsidian42-brat",
   "plugin-reloader",
-  "customjs",
   "metadata-hider",
   "zotlit",
   "obsidian-tasks-plugin",
@@ -22,9 +21,9 @@
   "homepage",
   "contribution-graph",
   "contribution-widget",
-  "obsidian-banners",
   "obsidian-columns",
   "obsidian-advanced-uri",
   "periodic-notes",
-  "automation"
+  "automation",
+  "obsidian-banners"
 ]
