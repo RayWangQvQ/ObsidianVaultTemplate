@@ -1,19 +1,14 @@
 [
   "obsidian-latex",
-  "marginnote-companion",
   "obsidian-text-format",
-  "surfing",
   "dataview",
   "quickadd",
   "obsidian-shellcommands",
   "templater-obsidian",
   "calendar",
   "obsidian-kanban",
-  "obsidian-minimal-settings",
-  "obsidian-style-settings",
   "obsidian-toggl-integration",
   "obsidian42-brat",
-  "plugin-reloader",
   "metadata-hider",
   "zotlit",
   "obsidian-tasks-plugin",
@@ -22,8 +17,10 @@
   "contribution-graph",
   "contribution-widget",
   "obsidian-columns",
-  "obsidian-advanced-uri",
   "periodic-notes",
-  "automation",
-  "obsidian-banners"
+  "file-explorer-note-count",
+  "obsidian-hover-editor",
+  "tag-wrangler",
+  "floating-toc",
+  "cmdr"
 ]

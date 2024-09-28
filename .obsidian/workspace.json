@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "616580e9afa4da5c",
+        "id": "2b741842f92256af",
         "type": "tabs",
         "children": [
           {
-            "id": "0bceb7fda197fffb",
+            "id": "bd0148b556604b01",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Home.md"
+              }
             }
           },
           {
@@ -114,48 +121,14 @@
       {
         "id": "b22d655e9ecfa8fe",
         "type": "tabs",
-        "dimension": 63.436123348017624,
+        "dimension": 41.74641148325359,
         "children": [
           {
-            "id": "da5b42d46ba2f3c9",
+            "id": "5391285d74e39418",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "calendar",
               "state": {}
-            }
-          },
-          {
-            "id": "43410b3bf6cf68ee",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": true
-                }
-              }
             }
           },
           {
@@ -164,6 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Home.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,19 +154,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "478e354737a66bdc",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true
               }
             }
           }
@@ -201,16 +165,8 @@
       {
         "id": "8e0448af981fa07d",
         "type": "tabs",
-        "dimension": 36.56387665198238,
+        "dimension": 58.25358851674641,
         "children": [
-          {
-            "id": "5391285d74e39418",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
           {
             "id": "02b6a0de97f0dbfc",
             "type": "leaf",
@@ -231,12 +187,23 @@
                 "follow": null
               }
             }
+          },
+          {
+            "id": "478e354737a66bdc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 469.5
+    "width": 311
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,21 +216,20 @@
       "workspaces:管理工作区布局": false,
       "periodic-notes:Open today": true,
       "homepage:Open homepage": false,
-      "surfing:surfing-bookmark-manager": true,
       "templater-obsidian:Templater": true,
       "obsidian42-brat:BRAT": true
     }
   },
-  "active": "0bceb7fda197fffb",
+  "active": "b8f4b0404a0db10b",
   "lastOpenFiles": [
     "Home.md",
-    "README.md",
-    "02.Notes/新的笔记.md",
+    "02.Notes/TestMermaid.md",
+    "02.Notes/@This is talk.md",
     "02.Notes/This is work.md",
     "02.Notes/This is course.md",
     "02.Notes/This is project.md",
-    "02.Notes/@This is talk.md",
-    "02.Notes/TestMermaid.md",
+    "README.md",
+    "02.Notes/新的笔记.md",
     "01.MOC/Work List.md",
     "03.Diary/Daily/2024-09-28-Sat.md",
     "Courses/Courses.md",
