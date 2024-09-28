@@ -4,19 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2b741842f92256af",
+        "id": "16188ea6ca5a1595",
         "type": "tabs",
         "children": [
           {
-            "id": "bd0148b556604b01",
+            "id": "33c77d7fd9aa3fc0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "file": "Projects/Project A/Project A.md"
               }
             }
           }
@@ -32,7 +29,7 @@
       {
         "id": "20349fc04ab7312b",
         "type": "tabs",
-        "dimension": 47.12918660287082,
+        "dimension": 65.37878787878788,
         "children": [
           {
             "id": "b8f4b0404a0db10b",
@@ -50,7 +47,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Projects/Project A/Project A.md"
               }
             }
           },
@@ -60,10 +57,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#none",
                 "matchingCase": true,
-                "explainSearch": false,
-                "collapseAll": false,
+                "explainSearch": true,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -74,7 +71,7 @@
       {
         "id": "805f5aec1ff8d51b",
         "type": "tabs",
-        "dimension": 52.87081339712918,
+        "dimension": 34.62121212121212,
         "children": [
           {
             "id": "49162ada5e75d4d3",
@@ -112,7 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.00312423706055
+    "width": 261.5
   },
   "right": {
     "id": "08fc4290aa11ac90",
@@ -132,12 +129,47 @@
             }
           },
           {
+            "id": "20b53511ea8c6121",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Projects/Project A/Project A.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
             "id": "c8bd8ffed6ab1c74",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Projects/Project A/Project A.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,19 +186,31 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Projects/Project A/Project A.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8e0448af981fa07d",
         "type": "tabs",
         "dimension": 58.25358851674641,
         "children": [
+          {
+            "id": "478e354737a66bdc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
           {
             "id": "02b6a0de97f0dbfc",
             "type": "leaf",
@@ -187,23 +231,12 @@
                 "follow": null
               }
             }
-          },
-          {
-            "id": "478e354737a66bdc",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true
-              }
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 311
+    "width": 410.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,7 +244,7 @@
       "periodic-notes:Open today": true,
       "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": true,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": true,
       "command-palette:Open command palette": false,
       "daily-notes:Open today's daily note": true,
@@ -221,40 +254,40 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "b8f4b0404a0db10b",
+  "active": "33c77d7fd9aa3fc0",
   "lastOpenFiles": [
-    "02.Notes/test2.md",
-    "02.Notes/新的笔记.md",
+    "Projects/Project A/Project A Worknote.md",
+    "Projects/Project A/Project A.md",
+    "Events/Meeting/@First Name Last Name.md",
+    "Courses/Courses.md",
+    "Courses/Course A/Notes/Course A Lecture.md",
+    "98.Templates/Notes.md",
+    "Events/系讲座2024/@Herczeg.md",
+    "02.Notes/这是一个简略的说明文件.md",
+    "03.Diary/Daily/2024-09-28-Sat.md",
+    "98.Templates/Draft.md",
+    "02.Notes/README.md",
     "02.Notes/This is work.md",
-    "02.Notes/This is course.md",
-    "02.Notes/This is project.md",
-    "02.Notes/@This is talk.md",
+    "02.Notes/新的笔记.md",
     "02.Notes/TestMermaid.md",
     "02.Notes/TEst.md",
-    "README.md",
-    "03.Diary/Daily/2024-09-28-Sat.md",
-    "Diary/Daily/2024-09-28-Sat.md",
-    "Home.md",
+    "02.Notes/@This is talk.md",
+    "02.Notes/This is project.md",
+    "02.Notes/This is course.md",
+    "02.Notes/sdfgsdafg.md",
+    "02.Notes/my note.md",
+    "My note.md",
+    "98.Templates/Work.md",
+    "98.Templates/zt-annot.eta.md",
+    "98.Templates/Talk.md",
+    "98.Templates/Weekly.md",
+    "98.Templates/Project.md",
     "Diary/Daily",
     "Diary",
     "03.Diary/Weekly",
-    "Courses/Courses.md",
-    "Templates/Work.md",
-    "test.md",
-    "TestTemp.md",
-    "Blist/TestTemp.md",
     "Blist",
-    "Templates/Draft.md",
-    "Templates/Weekly.md",
-    "Templates/Project.md",
-    "Templates/Meeting.md",
-    "Templates/Course.md",
-    "Templates/Diary.md",
     "Zattachments/Files/截屏2024-03-30 16.11.25.png",
     "Zattachments/Files/homepage_banner.jpeg",
-    "01.MOC/Work List.md",
-    "01.MOC/Paper List.md",
-    "Projects/Project B/Project B.md",
     "Courses/General Relativity/Notes/GR4.pdf",
     "Courses/General Relativity/Notes/GR3.pdf",
     "Courses/General Relativity/Notes/GR2.pdf",

@@ -131,6 +131,56 @@
       "path": "Diary/Daily/2024-09-28-Sat.md",
       "matchesCriteria": true,
       "supposedList": "deleted"
+    },
+    {
+      "path": "98.Templates/Work - 副本.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "98.Templates/Notes.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "My note.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "02.Notes/my note.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "02.Notes/sdfgsdafg.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "02.Notes/新的笔记.md",
+      "matchesCriteria": true,
+      "supposedList": "deleted"
+    },
+    {
+      "path": "02.Notes/README.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "02.Notes/TEst.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "02.Notes/test2.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "02.Notes/这是一个简略的说明文件.md",
+      "supposedList": "created",
+      "matchesCriteria": true
     }
   ],
   "verboseModeEnabled": false

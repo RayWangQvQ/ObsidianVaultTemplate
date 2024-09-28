@@ -1,6 +1,36 @@
 {
   "choices": [
     {
+      "id": "73ee0cda-0061-49a0-a5e5-2977b8977714",
+      "name": "✒️Note",
+      "type": "Template",
+      "command": false,
+      "templatePath": "98.Templates/Notes",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "02.Notes"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
       "id": "cb593dd2-aeb4-4167-bfa5-f38b451891c4",
       "name": "🕰 Capture",
       "type": "Capture",
@@ -231,7 +261,7 @@
           "name": "🧸 Work",
           "type": "Template",
           "command": false,
-          "templatePath": "Templates/Work.md",
+          "templatePath": "98.Templates/Work.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -405,7 +435,7 @@
           "openFileInMode": "default"
         }
       ],
-      "collapsed": false
+      "collapsed": true
     }
   ],
   "macros": [
