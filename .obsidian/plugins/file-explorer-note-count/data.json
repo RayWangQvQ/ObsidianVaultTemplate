@@ -1,5 +1,5 @@
 {
-  "showAllNumbers": false,
+  "showAllNumbers": true,
   "filterList": [],
   "blacklist": false,
   "addRootFolder": false

@@ -26,6 +26,9 @@
     "date": "text",
     "PDF": "text",
     "title": "text",
-    "Bilibili": "text"
+    "Bilibili": "text",
+    "status": "multitext",
+    "creation date": "datetime",
+    "modification date": "datetime"
   }
 }

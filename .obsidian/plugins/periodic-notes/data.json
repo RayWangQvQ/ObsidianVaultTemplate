@@ -1,17 +1,17 @@
 {
-  "showGettingStartedBanner": true,
+  "showGettingStartedBanner": false,
   "hasMigratedDailyNoteSettings": true,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "format": "YYYY-MM-DD-ddd",
-    "folder": "Diary/Daily",
-    "template": "Zattachments/Templates/Diary",
+    "folder": "03.Diary/Daily",
+    "template": "98.Templates/Diary.md",
     "enabled": true
   },
   "weekly": {
     "format": "gggg-[Week]-ww",
-    "template": "Zattachments/Templates/Weekly.md",
-    "folder": "Diary/Weekly",
+    "template": "98.Templates/Weekly.md",
+    "folder": "03.Diary/Weekly",
     "enabled": true
   },
   "monthly": {

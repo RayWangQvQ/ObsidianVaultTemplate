@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "Zattachments/Templates",
+  "templates_folder": "98.Templates",
   "templates_pairs": [
     [
       "auto_transfer",
@@ -25,7 +25,7 @@
     ""
   ],
   "startup_templates": [
-    "Zattachments/Templates/Draft.md"
+    "Templates/Draft.md"
   ],
   "enable_ribbon_icon": true
 }
