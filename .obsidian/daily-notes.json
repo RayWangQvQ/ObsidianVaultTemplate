@@ -1,5 +1,5 @@
 {
-  "folder": "Diary/Daily",
-  "template": "Zattachments/Templates/Diary",
+  "folder": "03.Diary/Daily",
+  "template": "98.Templates/Diary",
   "format": "YYYY-MM-DD-ddd"
 }

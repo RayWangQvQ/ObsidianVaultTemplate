@@ -506,7 +506,7 @@
   "devMode": false,
   "templateFolderPath": "Templates",
   "announceUpdates": true,
-  "version": "1.6.1",
+  "version": "1.11.1",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": false,
   "ai": {
