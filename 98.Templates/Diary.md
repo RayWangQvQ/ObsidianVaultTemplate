@@ -6,6 +6,9 @@ cssclasses:
   - cards
   - cards-cols-3
 ---
+
+---
+
 ### Capture    
 <br>%% %%
 ```dataviewjs

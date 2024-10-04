@@ -36,6 +36,2966 @@
       "path": "Literature/Notes/@Fong2015.md",
       "supposedList": "deleted",
       "matchesCriteria": true
+    },
+    {
+      "path": "Home.md",
+      "matchesCriteria": true,
+      "supposedList": "modified"
+    },
+    {
+      "path": "98.Templates/Diary.md",
+      "matchesCriteria": false,
+      "supposedList": "modified"
+    },
+    {
+      "path": "03.Diary/Daily/2024-10-04-Fri.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "Untitled",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/笔记的方法.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/卡片笔记写作法：如何实现从阅读到写作.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/卡片笔记写作法：如何实现从阅读到写作（聪明人如何记笔记，高效记笔记）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/毛泽东选集.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/冯唐成事心法.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/不被理解的毛泽东.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/重构：改善既有代码的设计（第2版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/前奏：毛泽东1965年重上井冈山.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/浮生六记（汪涵推荐，张佳玮译）（果麦经典）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/浮生六记.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/每天5分钟玩转Kubernetes.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/评说晚年周恩来.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/晚年周恩来.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/IPv6网络部署实战.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/OpenWrt智能路由系统开发.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/长安的荔枝.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/每天5分钟玩转Docker容器技术.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/我们为什么要睡觉？.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/云原生应用架构：微服务开发最佳实战.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/平原上的摩西.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/深入浅出：.NET框架设计与实现.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/Kubernetes权威指南及应用（共7册）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/半小时漫画世界名著.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/AWS助理架构师认证备考宝典.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/可能性的艺术：比较政治学30讲.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/论语.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/ASP.NET Core 3 框架揭秘（上下册）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/评李秀成.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/Linux命令行与shell脚本编程大全（第4版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/筚路维艰.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/戚本禹回忆录.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/Wireshark网络分析从入门到实践.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/葛传椝英语学习系列（套装共6册）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/丧家狗：我读《论语》.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/邱会作回忆录.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/Flutter技术入门与实战（第2版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/望道：《共产党宣言》首部中文全译本的前世今生.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/毛泽东选集（全四卷）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/建军大业（献礼建军九十六周年）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/他影响了中国——陈云全传.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/C 7.0核心技术指南（原书第7版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/红星照耀中国.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/《赤色黎明》（校对版全本）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/十分钟冥想.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/国民党高层的派系政治（修订本）（甲骨文系列）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/Nginx应用与运维实战 2020.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/精通Nginx（第2版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/独唱团（第一辑）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/领域驱动设计：软件核心复杂性应对之道（修订版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/亚历山大《新概念英语（1）：英语初阶（新版）》学习指南【词汇短语＋课文精解＋语法知识＋练习答案】.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/中国古代异闻录：那些历史上的神秘事件.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/Mastering ABP Framework.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/Implementing Domain Driven Design.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/显微镜下的大明.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/Docker+Kubernetes应用开发与快速上云.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/赫逊河畔谈中国历史（精装版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/小王子：中英法对照（彩绘珍藏版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/JavaScript重难点实例精讲.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/巨人的背影.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/施瓦辛格健身全书.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/辜鸿铭：东西之中 （文化怪杰）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/运动改造大脑.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/周恩来传（权威精装版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/百年孤独.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/漫画百年党史·开天辟地（1921—1949）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/图解HTTP.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/21天学通SQL Server.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/正则表达式必知必会.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/JavaScript悟道.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/向上管理的艺术(升级版)：如何正确汇报工作.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/算法之美.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/敏捷革命.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/JavaScript设计模式与开发实践.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/小公务员之死（契诃夫中短篇小说）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/活出最乐观的自己.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/半小时漫画《论语》.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/孩子咳嗽，自然疗法80种.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/架构整洁之道.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/拉丁美洲被切开的血管.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/二十五史简明读本（全15册）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/刻意练习：如何从新手到大师.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/细说Linux基础知识.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/Redis使用手册.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/Redis 5设计与源码分析.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/最强大脑：写给中国人的记忆魔法书.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/Nginx高性能Web服务器详解.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/君主论（拿破仑批注版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/深入浅出ASP.NET Core.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/夜谭十记.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/深入浅出Docker.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/小径分岔的花园.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/冥想5分钟，等于熟睡一小时.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/Linux Shell核心编程指南.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/Linux系统命令及Shell脚本实践指南.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/秘密.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/秘密：实践版.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/你必须知道的.NET（第2版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/组织部来了个年轻人.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/中国式应酬规则与潜规则大全集.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/我的第一本算法书.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/优势成长.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/常识-918496.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/大争论：左派和右派的起源.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/我读：梁文道的开卷八分钟（全7册）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/金瓶梅.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/简读中国史：世界史坐标下的中国.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/深阅读：信息爆炸时代我们如何读书.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/长安客.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/有话说.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/C并发编程经典实例.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/简明《资本论》.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/王阳明：一切心法.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/快速阅读术.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/实现领域驱动设计.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/列宁传.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/当下的力量（珍藏版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/鲁迅全集（全20卷）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/结构性改革.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/中国1945：中国革命与美国的抉择（甲骨文系列）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/八正道（珍藏版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/倒退的帝国：朱元璋的成与败.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/领域驱动设计（Thoughtworks洞见）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/论语新解全译本.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/深入RabbitMQ.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/论语读本.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/老人与海（壹力文库中英双语珍藏版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/那些让你更聪明的科学新概念.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/维生素全书.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/正义论（修订版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/经济学通识（第二版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文明的故事1：东方的遗产.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/掌控习惯：如何养成好习惯并戒除坏习惯（《原子习惯》中文版）（新版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/ASP.NET Core与RESTful API 开发实战.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/废都.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/理与人（二十世纪西方哲学经典）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/南京传.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/牛津通识读本：尼采（中文版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/二手时间.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/鹅城人物志.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/乡土中国.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/毛泽东传.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/走近周恩来.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/图说世界格局.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/了不起的盖茨比.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/给未来人类的终极12问.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/绿毛水怪.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/半小时漫画宋词.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/山月记（果麦经典）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/你一定爱读的极简世界史.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/战后日本经济史.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/饥饿的盛世：乾隆时代的得与失.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/游荡集.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/红楼梦.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/局外人.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/分成两半的子爵.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/失明症漫记（诺奖神作）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/拆掉思维里的墙：原来我还可以这样活（百万经典版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/中医入门公开课：名师讲授从零开始学懂中医.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/早起魔法.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/观呼吸.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/海子的诗.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/追风筝的人.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/半小时漫画科学史.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/你有多自律，就有多自由.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/海边的卡夫卡.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/世界边缘的秘密：科学对生命的惊人回答.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/我的职业是小说家.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/卡拉马佐夫兄弟（套装上下册）（译文名著精选）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/通识：学问的门类.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/大地（三部曲）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/反脆弱：从不确定性中获益.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/我的前半生（九项奥斯卡大奖电影《末代皇帝》原著）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/树上的男爵.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/审判美国.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/国民党的“联共”与“反共”.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/人类要是没有爱情就好了.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机是怎样跑起来的.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/牛津通识读本：我们时代的伦理学（中文版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/正见.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/时间的秩序.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/不存在的骑士.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/牛津通识读本：佛学概论（中文版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/牛津通识读本：维特根斯坦与哲学（中文版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/黑客与画家（10万册纪念版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/民粹主义大爆炸.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/小妇人（同名热门电影原著）（果麦经典）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/牛津通识读本：医学伦理（中文版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/那不勒斯四部曲.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/当我谈跑步时，我谈些什么.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/读者.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/小逻辑.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/山茶文具店.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/世纪三部曲（全9册）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/指数基金投资指南.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/有所不为的反叛者：批判、怀疑与想象力.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/逻辑学十五讲（第二版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/江城.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/赛雷三分钟漫画中国史.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/牛津通识读本：牛顿新传（中文版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/说医不二：懒兔子漫话中医.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/新型冠状病毒感染的肺炎公众防护指南.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/失控.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/新型冠状病毒感染防护.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/千年悖论.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/明朝那些事儿（全集）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/撩妹法则50条.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/红拂夜奔.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/北京法源寺.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/曾国藩传（张宏杰全新增补版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/你当像鸟飞往你的山.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/半小时漫画中国史番外篇：中国传统节日.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/读懂一本书：樊登读书法.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/我与地坛.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/ASP.NET MVC4框架揭秘.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/剑桥中国史（全集）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/半小时漫画经济学（第1册生活常识篇）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/中国哲学简史.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学家们都干了些什么.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/论语别裁（全集）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/王老.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/新的一天.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/蒋介石与现代中国.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/韭菜的自我修养.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/国家是怎样炼成的2.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/传统下的独白.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/节日之书：余世存说中国传统节日.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/1988：我想和这个世界谈谈.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/国家是怎样炼成的.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/竟然想通了.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/程序员的自我修养.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/昨日的世界：一个欧洲人的回忆.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/安静的美国人.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/枪炮、病菌与钢铁：人类社会的命运（修订版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/你不可不知的法律常识.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/编写高质量代码：改善C程序的157个建议.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/乌克兰拖拉机简史.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/常识-23863205.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/设计模式之禅（第2版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/每一天梦想练习.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/七个被绞死的人.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/长安十二时辰（雷佳音、易烊千玺主演）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/佛教的见地与修道.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/1984.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/维特根斯坦传：天才之为责任.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/人类群星闪耀时.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/培根随笔（世界名著必读经典）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/半小时漫画唐诗（第1册）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/行者无疆.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文化苦旅.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/知识大融通.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/看不见的城市.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/神的孩子全跳舞.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/处处有音乐.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/读书是一辈子的事.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/琅琊榜.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/沉默的大多数.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/黄金时代.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/我可以咬一口吗.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/你今天真好看.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/自控力：和压力做朋友（斯坦福大学最实用的心理学课程）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/永恒的终结.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/许子东现代文学课.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/复旦名师陈果：好的孤独.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/策略思维：商界、政界及日常生活中的策略竞争.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/如何高效学习：1年完成麻省理工4年33门课程的整体性学习法.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/皮囊.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/半小时漫画中国史3.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/北洋裂变：军阀与五四.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/佛祖都说了些什么？.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/万历十五年（精装版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/过得刚好.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/无人生还（同名英剧原著）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/菊次郎与佐纪.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/世界上最神奇的60个经典定律.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/胡适谈读书.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/半小时漫画中国史2.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/半小时漫画世界史.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/时间移民.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/半小时漫画中国史（全新修订版）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/幸福课（自选集 知乎「盐」系列）.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/悬崖边的名士：魏晋政治与风流.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/宇宙超度指南.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/未分类",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/未分类/笔记的方法.md",
+      "matchesCriteria": false,
+      "supposedList": "created"
+    },
+    {
+      "path": "07.Read/文学",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/文学/卡片笔记写作法：如何实现从阅读到写作.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/卡片笔记写作法：如何实现从阅读到写作（聪明人如何记笔记，高效记笔记）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/毛泽东选集.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/经济理财",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/经济理财/冯唐成事心法.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/不被理解的毛泽东.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/重构：改善既有代码的设计（第2版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/前奏：毛泽东1965年重上井冈山.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/浮生六记（汪涵推荐，张佳玮译）（果麦经典）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/浮生六记.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/每天5分钟玩转Kubernetes.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/评说晚年周恩来.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/晚年周恩来.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/科学技术",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/科学技术/IPv6网络部署实战.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/OpenWrt智能路由系统开发.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/历史/长安的荔枝.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/每天5分钟玩转Docker容器技术.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/科学技术/我们为什么要睡觉？.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/云原生应用架构：微服务开发最佳实战.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/平原上的摩西.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/深入浅出：.NET框架设计与实现.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/Kubernetes权威指南及应用（共7册）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/半小时漫画世界名著.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/AWS助理架构师认证备考宝典.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/政治军事",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/政治军事/可能性的艺术：比较政治学30讲.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/哲学宗教/论语.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/ASP.NET Core 3 框架揭秘（上下册）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/评李秀成.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/Linux命令行与shell脚本编程大全（第4版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/筚路维艰.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/戚本禹回忆录.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/Wireshark网络分析从入门到实践.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/葛传椝英语学习系列（套装共6册）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/丧家狗：我读《论语》.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/邱会作回忆录.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/Flutter技术入门与实战（第2版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/望道：《共产党宣言》首部中文全译本的前世今生.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/政治军事/毛泽东选集（全四卷）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/建军大业（献礼建军九十六周年）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/他影响了中国——陈云全传.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/C 7.0核心技术指南（原书第7版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/红星照耀中国.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/《赤色黎明》（校对版全本）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/个人成长/十分钟冥想.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/国民党高层的派系政治（修订本）（甲骨文系列）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/Nginx应用与运维实战 2020.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/精通Nginx（第2版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/独唱团（第一辑）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/领域驱动设计：软件核心复杂性应对之道（修订版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/教育学习",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/教育学习/亚历山大《新概念英语（1）：英语初阶（新版）》学习指南【词汇短语＋课文精解＋语法知识＋练习答案】.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/中国古代异闻录：那些历史上的神秘事件.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/Mastering ABP Framework.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/Implementing Domain Driven Design.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/显微镜下的大明.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/Docker+Kubernetes应用开发与快速上云.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/赫逊河畔谈中国历史（精装版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/童书",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/童书/小王子：中英法对照（彩绘珍藏版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/JavaScript重难点实例精讲.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/巨人的背影.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/未分类/施瓦辛格健身全书.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/社会文化",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/社会文化/辜鸿铭：东西之中 （文化怪杰）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/生活百科",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/生活百科/运动改造大脑.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/政治军事/周恩来传（权威精装版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/百年孤独.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/漫画百年党史·开天辟地（1921—1949）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/图解HTTP.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/21天学通SQL Server.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/正则表达式必知必会.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/JavaScript悟道.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/向上管理的艺术(升级版)：如何正确汇报工作.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/经济理财/算法之美.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/经济理财/敏捷革命.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/JavaScript设计模式与开发实践.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/小公务员之死（契诃夫中短篇小说）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/活出最乐观的自己.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/社会文化/半小时漫画《论语》.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/医学健康",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/医学健康/孩子咳嗽，自然疗法80种.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/架构整洁之道.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/拉丁美洲被切开的血管.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/二十五史简明读本（全15册）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/刻意练习：如何从新手到大师.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/细说Linux基础知识.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/Redis使用手册.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/Redis 5设计与源码分析.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/最强大脑：写给中国人的记忆魔法书.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/Nginx高性能Web服务器详解.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/政治军事/君主论（拿破仑批注版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/深入浅出ASP.NET Core.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/精品小说",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/精品小说/夜谭十记.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/深入浅出Docker.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/小径分岔的花园.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/冥想5分钟，等于熟睡一小时.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/Linux Shell核心编程指南.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/Linux系统命令及Shell脚本实践指南.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/秘密.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/秘密：实践版.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/你必须知道的.NET（第2版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/组织部来了个年轻人.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/中国式应酬规则与潜规则大全集.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/我的第一本算法书.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/优势成长.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/政治军事/常识-918496.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/政治军事/大争论：左派和右派的起源.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/社会文化/我读：梁文道的开卷八分钟（全7册）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/金瓶梅.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/简读中国史：世界史坐标下的中国.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/深阅读：信息爆炸时代我们如何读书.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/长安客.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/有话说.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/C并发编程经典实例.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/政治军事/简明《资本论》.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/王阳明：一切心法.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/快速阅读术.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/实现领域驱动设计.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/政治军事/列宁传.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/当下的力量（珍藏版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/鲁迅全集（全20卷）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/经济理财/结构性改革.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/中国1945：中国革命与美国的抉择（甲骨文系列）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/八正道（珍藏版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/倒退的帝国：朱元璋的成与败.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/领域驱动设计（Thoughtworks洞见）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/论语新解全译本.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/深入RabbitMQ.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/论语读本.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/老人与海（壹力文库中英双语珍藏版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/科学技术/那些让你更聪明的科学新概念.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/医学健康/维生素全书.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/正义论（修订版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/经济理财/经济学通识（第二版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/文明的故事1：东方的遗产.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/掌控习惯：如何养成好习惯并戒除坏习惯（《原子习惯》中文版）（新版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/ASP.NET Core与RESTful API 开发实战.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/废都.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/理与人（二十世纪西方哲学经典）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/南京传.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/牛津通识读本：尼采（中文版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/二手时间.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/鹅城人物志.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/社会文化/乡土中国.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/人物传记",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/人物传记/毛泽东传.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/政治军事/走近周恩来.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/政治军事/图说世界格局.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/精品小说/了不起的盖茨比.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/科学技术/给未来人类的终极12问.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/绿毛水怪.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/半小时漫画宋词.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/山月记（果麦经典）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/你一定爱读的极简世界史.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/经济理财/战后日本经济史.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/饥饿的盛世：乾隆时代的得与失.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/游荡集.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/红楼梦.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/局外人.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/分成两半的子爵.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/失明症漫记（诺奖神作）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/拆掉思维里的墙：原来我还可以这样活（百万经典版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/医学健康/中医入门公开课：名师讲授从零开始学懂中医.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/心理",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/心理/早起魔法.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/观呼吸.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/海子的诗.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/追风筝的人.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/科学技术/半小时漫画科学史.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/你有多自律，就有多自由.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/海边的卡夫卡.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/科学技术/世界边缘的秘密：科学对生命的惊人回答.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/人物传记/我的职业是小说家.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/卡拉马佐夫兄弟（套装上下册）（译文名著精选）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/社会文化/通识：学问的门类.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/大地（三部曲）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/反脆弱：从不确定性中获益.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/人物传记/我的前半生（九项奥斯卡大奖电影《末代皇帝》原著）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/树上的男爵.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/社会文化/审判美国.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/国民党的“联共”与“反共”.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/人类要是没有爱情就好了.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/计算机是怎样跑起来的.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/牛津通识读本：我们时代的伦理学（中文版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/正见.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/科学技术/时间的秩序.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/不存在的骑士.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/牛津通识读本：佛学概论（中文版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/牛津通识读本：维特根斯坦与哲学（中文版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/黑客与画家（10万册纪念版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/民粹主义大爆炸.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/小妇人（同名热门电影原著）（果麦经典）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/医学健康/牛津通识读本：医学伦理（中文版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/那不勒斯四部曲.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/当我谈跑步时，我谈些什么.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/读者.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/小逻辑.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/山茶文具店.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/世纪三部曲（全9册）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/经济理财/指数基金投资指南.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/有所不为的反叛者：批判、怀疑与想象力.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/逻辑学十五讲（第二版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/江城.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/赛雷三分钟漫画中国史.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/人物传记/牛津通识读本：牛顿新传（中文版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/医学健康/说医不二：懒兔子漫话中医.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/医学健康/新型冠状病毒感染的肺炎公众防护指南.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/社会文化/失控.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/医学健康/新型冠状病毒感染防护.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/千年悖论.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/明朝那些事儿（全集）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/生活百科/撩妹法则50条.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/红拂夜奔.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/北京法源寺.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/曾国藩传（张宏杰全新增补版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/你当像鸟飞往你的山.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/半小时漫画中国史番外篇：中国传统节日.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/读懂一本书：樊登读书法.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/我与地坛.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/ASP.NET MVC4框架揭秘.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/剑桥中国史（全集）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/经济理财/半小时漫画经济学（第1册生活常识篇）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/中国哲学简史.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/哲学家们都干了些什么.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/论语别裁（全集）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/公众号",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/公众号/王老.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/新的一天.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/政治军事/蒋介石与现代中国.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/经济理财/韭菜的自我修养.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/国家是怎样炼成的2.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/传统下的独白.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/节日之书：余世存说中国传统节日.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/1988：我想和这个世界谈谈.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/国家是怎样炼成的.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/心理/竟然想通了.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/心理/被讨厌的勇气：“自我启发之父”阿德勒的哲学课.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/程序员的自我修养.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/昨日的世界：一个欧洲人的回忆.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/安静的美国人.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/枪炮、病菌与钢铁：人类社会的命运（修订版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/社会文化/你不可不知的法律常识.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/教育学习/编写高质量代码：改善C程序的157个建议.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/精品小说/乌克兰拖拉机简史.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/常识-23863205.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/计算机/设计模式之禅（第2版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/每一天梦想练习.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/七个被绞死的人.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/长安十二时辰（雷佳音、易烊千玺主演）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/佛教的见地与修道.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/精品小说/1984.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/维特根斯坦传：天才之为责任.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/人物传记/人类群星闪耀时.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/培根随笔（世界名著必读经典）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/半小时漫画唐诗（第1册）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/行者无疆.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/文化苦旅.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/科学技术/知识大融通.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/看不见的城市.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/神的孩子全跳舞.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/艺术",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/艺术/处处有音乐.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/读书是一辈子的事.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/女生小说",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/女生小说/琅琊榜.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/沉默的大多数.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/黄金时代.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/漫画",
+      "supposedList": "created",
+      "matchesCriteria": false
+    },
+    {
+      "path": "07.Read/漫画/我可以咬一口吗.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/漫画/你今天真好看.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/心理/自控力：和压力做朋友（斯坦福大学最实用的心理学课程）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/精品小说/永恒的终结.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/许子东现代文学课.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/复旦名师陈果：好的孤独.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/策略思维：商界、政界及日常生活中的策略竞争.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/如何高效学习：1年完成麻省理工4年33门课程的整体性学习法.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/皮囊.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/半小时漫画中国史3.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/北洋裂变：军阀与五四.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/哲学宗教/佛祖都说了些什么？.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/万历十五年（精装版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/人物传记/过得刚好.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/精品小说/无人生还（同名英剧原著）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/菊次郎与佐纪.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/个人成长/世界上最神奇的60个经典定律.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/文学/胡适谈读书.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/半小时漫画中国史2.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/半小时漫画世界史.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/精品小说/时间移民.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/半小时漫画中国史（全新修订版）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/社会文化/幸福课（自选集 知乎「盐」系列）.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/历史/悬崖边的名士：魏晋政治与风流.md",
+      "supposedList": "created",
+      "matchesCriteria": true
+    },
+    {
+      "path": "07.Read/精品小说/宇宙超度指南.md",
+      "supposedList": "created",
+      "matchesCriteria": true
     }
   ],
   "verboseModeEnabled": false

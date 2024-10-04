@@ -16,7 +16,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "Home.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "backlinks": false,
                     "source": false
                   }
@@ -236,8 +236,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "horizontal",
@@ -245,6 +244,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-git:Open Git source control": false,
           "oz-clear-unused-images:Clear Unused Images": false,
           "periodic-notes:Open today": true,
           "homepage:Open homepage": false,
@@ -260,7 +260,7 @@
         }
       },
       "active": "b8f4b0404a0db10b",
-      "mtime": "2024-10-04T11:16:21+08:00"
+      "mtime": "2024-10-04T11:28:39+08:00"
     }
   },
   "active": "Home"
