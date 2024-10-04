@@ -34,7 +34,7 @@
           {
             "id": "20349fc04ab7312b",
             "type": "tabs",
-            "dimension": 53.71069182389937,
+            "dimension": 66.79245283018868,
             "children": [
               {
                 "id": "b8f4b0404a0db10b",
@@ -76,7 +76,7 @@
           {
             "id": "805f5aec1ff8d51b",
             "type": "tabs",
-            "dimension": 46.28930817610063,
+            "dimension": 33.20754716981132,
             "children": [
               {
                 "id": "49162ada5e75d4d3",
@@ -259,8 +259,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "bd0148b556604b01",
-      "mtime": "2024-10-03T09:02:49+08:00"
+      "active": "b8f4b0404a0db10b",
+      "mtime": "2024-10-04T11:16:21+08:00"
     }
   },
   "active": "Home"

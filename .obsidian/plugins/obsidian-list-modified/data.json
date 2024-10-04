@@ -15,171 +15,26 @@
   "createdHeading": "Created",
   "separateDeleted": false,
   "deletedHeading": "Deleted",
-  "lastTrackedDate": "2024-09-28",
+  "lastTrackedDate": "2024-10-04",
   "trackedFiles": [
     {
-      "path": "02.Notes/TestMermaid.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "Blist/TestTemp.md",
+      "path": "Courses/Courses.md",
       "supposedList": "deleted",
       "matchesCriteria": true
     },
     {
-      "path": "TestTemp.md",
+      "path": "Courses/Course A/Notes/Course A Lecture.md",
       "supposedList": "deleted",
       "matchesCriteria": true
     },
     {
-      "path": "test.md",
+      "path": "Literature/Fong et al - 2015 - A Decade of Short-duration Gamma-ray Burst Broad-band Afterglows.pdf",
       "supposedList": "deleted",
       "matchesCriteria": true
     },
     {
-      "path": "03.Diary/Untitled",
-      "supposedList": "created",
-      "matchesCriteria": false
-    },
-    {
-      "path": "98.Templates/Course.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "98.Templates/Draft.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "98.Templates/Diary.md",
-      "matchesCriteria": false,
-      "supposedList": "modified"
-    },
-    {
-      "path": "98.Templates/Meeting.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "98.Templates/Project.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "98.Templates/Talk.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "98.Templates/Weekly.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "98.Templates/Work.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "98.Templates/zt-annot.eta.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "98.Templates/zt-annots.eta.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "98.Templates/zt-cite.eta.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "98.Templates/zt-cite2.eta.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "98.Templates/zt-colored.eta.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "98.Templates/zt-field.eta.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "98.Templates/zt-note.eta.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "Diary",
-      "supposedList": "created",
-      "matchesCriteria": false
-    },
-    {
-      "path": "Diary/Daily",
-      "supposedList": "created",
-      "matchesCriteria": false
-    },
-    {
-      "path": "Diary/Daily/2024-09-28-Sat.md",
-      "matchesCriteria": true,
-      "supposedList": "deleted"
-    },
-    {
-      "path": "98.Templates/Work - 副本.md",
+      "path": "Literature/Notes/@Fong2015.md",
       "supposedList": "deleted",
-      "matchesCriteria": true
-    },
-    {
-      "path": "98.Templates/Notes.md",
-      "supposedList": "created",
-      "matchesCriteria": true
-    },
-    {
-      "path": "My note.md",
-      "supposedList": "deleted",
-      "matchesCriteria": true
-    },
-    {
-      "path": "02.Notes/my note.md",
-      "supposedList": "deleted",
-      "matchesCriteria": true
-    },
-    {
-      "path": "02.Notes/sdfgsdafg.md",
-      "supposedList": "deleted",
-      "matchesCriteria": true
-    },
-    {
-      "path": "02.Notes/新的笔记.md",
-      "matchesCriteria": true,
-      "supposedList": "deleted"
-    },
-    {
-      "path": "02.Notes/README.md",
-      "supposedList": "created",
-      "matchesCriteria": true
-    },
-    {
-      "path": "02.Notes/TEst.md",
-      "supposedList": "deleted",
-      "matchesCriteria": true
-    },
-    {
-      "path": "02.Notes/test2.md",
-      "supposedList": "deleted",
-      "matchesCriteria": true
-    },
-    {
-      "path": "02.Notes/这是一个简略的说明文件.md",
-      "supposedList": "created",
       "matchesCriteria": true
     }
   ],
