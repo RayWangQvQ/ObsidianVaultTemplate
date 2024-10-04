@@ -4,18 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ecf0504ac4aac228",
+        "id": "d05a07ea084d3799",
         "type": "tabs",
         "children": [
           {
-            "id": "49c6137c561ae89e",
+            "id": "7657ceb60538edd8",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "07.Read/公众号/王老.md",
-                "staged": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -56,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#read",
+                "query": "tag:#read 毛泽东",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -104,7 +101,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -240,7 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311
+    "width": 282.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,7 +247,7 @@
       "periodic-notes:Open today": true,
       "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": true,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": true,
       "command-palette:Open command palette": false,
       "daily-notes:Open today's daily note": true,
@@ -260,44 +258,44 @@
       "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "49c6137c561ae89e",
+  "active": "355d6183c91a8505",
   "lastOpenFiles": [
-    "Home.md",
-    "07.Read/计算机/Linux Shell核心编程指南.md",
-    "07.Read/政治军事/蒋介石与现代中国.md",
-    "07.Read/未分类/施瓦辛格健身全书.md",
-    "07.Read/精品小说/宇宙超度指南.md",
-    "07.Read/历史/悬崖边的名士：魏晋政治与风流.md",
-    "07.Read/社会文化/幸福课（自选集 知乎「盐」系列）.md",
-    "07.Read/历史/半小时漫画中国史（全新修订版）.md",
-    "07.Read/精品小说/时间移民.md",
-    "07.Read/历史/半小时漫画世界史.md",
-    "07.Read/历史/半小时漫画中国史2.md",
-    "07.Read/文学/胡适谈读书.md",
-    "07.Read/个人成长/世界上最神奇的60个经典定律.md",
-    "07.Read/文学/菊次郎与佐纪.md",
-    "07.Read/精品小说/无人生还（同名英剧原著）.md",
-    "07.Read/人物传记/过得刚好.md",
-    "07.Read/历史/万历十五年（精装版）.md",
-    "07.Read/哲学宗教/佛祖都说了些什么？.md",
-    "07.Read/文学/北洋裂变：军阀与五四.md",
-    "07.Read/历史/半小时漫画中国史3.md",
-    "07.Read/文学/皮囊.md",
-    "07.Read/个人成长/如何高效学习：1年完成麻省理工4年33门课程的整体性学习法.md",
-    "07.Read/个人成长/策略思维：商界、政界及日常生活中的策略竞争.md",
-    "07.Read/哲学宗教/复旦名师陈果：好的孤独.md",
-    "07.Read/文学/许子东现代文学课.md",
-    "07.Read/精品小说/永恒的终结.md",
-    "07.Read/漫画",
-    "07.Read/女生小说",
-    "07.Read/艺术",
-    "07.Read/公众号",
-    "07.Read/心理",
-    "07.Read/人物传记",
-    "07.Read/精品小说",
-    "07.Read/医学健康",
-    "07.Read/生活百科",
-    "07.Read/社会文化",
+    "98.Templates/DouBan/movie.md",
+    "98.Templates/Notes.md",
+    "98.Templates/DouBan",
+    "02.Notes/book.md",
+    "07.Literature/WeRead/个人成长/世界上最神奇的60个经典定律.md",
+    "03.Diary/Daily/2024-10-04-Fri.md",
+    "07.Read/文学/卡片笔记写作法：如何实现从阅读到写作.md",
+    "07.Read/文学",
+    "07.Read",
+    "07.Literature/DouBan/Movie",
+    "07.Literature/WeRead/女生小说/琅琊榜.md",
+    "07.Literature/WeRead/女生小说",
+    "07.Literature/WeRead/漫画/我可以咬一口吗.md",
+    "07.Literature/WeRead/漫画/你今天真好看.md",
+    "07.Literature/WeRead/漫画",
+    "07.Literature/WeRead/历史/饥饿的盛世：乾隆时代的得与失.md",
+    "07.Literature/WeRead/历史/长安的荔枝.md",
+    "07.Literature/WeRead/历史/赫逊河畔谈中国历史（精装版）.md",
+    "07.Literature/WeRead/历史/长安十二时辰（雷佳音、易烊千玺主演）.md",
+    "07.Literature/WeRead/历史/赛雷三分钟漫画中国史.md",
+    "07.Literature/WeRead/历史/论语读本.md",
+    "07.Literature/WeRead/历史/节日之书：余世存说中国传统节日.md",
+    "07.Literature/WeRead/历史/简读中国史：世界史坐标下的中国.md",
+    "07.Literature/WeRead/历史/漫画百年党史·开天辟地（1921—1949）.md",
+    "07.Literature/WeRead/历史/民粹主义大爆炸.md",
+    "07.Literature/WeRead/历史/枪炮、病菌与钢铁：人类社会的命运（修订版）.md",
+    "07.Literature/WeRead/历史/有所不为的反叛者：批判、怀疑与想象力.md",
+    "07.Literature/WeRead/历史/曾国藩传（张宏杰全新增补版）.md",
+    "07.Literature/WeRead/历史/显微镜下的大明.md",
+    "07.Literature/WeRead/历史/明朝那些事儿（全集）.md",
+    "07.Literature/WeRead/历史/文明的故事1：东方的遗产.md",
+    "07.Literature/WeRead/历史/拉丁美洲被切开的血管.md",
+    "07.Literature/WeRead/历史",
+    "07.Literature/WeRead/科学技术",
+    "07.Literature/WeRead/精品小说",
+    "07.Literature/WeRead/经济理财",
     "Zattachments/Files/截屏2024-03-30 16.11.25.png",
     "Zattachments/Files/homepage_banner.jpeg",
     "Events/Workshops/GW data workshop/odw-2022/share/video-icon.png",
