@@ -1,42 +1,29 @@
 ---
-tags:
-  - dailynote
 date: <% tp.date.now("YYYY-MM-DD") %>
 cssclasses:
   - cards
   - cards-cols-3
+tags:
+  - diary
+creationDate: <% tp.file.creation_date() %>
+modificationDate: <% tp.file.last_modified_date() %>
 ---
 
----
+## Capture 
 
-### Capture    
-<br>%% %%
 ```dataviewjs
 const {Daily, Research} = customJS
 Daily.display(dv, Research)
 ```
-<br>%% %%
-### TaskList 
+
+## TaskList
+
 ```dataviewjs
 dv.taskList(
-dv.pages('"Projects" or "Events" or "Lierature" or "Blist" or "Courses" or "Amap/Todo List" or "Amap/Inbox"').file.tasks
+dv.pages('"04.Projects" or "05.Events" or "07.Lierature" or "02.Notes" or "01.MOC/Todo List" or "01.MOC/Inbox"').file.tasks
 .where(t => (t.completed && t.text.startsWith("<% tp.date.now("YYYY-MM-DD") %>"))||
 		(dv.compare(t.start, dv.date("<% tp.date.now("YYYY-MM-DD") %>")) == 0)||
 		(dv.compare(t.completion, dv.date("<% tp.date.now("YYYY-MM-DD") %>")) == 0))
 )
 ```
-<br>%% %%
-### NoteList
 
-
-%% ### ReadList 
-```dataview
-TABLE comment AS Comments, join(file.etags, "<br />") AS Tags
-FROM "Literature/Notes" or "Events"
-WHERE file.name[0] = "@"
-WHERE file.tags[0] != "#unread"
-WHERE file.mtime>=date(<% tp.date.now("YYYY-MM-DD") %>) AND file.mtime<date(<% tp.date.now("YYYY-MM-DD", 1) %>)
-SORT file.mtime desc
-```
-<br> 
- %%

@@ -4,87 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "e0e4a7fc4743c511",
+        "id": "7297a0a966231996",
         "type": "tabs",
         "children": [
           {
-            "id": "91449ba099aaf94b",
+            "id": "33566a61cb58154f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "98.Templates/Notes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b46d5c12fe44349b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01.MOC/🕮My Books.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b3da99bd95cd04f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "98.Templates/Notes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "583f2d9592e9f3ee",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "01.MOC/🕮My Books.md",
-                "staged": false
-              }
-            }
-          },
-          {
-            "id": "a3163a8972268023",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01.MOC/🕮My Books.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c195854a06db6cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "07.Literature/WeRead/个人成长/世界上最神奇的60个经典定律.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +49,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Home.md"
+              }
             }
           },
           {
@@ -122,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#read 毛泽东",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -175,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.49999618530273
+    "width": 225.49999618530273
   },
   "right": {
     "id": "08fc4290aa11ac90",
@@ -192,14 +130,15 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Home.md",
                 "options": {
-                  "collapse-filter": true,
+                  "collapse-filter": false,
                   "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
-                  "showTags": false,
+                  "showTags": true,
                   "showAttachments": false,
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
@@ -237,6 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Home.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -253,6 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -307,13 +248,16 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5
+    "width": 286.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
       "obsidian-git:Open Git source control": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "homepage:Open homepage": false,
+      "periodic-notes:Open today": true,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": true,
@@ -323,40 +267,37 @@
       "templater-obsidian:Templater": true,
       "obsidian42-brat:BRAT": true,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-weread-plugin:同步微信读书笔记": false,
-      "periodic-notes:Open today": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-shellcommands:Shell commands: Custom variables": false
+      "obsidian-weread-plugin:同步微信读书笔记": false
     }
   },
-  "active": "583f2d9592e9f3ee",
+  "active": "33566a61cb58154f",
   "lastOpenFiles": [
-    "02.Notes/TestTime.md",
-    "98.Templates/Notes.md",
+    "Home.md",
     "01.MOC/🕮My Books.md",
-    "98.Templates/Draft.md",
-    "98.Templates/Course.md",
+    "99.Attachments/Files/homepage_banner.jpeg",
+    "03.Diary/Daily/2024-10-05-Sat.md",
+    "03.Diary/Daily/2024-10-04-Fri.md",
+    "03.Diary/Daily/2024-10-03-Thu.md",
+    "03.Diary/Daily/2024-09-28-Sat.md",
+    "03.Diary/Daily/2024-09-27-Fri.md",
+    "03.Diary/Daily/2024-09-26-Thu.md",
+    "03.Diary/Daily/2024-09-25-Wed.md",
+    "03.Diary/Daily/2024-03-30-Sat.md",
+    "03.Diary/Daily/2024-03-31-Sun.md",
     "98.Templates/Diary.md",
-    "02.Notes/This is work.md",
-    "98.Templates/Talk.md",
+    "98.Templates/Draft.md",
+    "98.Templates/Notes.md",
     "98.Templates/Work.md",
+    "98.Templates/Talk.md",
+    "98.Templates/Weekly.md",
+    "98.Templates/Project.md",
+    "98.Templates/Meeting.md",
+    "98.Templates/Course.md",
+    "02.Notes/TestTime.md",
+    "02.Notes/This is work.md",
     "02.Notes/这是一个简略的说明文件.md",
     "02.Notes/@This is talk.md",
     "02.Notes/TestMermaid.md",
-    "02.Notes/README.md",
-    "Home.md",
-    "07.Literature/WeRead/个人成长/世界上最神奇的60个经典定律.md",
-    "README.md",
-    "01.MOC/Event List.md",
-    "07.Literature/WeRead/艺术/处处有音乐.md",
-    "01.MOC/Inbox.md",
-    "01.MOC/Todo List.md",
-    "01.MOC/Paper List.md",
-    "01.MOC/Work List.md",
-    "04.Projects/Project A/Project A.md",
-    "04.Projects/Project B/Project B.md",
-    "03.Diary/Daily/2024-10-05-Sat.md",
-    "03.Diary/Daily/2024-10-04-Fri.md",
     "99.Attachments/Files/s6002743.jpg",
     "99.Attachments/Files/s28668834.jpg",
     "99.Attachments/Files/s21173339.jpg",
@@ -366,7 +307,6 @@
     "99.Attachments/Files/s6908318.jpg",
     "99.Attachments/Files/s29675043.jpg",
     "99.Attachments/Files/s4463612.jpg",
-    "99.Attachments/Files/s29419068.jpg",
     "98.Templates/DouBan",
     "07.Literature/DouBan/book",
     "98.Templates/DouBan",

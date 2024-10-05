@@ -9,10 +9,8 @@
   "obsidian-kanban",
   "obsidian-toggl-integration",
   "obsidian42-brat",
-  "metadata-hider",
   "zotlit",
   "obsidian-tasks-plugin",
-  "obsidian-list-modified",
   "homepage",
   "contribution-graph",
   "contribution-widget",
@@ -27,5 +25,7 @@
   "obsidian-git",
   "obsidian-weread-plugin",
   "obsidian-douban-plugin",
-  "obsidian-linter"
+  "obsidian-linter",
+  "obsidian-banners",
+  "metadata-hider"
 ]

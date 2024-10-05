@@ -13,8 +13,13 @@
                 "id": "33566a61cb58154f",
                 "type": "leaf",
                 "state": {
-                  "type": "graph",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "Home.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": false
+                  }
                 }
               }
             ]
@@ -46,7 +51,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "Home.md"
+                  }
                 }
               },
               {
@@ -55,7 +62,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:#read 毛泽东",
+                    "query": "",
                     "matchingCase": true,
                     "explainSearch": true,
                     "collapseAll": true,
@@ -108,7 +115,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 309.49999618530273
+        "width": 225.49999618530273
       },
       "right": {
         "id": "08fc4290aa11ac90",
@@ -125,14 +132,15 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
+                    "file": "Home.md",
                     "options": {
-                      "collapse-filter": true,
+                      "collapse-filter": false,
                       "search": "",
                       "localJumps": 1,
                       "localBacklinks": true,
                       "localForelinks": true,
                       "localInterlinks": false,
-                      "showTags": false,
+                      "showTags": true,
                       "showAttachments": false,
                       "hideUnresolved": false,
                       "collapse-color-groups": true,
@@ -170,6 +178,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "Home.md",
                     "collapseAll": true,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -186,6 +195,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "Home.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -240,14 +250,16 @@
           }
         ],
         "direction": "horizontal",
-        "width": 282.5
+        "width": 286.5
       },
       "left-ribbon": {
         "hiddenItems": {
+          "homepage:Open homepage": false,
+          "obsidian-kanban:Create new board": false,
+          "obsidian-shellcommands:Shell commands: Custom variables": false,
           "obsidian-git:Open Git source control": false,
           "oz-clear-unused-images:Clear Unused Images": false,
           "periodic-notes:Open today": true,
-          "homepage:Open homepage": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
           "canvas:Create new canvas": true,
@@ -260,8 +272,8 @@
           "obsidian-weread-plugin:同步微信读书笔记": false
         }
       },
-      "active": "b8f4b0404a0db10b",
-      "mtime": "2024-10-04T14:37:41+08:00"
+      "active": "33566a61cb58154f",
+      "mtime": "2024-10-05T20:56:18+08:00"
     }
   },
   "active": "Home"

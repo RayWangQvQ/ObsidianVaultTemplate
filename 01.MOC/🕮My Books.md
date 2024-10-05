@@ -1,9 +1,9 @@
 ---
+creationDate: 2024-10-05 17:31
+modificationDate: 2024-10-05 20:26
 tags:
   - MOC
 desc: All readed books
-creation_date: <% tp.file.creation_date("YYYY-MM-DD HH:mm") %>
-modification_date: <% tp.file.last_modified_date() %>
 ---
 
 ```dataview

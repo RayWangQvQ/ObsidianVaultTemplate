@@ -1,11 +1,12 @@
 ---
+tags: 
+creationDate: 2024-09-25 23:00
+modificationDate: 2024-10-05 20:42
 banner: "![[homepage_banner.jpeg]]"
 banner_y: 1
 banner_lock: true
 cssclasses:
   - rightlane
----
-
 ---
 
 #  🍳  Homepage
@@ -195,7 +196,7 @@ cellStyle:
 ## MOC
 
 ```dataview
-table desc, creation_date, modification_date
+table desc, creationDate, modificationDate
 from #MOC 
 sort lastReadDate desc
 ```
