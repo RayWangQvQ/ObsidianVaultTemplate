@@ -2,7 +2,7 @@
   "promptDelete": false,
   "newFileLocation": "folder",
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "Zattachments/Files",
+  "attachmentFolderPath": "99.Attachments/Files",
   "newFileFolderPath": "02.Notes",
   "defaultViewMode": "source",
   "showInlineTitle": true,

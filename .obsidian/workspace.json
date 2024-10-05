@@ -4,18 +4,87 @@
     "type": "split",
     "children": [
       {
-        "id": "d05a07ea084d3799",
+        "id": "e0e4a7fc4743c511",
         "type": "tabs",
         "children": [
           {
-            "id": "7657ceb60538edd8",
+            "id": "91449ba099aaf94b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "98.Templates/Notes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b46d5c12fe44349b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01.MOC/🕮My Books.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3da99bd95cd04f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "98.Templates/Notes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "583f2d9592e9f3ee",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "01.MOC/🕮My Books.md",
+                "staged": false
+              }
+            }
+          },
+          {
+            "id": "a3163a8972268023",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01.MOC/🕮My Books.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c195854a06db6cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "07.Literature/WeRead/个人成长/世界上最神奇的60个经典定律.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.49999618530273
+    "width": 247.49999618530273
   },
   "right": {
     "id": "08fc4290aa11ac90",
@@ -244,7 +313,6 @@
     "hiddenItems": {
       "obsidian-git:Open Git source control": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "periodic-notes:Open today": true,
       "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -255,57 +323,60 @@
       "templater-obsidian:Templater": true,
       "obsidian42-brat:BRAT": true,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-weread-plugin:同步微信读书笔记": false
+      "obsidian-weread-plugin:同步微信读书笔记": false,
+      "periodic-notes:Open today": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "355d6183c91a8505",
+  "active": "583f2d9592e9f3ee",
   "lastOpenFiles": [
-    "98.Templates/DouBan/movie.md",
+    "02.Notes/TestTime.md",
     "98.Templates/Notes.md",
-    "98.Templates/DouBan",
-    "02.Notes/book.md",
+    "01.MOC/🕮My Books.md",
+    "98.Templates/Draft.md",
+    "98.Templates/Course.md",
+    "98.Templates/Diary.md",
+    "02.Notes/This is work.md",
+    "98.Templates/Talk.md",
+    "98.Templates/Work.md",
+    "02.Notes/这是一个简略的说明文件.md",
+    "02.Notes/@This is talk.md",
+    "02.Notes/TestMermaid.md",
+    "02.Notes/README.md",
+    "Home.md",
     "07.Literature/WeRead/个人成长/世界上最神奇的60个经典定律.md",
+    "README.md",
+    "01.MOC/Event List.md",
+    "07.Literature/WeRead/艺术/处处有音乐.md",
+    "01.MOC/Inbox.md",
+    "01.MOC/Todo List.md",
+    "01.MOC/Paper List.md",
+    "01.MOC/Work List.md",
+    "04.Projects/Project A/Project A.md",
+    "04.Projects/Project B/Project B.md",
+    "03.Diary/Daily/2024-10-05-Sat.md",
     "03.Diary/Daily/2024-10-04-Fri.md",
-    "07.Read/文学/卡片笔记写作法：如何实现从阅读到写作.md",
+    "99.Attachments/Files/s6002743.jpg",
+    "99.Attachments/Files/s28668834.jpg",
+    "99.Attachments/Files/s21173339.jpg",
+    "99.Attachments/Files/s3670063.jpg",
+    "99.Attachments/Files/s1255594.jpg",
+    "99.Attachments/Files/s32271204.jpg",
+    "99.Attachments/Files/s6908318.jpg",
+    "99.Attachments/Files/s29675043.jpg",
+    "99.Attachments/Files/s4463612.jpg",
+    "99.Attachments/Files/s29419068.jpg",
+    "98.Templates/DouBan",
+    "07.Literature/DouBan/book",
+    "98.Templates/DouBan",
     "07.Read/文学",
     "07.Read",
     "07.Literature/DouBan/Movie",
-    "07.Literature/WeRead/女生小说/琅琊榜.md",
     "07.Literature/WeRead/女生小说",
-    "07.Literature/WeRead/漫画/我可以咬一口吗.md",
-    "07.Literature/WeRead/漫画/你今天真好看.md",
     "07.Literature/WeRead/漫画",
-    "07.Literature/WeRead/历史/饥饿的盛世：乾隆时代的得与失.md",
-    "07.Literature/WeRead/历史/长安的荔枝.md",
-    "07.Literature/WeRead/历史/赫逊河畔谈中国历史（精装版）.md",
-    "07.Literature/WeRead/历史/长安十二时辰（雷佳音、易烊千玺主演）.md",
-    "07.Literature/WeRead/历史/赛雷三分钟漫画中国史.md",
-    "07.Literature/WeRead/历史/论语读本.md",
-    "07.Literature/WeRead/历史/节日之书：余世存说中国传统节日.md",
-    "07.Literature/WeRead/历史/简读中国史：世界史坐标下的中国.md",
-    "07.Literature/WeRead/历史/漫画百年党史·开天辟地（1921—1949）.md",
-    "07.Literature/WeRead/历史/民粹主义大爆炸.md",
-    "07.Literature/WeRead/历史/枪炮、病菌与钢铁：人类社会的命运（修订版）.md",
-    "07.Literature/WeRead/历史/有所不为的反叛者：批判、怀疑与想象力.md",
-    "07.Literature/WeRead/历史/曾国藩传（张宏杰全新增补版）.md",
-    "07.Literature/WeRead/历史/显微镜下的大明.md",
-    "07.Literature/WeRead/历史/明朝那些事儿（全集）.md",
-    "07.Literature/WeRead/历史/文明的故事1：东方的遗产.md",
-    "07.Literature/WeRead/历史/拉丁美洲被切开的血管.md",
     "07.Literature/WeRead/历史",
     "07.Literature/WeRead/科学技术",
-    "07.Literature/WeRead/精品小说",
-    "07.Literature/WeRead/经济理财",
-    "Zattachments/Files/截屏2024-03-30 16.11.25.png",
-    "Zattachments/Files/homepage_banner.jpeg",
-    "Events/Workshops/GW data workshop/odw-2022/share/video-icon.png",
-    "Events/Workshops/GW data workshop/odw-2022/share/video-icon.jpg",
-    "Events/Workshops/GW data workshop/odw-2022/share/odw-2022-logo.png",
-    "Events/Workshops/GW data workshop/odw-2022/share/odw-2021-td.png",
-    "Events/Workshops/GW data workshop/odw-2022/share/ligo_virgo_transparent_crop_small.png",
-    "Events/Workshops/GW data workshop/odw-2022/Tutorials/logo.png",
-    "Events/Workshops/Codeastro/DataChef/docs/_build/html/_static/minus.png",
-    "Events/Workshops/Codeastro/DataChef/docs/_build/html/_static/file.png",
     "Untitled.canvas",
     "OBS Template/obsidian_vault_template_for_graduate_student/00-MOC/未命名 1.canvas",
     "OBS Template/obsidian_vault_template_for_graduate_student/00-MOC/未命名.canvas",

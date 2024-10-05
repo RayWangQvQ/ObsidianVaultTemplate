@@ -10,7 +10,7 @@ cssclasses:
 
 ---
 
-<div class="title"; style="font-size: 20px; line-height: 24px; text-align: center;font-weight:600;">Events</div>
+## Events
 
 - [<] **[[@First Name Last Name|xxx Individual Meeting]]** <br>  [repeat:: every week]  [scheduled:: 2024-03-26]
 

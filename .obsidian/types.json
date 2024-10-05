@@ -29,6 +29,9 @@
     "Bilibili": "text",
     "status": "multitext",
     "creation date": "datetime",
-    "modification date": "datetime"
+    "modification date": "datetime",
+    "creationDate": "date",
+    "lastModifiedDate": "date",
+    "modificationDate": "date"
   }
 }
