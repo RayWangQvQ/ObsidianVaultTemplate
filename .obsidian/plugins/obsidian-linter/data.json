@@ -271,7 +271,7 @@
   "displayLintOnFileChangeNotice": true,
   "settingsConvertedToConfigKeyValues": true,
   "foldersToIgnore": [
-    "",
+    "99.Attachments",
     "98.Templates"
   ],
   "filesToIgnore": [],

@@ -2,7 +2,7 @@
 desc: 
 tags: 
 creationDate: 2024-09-25 23:00
-modificationDate: 2024-10-19 17:35
+modificationDate: 2024-10-20 23:15
 banner: "![[homepage_banner.jpeg]]"
 banner_y: 1
 banner_lock: true

@@ -16,12 +16,10 @@
                   "type": "markdown",
                   "state": {
                     "file": "Home.md",
-                    "mode": "source",
+                    "mode": "preview",
                     "backlinks": false,
                     "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Home"
+                  }
                 }
               }
             ]
@@ -45,9 +43,7 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "byCreatedTime"
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
+                  }
                 }
               },
               {
@@ -57,9 +53,7 @@
                   "type": "outline",
                   "state": {
                     "file": "Home.md"
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of Home"
+                  }
                 }
               },
               {
@@ -74,9 +68,7 @@
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
+                  }
                 }
               }
             ]
@@ -96,9 +88,7 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "☑︎Todo List"
+                  }
                 }
               },
               {
@@ -111,9 +101,7 @@
                     "mode": "source",
                     "backlinks": false,
                     "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Event List"
+                  }
                 }
               },
               {
@@ -121,9 +109,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
+                  "state": {}
                 }
               }
             ]
@@ -149,9 +135,7 @@
                   "state": {
                     "sortOrder": "alphabetical",
                     "useHierarchy": true
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
+                  }
                 }
               },
               {
@@ -186,9 +170,7 @@
                       "scale": 1,
                       "close": true
                     }
-                  },
-                  "icon": "lucide-git-fork",
-                  "title": "Graph of Home"
+                  }
                 }
               },
               {
@@ -205,9 +187,7 @@
                     "searchQuery": "",
                     "backlinkCollapsed": false,
                     "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for Home"
+                  }
                 }
               },
               {
@@ -219,9 +199,7 @@
                     "file": "Home.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from Home"
+                  }
                 }
               },
               {
@@ -229,9 +207,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "git-view",
-                  "state": {},
-                  "icon": "git-pull-request",
-                  "title": "Source Control"
+                  "state": {}
                 }
               }
             ],
@@ -247,9 +223,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
+                  "state": {}
                 }
               },
               {
@@ -257,9 +231,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "toggl-report",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Toggl Report"
+                  "state": {}
                 }
               },
               {
@@ -272,9 +244,7 @@
                     "itemId": 1862,
                     "attachmentId": 1864,
                     "follow": null
-                  },
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
+                  }
                 }
               }
             ]
@@ -307,7 +277,7 @@
         }
       },
       "active": "b8f4b0404a0db10b",
-      "mtime": "2024-10-20T21:58:13+08:00"
+      "mtime": "2024-10-20T23:15:50+08:00"
     }
   },
   "active": "Home"
