@@ -32,7 +32,7 @@
     },
     "insert-yaml-attributes": {
       "enabled": true,
-      "text-to-insert": "tags: \ncreationDate: \nmodificationDate: "
+      "text-to-insert": "tags: \ndesc: \ncreationDate: \nmodificationDate: "
     },
     "move-tags-to-yaml": {
       "enabled": false,

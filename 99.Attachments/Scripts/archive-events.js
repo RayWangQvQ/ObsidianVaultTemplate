@@ -1,10 +1,23 @@
 const fs = require('fs');
+const path = require('path');
+
+const baseDir = app.vault.adapter.basePath;
+const eventListPath = path.join(baseDir, '01.MOC/Event List.md');
+
+function logMessage(message, error = null) {
+    if (error) {
+        console.error(message, error); // 控制台日志，开发者调试页查看
+        new Notice(`${message}: ${error.message}`); // 在 Obsidian 通知中显示错误信息
+    } else {
+        console.log(message);
+        new Notice(message);
+    }
+}
 
 // 读取 "Event List" 文件内容
-// 这里路径要修改！！
-fs.readFile('/Users/caocao/Work/Amap/Event List.md', 'utf8', (err, data) => {
+fs.readFile(eventListPath, 'utf8', (err, data) => {
     if (err) {
-        console.error('读取文件时出错：', err);
+        logMessage('读取文件时出错：', err);
         return;
     }
 
@@ -22,16 +35,15 @@ fs.readFile('/Users/caocao/Work/Amap/Event List.md', 'utf8', (err, data) => {
     }).filter(Boolean).join('\n\n'); // 过滤掉已完成任务行，并将任务行重新组合成文本
 
     // 将未完成的任务写回原文件
-    // 这里路径要修改！！
-    fs.writeFile('/Users/caocao/Work/Amap/Event List.md', newData, 'utf8', (err) => {
+    fs.writeFile(eventListPath, newData, 'utf8', (err) => {
         if (err) {
-            console.error('写回原文件时出错：', err);
+            logMessage('写回原文件时出错：', err);
             return;
         }
-        console.log('未完成的任务行已写回"Event List"文件，并标记为代办状态！');
+        logMessage('未完成的任务行已写回"Event List"文件，并标记为代办状态！');
     });
 });
 
 module.exports = async (params) => {
-    console.log("代码执行完成！");
+    logMessage("代码执行完成！");
 };

@@ -1,40 +1,56 @@
 const fs = require('fs');
+const path = require('path');
+
+const baseDir = app.vault.adapter.basePath;
+const todoListPath = path.join(baseDir, '01.MOC/☑︎Todo List.md');
+const inboxPath = path.join(baseDir, '01.MOC/☑︎Todo Archive.md');
+
+function logMessage(message, error = null) {
+    if (error) {
+        console.error(message, error); // 控制台日志，开发者调试页查看
+        new Notice(`${message}: ${error.message}`); // 在 Obsidian 通知中显示错误信息
+    } else {
+        console.log(message);
+        new Notice(message);
+    }
+}
 
 // 读取 "Todo List" 文件内容
-// 这里路径要修改！！
-fs.readFile('/Users/caocao/Work/Amap/Todo List.md', 'utf8', (err, data) => {
+fs.readFile(todoListPath, 'utf8', (err, data) => {
     if (err) {
-        console.error('Error reading file:', err);
+        logMessage('Error reading file:', err);
         return;
     }
 
     // 使用换行符分割文本，并筛选出各自的任务行
-    const lines = data.split('\n').filter(line => line.trim().startsWith('- [x]'));
-    const notlines = data.split('\n').filter(line => !(line.trim().startsWith('- [x]') || line.trim().startsWith('!')));
+    const doneTasks = data
+        .split('\n')
+        .filter(line => line.trim().startsWith('- [x]'));
+    const notTaskLine = data
+        .split('\n')
+        .filter(line => !line.trim().startsWith('- [x]'));
 
-    // 将已完成的任务写入 "Inbox" 文件
-    // 这里路径要修改！！
-    const completedTasksContent = "\n"+lines.join('\n');
-    fs.appendFile('/Users/caocao/Work/Amap/Inbox.md', completedTasksContent, 'utf8', (err) => {
+    // 将已完成的任务写入 "☑︎Todo Archive" 文件
+    const completedTasksContent = "\n" + doneTasks.join('\n');
+    fs.appendFile(inboxPath, completedTasksContent, 'utf8', (err) => {
         if (err) {
-            console.error('Error writing file:', err);
+            logMessage('Error writing file:', err);
             return;
         }
-        console.log('Completed tasks moved to "Inbox" successfully!');
+        logMessage('Completed tasks moved to "☑︎Todo Archive" successfully!');
     });
 
     // 将未完成的任务写回原文件
-    // 这里路径要修改！！
-    const newData = notlines.join('\n');
-    fs.writeFile('/Users/caocao/Work/Amap/Todo List.md', newData, 'utf8', (err) => {
+    const newData = notTaskLine.join('\n');
+    fs.writeFile(todoListPath, newData, 'utf8', (err) => {
         if (err) {
             console.error('Error writing file:', err);
             return;
         }
-        console.log('Uncompleted tasks written back to "Todo List" successfully!');
+        logMessage('Uncompleted tasks written back to "Todo List" successfully!');
     });
 });
 
 module.exports = async (params) => {
-    console.log("finished running")
-    }
+    logMessage("Archive Tasks: All Success!")
+}

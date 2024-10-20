@@ -31,8 +31,78 @@
       "setFileExistsBehavior": false
     },
     {
+      "id": "562cec2c-1a81-4d70-8a0c-32bfbe69cc3c",
+      "name": "☑︎Todo Inbox",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "01.MOC/☑︎Todo List.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": true,
+        "template": "98.Templates/Diary.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "\n- [ ] {{value}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "Inbox",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "41d78ffb-2489-489a-ae8d-cb6f2ccc601c",
+      "name": "☑︎Todo Refer",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "01.MOC/☑︎Todo List.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": true,
+        "template": "98.Templates/Diary.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "\n!{{value}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "Refer",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
       "id": "cb593dd2-aeb4-4167-bfa5-f38b451891c4",
-      "name": "🕰 Capture",
+      "name": "🕰Capture",
       "type": "Capture",
       "command": false,
       "appendLink": false,
@@ -66,94 +136,17 @@
       "openFileInMode": "default"
     },
     {
-      "id": "0b77c307-551d-4483-ac6e-aa978c90cbd2",
-      "name": "⏳ Track",
-      "type": "Macro",
-      "command": false,
-      "macroId": "5aaa5fbf-d2e6-424a-ba11-dc4c2456602e"
-    },
-    {
-      "id": "41d78ffb-2489-489a-ae8d-cb6f2ccc601c",
-      "name": "📝 Today",
-      "type": "Capture",
-      "command": false,
-      "appendLink": false,
-      "captureTo": "Amap/Todo List.md",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": true,
-        "template": "Zattachments/Templates/Diary.md"
-      },
-      "format": {
-        "enabled": true,
-        "format": "\n!{{value}}"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "Today",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "562cec2c-1a81-4d70-8a0c-32bfbe69cc3c",
-      "name": "📬 Inbox",
-      "type": "Capture",
-      "command": false,
-      "appendLink": false,
-      "captureTo": "Amap/Todo List.md",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": true,
-        "template": "Zattachments/Templates/Diary.md"
-      },
-      "format": {
-        "enabled": true,
-        "format": "\n- [ ] {{value}}"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "Inbox",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
       "id": "d86953f0-78d1-4685-96a4-5a09984f2933",
-      "name": "📅 Events",
+      "name": "📅Events",
       "type": "Capture",
       "command": false,
       "appendLink": false,
-      "captureTo": "Amap/Event List.md",
+      "captureTo": "01.MOC/Event List.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": false,
         "createWithTemplate": true,
-        "template": "Zattachments/Templates/Diary.md"
+        "template": "98.Templates/Diary.md"
       },
       "format": {
         "enabled": true,
@@ -178,8 +171,15 @@
       "openFileInMode": "default"
     },
     {
+      "id": "0b77c307-551d-4483-ac6e-aa978c90cbd2",
+      "name": "⏳ Track",
+      "type": "Macro",
+      "command": false,
+      "macroId": "5aaa5fbf-d2e6-424a-ba11-dc4c2456602e"
+    },
+    {
       "id": "dc5524db-5ae2-4fee-9e2f-bb3f405a1b99",
-      "name": "🌫 Logging",
+      "name": "🌫Logging",
       "type": "Capture",
       "command": false,
       "appendLink": false,
@@ -188,7 +188,7 @@
       "createFileIfItDoesntExist": {
         "enabled": true,
         "createWithTemplate": true,
-        "template": "Zattachments/Templates/Diary.md"
+        "template": "98.Templates/Diary.md"
       },
       "format": {
         "enabled": true,
@@ -214,7 +214,7 @@
     },
     {
       "id": "74787f2b-8fec-4215-a00d-32d6bcbd5f41",
-      "name": "📁 Actions",
+      "name": "📁Actions",
       "type": "Multi",
       "command": false,
       "choices": [],
@@ -222,7 +222,7 @@
     },
     {
       "id": "888d2207-b5da-4ff9-9eb5-9a75f9fd5e4f",
-      "name": "📁 Templates",
+      "name": "📁Templates",
       "type": "Multi",
       "command": false,
       "choices": [
@@ -231,7 +231,7 @@
           "name": "📅 Diary",
           "type": "Template",
           "command": true,
-          "templatePath": "Zattachments/Templates/Diary.md",
+          "templatePath": "98.Templates/Diary.md",
           "fileNameFormat": {
             "enabled": true,
             "format": "Diary/Daily/{{DATE:YYYY-MM-DD-ddd}}.md"
@@ -254,6 +254,66 @@
           "openFile": true,
           "openFileInMode": "default",
           "fileExistsMode": "Nothing",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "192df26c-62b6-42fd-a7c9-2e9d17d237c6",
+          "name": "People",
+          "type": "Template",
+          "command": false,
+          "templatePath": "98.Templates/People",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "06.People"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "ceb05c7a-72de-44aa-9909-3919cf7504a4",
+          "name": "MOC",
+          "type": "Template",
+          "command": false,
+          "templatePath": "98.Templates/MOC.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "01.MOC"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
           "setFileExistsBehavior": false
         },
         {
@@ -291,7 +351,7 @@
           "name": "📚 Course",
           "type": "Template",
           "command": false,
-          "templatePath": "Zattachments/Templates/Course.md",
+          "templatePath": "98.Templates/Course.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -321,7 +381,7 @@
           "name": "🏠 Project",
           "type": "Template",
           "command": false,
-          "templatePath": "Zattachments/Templates/Project.md",
+          "templatePath": "98.Templates/Project.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
@@ -351,7 +411,7 @@
           "name": "📢 Talk",
           "type": "Template",
           "command": false,
-          "templatePath": "Zattachments/Templates/Talk.md",
+          "templatePath": "98.Templates/Talk.md",
           "fileNameFormat": {
             "enabled": true,
             "format": "@{{name}}"
@@ -377,35 +437,35 @@
           "setFileExistsBehavior": false
         }
       ],
-      "collapsed": false
+      "collapsed": true
     },
     {
       "id": "fdcfe68f-519b-4fcd-9720-05712ef16069",
-      "name": "📁 Archive",
+      "name": "📁Archive",
       "type": "Multi",
       "command": false,
       "choices": [
         {
-          "id": "b432e0d3-0f4c-4d8b-b898-bfbeffcd8e02",
-          "name": "📋 Archive Events",
-          "type": "Macro",
-          "command": false,
-          "macroId": "f722ca53-e85d-4c37-a5d2-d44d90daad68"
-        },
-        {
           "id": "c99661c2-2022-4aa1-aa8d-d559490a382d",
-          "name": "🧾 Archive Tasks",
+          "name": "☑︎Archive Tasks",
           "type": "Macro",
           "command": false,
           "macroId": "44b8bc10-ba63-4b87-a5c6-41a0ff0c62f0"
         },
         {
+          "id": "b432e0d3-0f4c-4d8b-b898-bfbeffcd8e02",
+          "name": "📋Archive Events",
+          "type": "Macro",
+          "command": false,
+          "macroId": "f722ca53-e85d-4c37-a5d2-d44d90daad68"
+        },
+        {
           "id": "a8989055-53f0-491e-9978-1ee25be381eb",
-          "name": "📃 Archive Files",
+          "name": "📃Archive Files",
           "type": "Capture",
           "command": false,
           "appendLink": false,
-          "captureTo": "Zattachments/Templates/Untitled.md",
+          "captureTo": "98.Templates/Untitled.md",
           "captureToActiveFile": true,
           "createFileIfItDoesntExist": {
             "enabled": false,
@@ -435,7 +495,7 @@
           "openFileInMode": "default"
         }
       ],
-      "collapsed": true
+      "collapsed": false
     }
   ],
   "macros": [
@@ -447,7 +507,7 @@
           "name": "kanban",
           "type": "UserScript",
           "id": "93f168fa-534a-4e0f-9f6c-07e1715e6321",
-          "path": "Zattachments/Scripts/kanban.js",
+          "path": "99.Attachments/Scripts/kanban.js",
           "settings": {}
         }
       ],
@@ -461,7 +521,7 @@
           "name": "archive-tasks",
           "type": "UserScript",
           "id": "24c939a8-96b8-4be9-8757-6cb7b6412398",
-          "path": "Zattachments/Scripts/archive-tasks.js",
+          "path": "99.Attachments/Scripts/archive-tasks.js",
           "settings": {}
         }
       ],
@@ -475,7 +535,7 @@
           "name": "archive-events",
           "type": "UserScript",
           "id": "346bb35c-464e-4f86-a123-54635ca7c156",
-          "path": "Zattachments/Scripts/archive-events.js",
+          "path": "99.Attachments/Scripts/archive-events.js",
           "settings": {}
         }
       ],
@@ -489,7 +549,7 @@
           "name": "weekly",
           "type": "UserScript",
           "id": "dd2e04da-884f-462f-ab74-8d892569ff00",
-          "path": "Zattachments/Scripts/weekly.js",
+          "path": "99.Attachments/Scripts/weekly.js",
           "settings": {}
         },
         {
@@ -504,7 +564,7 @@
   ],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "Templates",
+  "templateFolderPath": "98.Templates",
   "announceUpdates": true,
   "version": "1.11.1",
   "disableOnlineFeatures": true,

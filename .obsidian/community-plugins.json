@@ -27,5 +27,10 @@
   "obsidian-douban-plugin",
   "obsidian-linter",
   "obsidian-banners",
-  "metadata-hider"
+  "metadata-hider",
+  "table-editor-obsidian",
+  "obsidian-advanced-uri",
+  "cmenu-plugin",
+  "obsidian-copy-block-link",
+  "mermaid-tools"
 ]

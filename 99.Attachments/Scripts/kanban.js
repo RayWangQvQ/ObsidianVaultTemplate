@@ -1,12 +1,14 @@
+const fs = require('fs');
+const path = require('path');
+
 let togglApi;
 let quickAddApi;
 let projects;
 
+const baseDir = app.vault.adapter.basePath;
+const todoListPath = path.join(baseDir, '01.MOC/Todo List.md');
 
-const fs = require('fs');
-
-//修改这里的路径
-var todo = fs.readFileSync('/Users/caocao/Work/Amap/Todo List.md').toString().split("\n");
+var todo = fs.readFileSync(todoListPath).toString().split("\n");
 
 let menu = {};
 for (let i = 0; i<todo.length; i++) {

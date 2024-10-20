@@ -19,13 +19,20 @@
       "template": "Zattachments/Templates/Draft.md"
     }
   ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
     ""
   ],
   "startup_templates": [
-    "Templates/Draft.md"
+    "98.Templates/Draft.md"
   ],
   "enable_ribbon_icon": true
 }
