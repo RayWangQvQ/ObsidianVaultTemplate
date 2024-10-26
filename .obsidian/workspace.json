@@ -4,20 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "55726be80d986399",
+        "id": "efc2449f31fbcaf1",
         "type": "tabs",
         "children": [
           {
-            "id": "4689e905e83a6f43",
+            "id": "44f654242df717bb",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "Home.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (workspace.json)"
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
         ]
@@ -32,7 +34,7 @@
       {
         "id": "20349fc04ab7312b",
         "type": "tabs",
-        "dimension": 66.79245283018868,
+        "dimension": 59.65233302836231,
         "children": [
           {
             "id": "b8f4b0404a0db10b",
@@ -51,9 +53,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "README.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Home"
             }
           },
           {
@@ -78,8 +82,144 @@
       {
         "id": "805f5aec1ff8d51b",
         "type": "tabs",
-        "dimension": 33.20754716981132,
+        "dimension": 40.34766697163769,
         "children": [
+          {
+            "id": "478e354737a66bdc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3bac22d0e4b83a50",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 225.49999618530273
+  },
+  "right": {
+    "id": "08fc4290aa11ac90",
+    "type": "split",
+    "children": [
+      {
+        "id": "b22d655e9ecfa8fe",
+        "type": "tabs",
+        "dimension": 55.847255369928405,
+        "children": [
+          {
+            "id": "1dbdcd3547985555",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Home.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": true,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Home"
+            }
+          },
+          {
+            "id": "c8bd8ffed6ab1c74",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Home.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Home"
+            }
+          },
+          {
+            "id": "fed1c356ce571df1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Home"
+            }
+          },
+          {
+            "id": "355d6183c91a8505",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "8e0448af981fa07d",
+        "type": "tabs",
+        "dimension": 44.1527446300716,
+        "children": [
+          {
+            "id": "5391285d74e39418",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
           {
             "id": "6bab6fceada33ad3",
             "type": "leaf",
@@ -111,139 +251,6 @@
             }
           },
           {
-            "id": "3bac22d0e4b83a50",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 225.49999618530273
-  },
-  "right": {
-    "id": "08fc4290aa11ac90",
-    "type": "split",
-    "children": [
-      {
-        "id": "b22d655e9ecfa8fe",
-        "type": "tabs",
-        "dimension": 55.847255369928405,
-        "children": [
-          {
-            "id": "478e354737a66bdc",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "1dbdcd3547985555",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": true,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "c8bd8ffed6ab1c74",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks"
-            }
-          },
-          {
-            "id": "fed1c356ce571df1",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links"
-            }
-          },
-          {
-            "id": "355d6183c91a8505",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "8e0448af981fa07d",
-        "type": "tabs",
-        "dimension": 44.1527446300716,
-        "children": [
-          {
-            "id": "5391285d74e39418",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "02b6a0de97f0dbfc",
             "type": "leaf",
             "state": {
@@ -251,21 +258,6 @@
               "state": {},
               "icon": "clock",
               "title": "Toggl Report"
-            }
-          },
-          {
-            "id": "bd596b102867a8d8",
-            "type": "leaf",
-            "state": {
-              "type": "zotero-annotation-view",
-              "state": {
-                "file": "Home.md",
-                "itemId": 1862,
-                "attachmentId": 1864,
-                "follow": null
-              },
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
             }
           }
         ]
@@ -297,10 +289,13 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "4689e905e83a6f43",
+  "active": "355d6183c91a8505",
   "lastOpenFiles": [
-    "Home.md",
     "README.md",
+    "01.MOC/☑︎Todo Archive.md",
+    "01.MOC/☑︎Todo List.md",
+    "01.MOC/Event List.md",
+    "Home.md",
     "07.Literature/WeRead/哲学宗教/正见.md",
     "07.Literature/WeRead/哲学宗教/八正道（珍藏版）.md",
     "07.Literature/WeRead/哲学宗教/正义论（修订版）.md",
@@ -322,9 +317,6 @@
     "07.Literature/WeRead/文学/卡片笔记写作法：如何实现从阅读到写作.md",
     "07.Literature/WeRead/文学/新的一天.md",
     "07.Literature/WeRead/文学/百年孤独.md",
-    "07.Literature/DouBan/book/看不见的城市.md",
-    "07.Literature/DouBan/DoubanSyncResult_20241004203114.md",
-    "07.Literature/DouBan/book/百年孤独.md",
     "06.People",
     "99.Attachments/Files/homepage_banner.jpeg",
     "99.Attachments/Files/s6002743.jpg",
