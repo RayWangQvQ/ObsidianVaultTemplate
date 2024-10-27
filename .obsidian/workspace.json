@@ -275,7 +275,6 @@
       "obsidian-kanban:Create new board": false,
       "obsidian-shellcommands:Shell commands: Custom variables": false,
       "obsidian-git:Open Git source control": false,
-      "periodic-notes:Open today": true,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": true,
       "command-palette:Open command palette": false,
@@ -286,7 +285,8 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-weread-plugin:同步微信读书笔记": false,
       "random-note:Open random note": false,
-      "oz-clear-unused-images:Clear Unused Images": false
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "355d6183c91a8505",
