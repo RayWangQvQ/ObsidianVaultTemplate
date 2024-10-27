@@ -1,12 +1,10 @@
 ---
-
 kanban-plugin: basic
 tags:
-  - list
+  - MOC
 excerpt: 
 status: inprogress
 destination: Projects/
-
 ---
 
 ## Files

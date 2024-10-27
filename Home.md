@@ -2,8 +2,8 @@
 desc: 
 tags: 
 creationDate: 2024-09-25 23:00
-modificationDate: 2024-10-20 23:15
-banner: "![[homepage_banner.jpeg]]"
+modificationDate: 2024-10-27 13:48
+banner: "https://picsum.photos/800/500"
 banner_y: 1
 banner_lock: true
 cssclasses:
@@ -235,7 +235,7 @@ layoutType: column
 ```dataview
 table desc, creationDate, modificationDate
 from #MOC 
-sort lastReadDate desc
+sort modificationDate desc
 ```
 
 ## CheckIn
@@ -293,7 +293,7 @@ widgets:
     titleAlign: center
     tabTitle: ""
     maxWidthRatio: -1
-    chartType: pie
+    chartType: bar
     backgroundStyle: card
     maxHeight: 250
     labelProperty: tags

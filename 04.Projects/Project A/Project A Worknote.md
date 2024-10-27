@@ -1,7 +1,7 @@
 ---
 tags:
   - worknote
-  - ProjectA
+  - project/projectA
 ---
 ### Task List
 ```dataviewjs

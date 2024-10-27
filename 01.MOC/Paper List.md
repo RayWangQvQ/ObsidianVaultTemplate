@@ -1,9 +1,12 @@
 ---
-cssclasses: 
+desc: 
+creationDate: 2024-09-25 23:00
+modificationDate: 2024-10-27 13:28
+cssclasses:
   - cards
 recent_limit: 20
 tags:
-  - list
+  - MOC
 ---
 
 ### `$= dv.pages('"Literature/Notes" AND #unread').where(p=>p.file.name[0]=='@').file.length` Papers to Read

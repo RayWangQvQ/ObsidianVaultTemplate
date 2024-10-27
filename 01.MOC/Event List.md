@@ -1,19 +1,11 @@
 ---
-
 desc: 
-
 creationDate: 2024-10-13 09:48
-
-modificationDate: 2024-10-15 01:28
-
+modificationDate: 2024-10-27 13:28
 tags:
-
-  - list
-
+  - MOC
 cssclasses:
-
   - rightlane
-
 ---
 
 ## Events

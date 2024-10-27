@@ -50,7 +50,7 @@
       "insertAfter": {
         "enabled": true,
         "after": "Inbox",
-        "insertAtEnd": true,
+        "insertAtEnd": false,
         "considerSubsections": false,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
@@ -85,7 +85,7 @@
       "insertAfter": {
         "enabled": true,
         "after": "Refer",
-        "insertAtEnd": true,
+        "insertAtEnd": false,
         "considerSubsections": false,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
